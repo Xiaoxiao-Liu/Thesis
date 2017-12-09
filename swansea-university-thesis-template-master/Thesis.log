@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  9 DEC 2017 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  9 DEC 2017 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1509,49 +1509,61 @@ Package pdftex.def Info: Requested size: 170.7212pt x 170.71892pt on input line
 \openout2 = `Chapter06/Implementation.aux'.
 
 
-(./Chapter06/Implementation.tex) [16
+(./Chapter06/Implementation.tex
+
+LaTeX Warning: Citation `Bob's coding convention' on page 16 undefined on input
+ line 9.
+
+
+LaTeX Warning: Citation `javadoc java.io' on page 16 undefined on input line 11
+.
+
+
+LaTeX Warning: Citation `javadoc7' on page 16 undefined on input line 11.
+
+[16
 
 
 
-]
+]) [17]
 \openout2 = `Chapter07/Evaluation.aux'.
 
- (./Chapter07/Evaluation.tex) [17
+ (./Chapter07/Evaluation.tex) [18
 
 
 
 ]
 \openout2 = `Chapter08/FutureWork.aux'.
 
-
-(./Chapter08/FutureWork.tex) [18
+ (./Chapter08/FutureWork.tex)
+[19
 
 
 ]
 \openout2 = `Chapter09/Conclusion.aux'.
 
- (./Chapter09/Conclusion.tex) [19
+ (./Chapter09/Conclusion.tex) [20
 
 
-]
-(./Thesis.bbl) [20
+] (./Thesis.bbl) [21
 
 
-] [21
+] [22
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
 
- (./Appendix1/appendix1.tex) [22
+
+(./Appendix1/appendix1.tex) [23
 
 ]
 \openout2 = `Appendix2/appendix2.aux'.
 
+ (./Appendix2/appendix2.tex) [24
 
-(./Appendix2/appendix2.tex) [23
 
+]
 
-] 
 AED: lastpage setting LastPage
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -1581,10 +1593,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24727 strings out of 492985
- 447613 string characters out of 6136283
+ 24731 strings out of 492985
+ 447672 string characters out of 6136283
  676667 words of memory out of 5000000
- 27578 multiletter control sequences out of 15000+600000
+ 27581 multiletter control sequences out of 15000+600000
  11795 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,6n,73p,1988b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1593,10 +1605,10 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (34 pages, 320727 bytes).
+Output written on Thesis.pdf (35 pages, 322890 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
  379 words of extra memory for PDF output out of 10000 (max. 10000000)
 

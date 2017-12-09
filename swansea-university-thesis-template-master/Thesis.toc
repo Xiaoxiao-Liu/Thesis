@@ -38,25 +38,25 @@
 \contentsline {paragraph}{}{15}{section*.23}
 \contentsline {section}{\numberline {6}Implementation}{16}{section.6}
 \contentsline {subsection}{\numberline {6.1}Data Processing}{16}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Generating Concordances}{16}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Parallel View of Concordances}{16}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Adding, Subtracting, Selecting Concordances}{16}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Zooming}{16}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Text Labels On and Off}{16}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Interaction Selection of Terms}{16}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Color Mapping}{16}{subsection.6.8}
-\contentsline {subsection}{\numberline {6.9}Interactive Color Legend}{16}{subsection.6.9}
-\contentsline {subsection}{\numberline {6.10}Lemmatization}{16}{subsection.6.10}
-\contentsline {subsection}{\numberline {6.11}Tf-Idf}{16}{subsection.6.11}
-\contentsline {subsection}{\numberline {6.12}}{16}{subsection.6.12}
-\contentsline {section}{\numberline {7}Evaluation}{17}{section.7}
-\contentsline {subsection}{\numberline {7.1}Results}{17}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Domain Expert Feedback}{17}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Session 1}{17}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Session 2}{17}{subsubsection.7.2.2}
-\contentsline {section}{\numberline {8}Conclusion}{18}{section.8}
-\contentsline {section}{\numberline {9}Future Work}{19}{section.9}
-\contentsline {section}{References}{20}{section*.24}
-\contentsline {section}{Appendices}{21}{section*.25}
-\contentsline {section}{\numberline {A}Minutes of Meeting }{22}{Appendix.a.A}
-\contentsline {section}{\numberline {B}JavaDoc of Project }{23}{Appendix.a.B}
+\contentsline {subsection}{\numberline {6.2}Generating Concordances}{17}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Parallel View of Concordances}{17}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Adding, Subtracting, Selecting Concordances}{17}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Zooming}{17}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Text Labels On and Off}{17}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Interaction Selection of Terms}{17}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Color Mapping}{17}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Interactive Color Legend}{17}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Lemmatization}{17}{subsection.6.10}
+\contentsline {subsection}{\numberline {6.11}Tf-Idf}{17}{subsection.6.11}
+\contentsline {subsection}{\numberline {6.12}}{17}{subsection.6.12}
+\contentsline {section}{\numberline {7}Evaluation}{18}{section.7}
+\contentsline {subsection}{\numberline {7.1}Results}{18}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Domain Expert Feedback}{18}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Session 1}{18}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Session 2}{18}{subsubsection.7.2.2}
+\contentsline {section}{\numberline {8}Conclusion}{19}{section.8}
+\contentsline {section}{\numberline {9}Future Work}{20}{section.9}
+\contentsline {section}{References}{21}{section*.24}
+\contentsline {section}{Appendices}{22}{section*.25}
+\contentsline {section}{\numberline {A}Minutes of Meeting }{23}{Appendix.a.A}
+\contentsline {section}{\numberline {B}JavaDoc of Project }{24}{Appendix.a.B}

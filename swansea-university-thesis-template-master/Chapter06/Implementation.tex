@@ -6,7 +6,13 @@ This section describes how the project is implemented in detail. it involves the
 
 \subsection{Data Processing}
 
-The main concept of data processing is to read text data from .txt files first, then calculate values we needed, and store them into java objects. As discussed in data characteristics section, the data is  
+The main concept of data processing is to read text data from .txt files, calculate values we needed, and store them into Java Arraylists. In this stage, the greatest challenge is to keep the data being flexible, as these data may be reprocessed and stored due to the change of events in other class. Hence, after the original data being read and stored, they can be set and got through accessor methods \cite{Bob's coding convention} for many times. In addtion to the flexibility, another difficulty in this stage is to generate various data values for each token data and store them appropriately. As discussed in Project Features section, the aim of software we designed is to present information about terms and provide an concordance view for each version. In this project, for each token, we calculate and sort frequencies, weights; compute color values; computed locations; generate rectangle information; create a group of translation and lemma values.
+
+Java.io, which provides for system input and output through data streams, serialization and the file system \cite{javadoc java.io}, is the libraray used in this project. It serves as a data buffer and reader in this project. FileReader class, which extends the abstract calss "InputStreamReader", can be used to read character files which defaultly assuemed are in appropriate size. Since the volume of data in each document is not large, we generate FileReader class to access each text file. The other data reading class adopted is the BufferedReader class. It is available to read text data from character-input stream, buffer the data so as to provide for the efficient reading of strings, arrays and lines \cite{javadoc7}. Java.util is another package imported in DataReader class. To store and access data, ArrayList, Hashtable, and Map of this library are applied. In addition, data structures such as JsonObject, JsonReader, and JsonArray in Javax.json library are applied to read data from Json file.
+
+The main class that is responsible for reading the original data file is the DataReader class. This class analyses .txt files and generates a List of Version objects to parse all information needed in the software. Each Version object represents a version of German translations and contains essential data of the version. The Version object also has an accessor method to access the list of Concordance objects which contains all information of terms in the concordance. For more detailed description of the Version class and Concordance class, please see the Design section.
+
+
 
 \subsection{Generating Concordances}
 
