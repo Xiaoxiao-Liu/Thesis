@@ -6,33 +6,57 @@
 \contentsline {subsection}{\numberline {2.2}Previous Systems}{4}{subsection.2.2}
 \contentsline {paragraph}{Interactive Exploration of Versions across Multiple Documents}{4}{section*.4}
 \contentsline {paragraph}{}{4}{section*.5}
-\contentsline {subsubsection}{\numberline {2.2.1}Time-Map}{5}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Alignment Maps}{5}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}Parallel view}{6}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}Eddy and Viv view}{6}{subsubsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.5}Eddy and Viv view}{6}{subsubsection.2.2.5}
-\contentsline {subsection}{\numberline {2.3}Data Characteristics}{6}{subsection.2.3}
-\contentsline {section}{\numberline {3}Project Specification}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}Feature Specification}{10}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Technology Choices}{10}{subsection.3.2}
-\contentsline {section}{\numberline {4}Project Plan and Time Management}{11}{section.4}
-\contentsline {subsection}{\numberline {4.1}Development Approach}{11}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Project Timetable}{12}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Risk Analysis}{13}{subsection.4.3}
-\contentsline {section}{\numberline {5}Project Design}{15}{section.5}
-\contentsline {subsection}{\numberline {5.1}Data Reading}{15}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Visualization Generation}{15}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}GUI}{15}{subsection.5.3}
+\contentsline {subsection}{\numberline {2.3}Data Characteristics}{4}{subsection.2.3}
+\contentsline {section}{\numberline {3}Project Specification}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Feature Specification}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Technology Choices}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Project Plan and Time Management}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Development Approach}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Project Timetable}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Risk Analysis}{10}{subsection.4.3}
+\contentsline {section}{\numberline {5}Project Design}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Data Reading}{12}{subsection.5.1}
+\contentsline {paragraph}{Datareader Class}{12}{section*.6}
+\contentsline {paragraph}{}{12}{section*.7}
+\contentsline {paragraph}{Concordance Class}{12}{section*.8}
+\contentsline {paragraph}{}{12}{section*.9}
+\contentsline {paragraph}{Version Class}{13}{section*.10}
+\contentsline {paragraph}{}{13}{section*.11}
+\contentsline {paragraph}{TFIDFCalculator Class}{13}{section*.12}
+\contentsline {paragraph}{}{13}{section*.13}
+\contentsline {paragraph}{LemmaProcess Class}{13}{section*.14}
+\contentsline {paragraph}{}{13}{section*.15}
+\contentsline {subsection}{\numberline {5.2}Translation generation}{13}{subsection.5.2}
+\contentsline {paragraph}{TranslationVisualisation Class}{13}{section*.16}
+\contentsline {paragraph}{}{14}{section*.17}
+\contentsline {subsection}{\numberline {5.3}GUI}{14}{subsection.5.3}
+\contentsline {paragraph}{ConcordancePanel Class}{14}{section*.18}
+\contentsline {paragraph}{}{14}{section*.19}
+\contentsline {paragraph}{ColorLegendPanel Class}{14}{section*.20}
+\contentsline {paragraph}{}{15}{section*.21}
+\contentsline {paragraph}{VersionChoosenPanel Class}{15}{section*.22}
+\contentsline {paragraph}{}{15}{section*.23}
 \contentsline {section}{\numberline {6}Implementation}{16}{section.6}
-\contentsline {subsection}{\numberline {6.1}Basic Implementation}{16}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Enhancements}{16}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.1}Data Processing}{16}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Generating Concordances}{16}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Parallel View of Concordances}{16}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Adding, Subtracting, Selecting Concordances}{16}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Zooming}{16}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Text Labels On and Off}{16}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Interaction Selection of Terms}{16}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Color Mapping}{16}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Interactive Color Legend}{16}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Lemmatization}{16}{subsection.6.10}
+\contentsline {subsection}{\numberline {6.11}Tf-Idf}{16}{subsection.6.11}
+\contentsline {subsection}{\numberline {6.12}}{16}{subsection.6.12}
 \contentsline {section}{\numberline {7}Evaluation}{17}{section.7}
 \contentsline {subsection}{\numberline {7.1}Results}{17}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Performance Analysis}{17}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}User Feedback}{17}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.2}Domain Expert Feedback}{17}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Session 1}{17}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Session 2}{17}{subsubsection.7.2.2}
 \contentsline {section}{\numberline {8}Conclusion}{18}{section.8}
 \contentsline {section}{\numberline {9}Future Work}{19}{section.9}
-\contentsline {section}{References}{20}{section*.6}
-\contentsline {section}{Appendices}{21}{section*.7}
-\contentsline {section}{\numberline {A}one }{22}{Appendix.a.A}
-\contentsline {section}{\numberline {B}two}{23}{Appendix.a.B}
+\contentsline {section}{References}{20}{section*.24}
+\contentsline {section}{Appendices}{21}{section*.25}
+\contentsline {section}{\numberline {A}Minutes of Meeting }{22}{Appendix.a.A}
+\contentsline {section}{\numberline {B}JavaDoc of Project }{23}{Appendix.a.B}

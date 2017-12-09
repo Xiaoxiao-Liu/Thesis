@@ -5,13 +5,13 @@ A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-White space in argument---line 35 of file Thesis.aux
+White space in argument---line 31 of file Thesis.aux
  : \citation{Agile
  :                 vs Waterfall}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter00/introduction.aux
 A level-1 auxiliary file: Chapter01/BackgroundResearch.aux
-A level-1 auxiliary file: Chapter02/Project.aux
+A level-1 auxiliary file: Chapter02/ProjectSpecification.aux
 A level-1 auxiliary file: Chapter03/ProjectPlan.aux
 White space in argument---line 5 of file Chapter03/ProjectPlan.aux
  : \citation{Agile
@@ -19,30 +19,29 @@ White space in argument---line 5 of file Chapter03/ProjectPlan.aux
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter04/Design.aux
 A level-1 auxiliary file: Chapter06/Implementation.aux
-A level-1 auxiliary file: Chapter07/Reflection.aux
+A level-1 auxiliary file: Chapter07/Evaluation.aux
 A level-1 auxiliary file: Chapter08/FutureWork.aux
 A level-1 auxiliary file: Chapter09/Conclusion.aux
 The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-I was expecting a `,' or a `}'---line 6 of file References/TransVisReferences.bib
- : @misc{Agile 
- :             vs Waterfall,
-I'm skipping whatever remains of this entry
-Repeated entry---line 80 of file References/TransVisReferences.bib
- : @misc{Larameea
- :               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 420 of file References/TransVisReferences.bib
+Repeated entry---line 178 of file References/TransVisReferences.bib
  : @misc{Laramee
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 427 of file References/TransVisReferences.bib
+Repeated entry---line 249 of file References/TransVisReferences.bib
  : @misc{Tom2012
  :              ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Cheesman2012"
+Repeated entry---line 487 of file References/TransVisReferences.bib
+ : @misc{Larameea
+ :               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 493 of file References/TransVisReferences.bib
+ : @misc{Agile 
+ :             vs Waterfall,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Adenowo2013"
 Warning--I didn't find a database entry for "Tom2012a"
 Warning--I didn't find a database entry for "Cao2016a"
@@ -60,7 +59,7 @@ Warning--empty note in Liu
 Warning--empty publisher in Ward2015
 You've used 12 entries,
             1935 wiz_defined-function locations,
-            561 strings with 5677 characters,
+            558 strings with 5659 characters,
 and the built_in function-call counts, 4298 in all, are:
 = -- 414
 > -- 170

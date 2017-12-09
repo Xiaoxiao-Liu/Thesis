@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  8 DEC 2017 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  9 DEC 2017 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,7 +1208,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 (./Abstract/abstract.aux) (./Chapter00/introduction.aux)
 (./Chapter01/BackgroundResearch.aux) (./Chapter02/ProjectSpecification.aux)
 (./Chapter03/ProjectPlan.aux) (./Chapter04/Design.aux)
-(./Chapter06/Implementation.aux) (./Chapter07/Reflection.aux)
+(./Chapter06/Implementation.aux) (./Chapter07/Evaluation.aux)
 (./Chapter08/FutureWork.aux) (./Chapter09/Conclusion.aux)
 (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `Thesis.aux'.
@@ -1321,7 +1321,7 @@ LaTeX Info: Redefining \nameref on input line 59.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Figs/SwanseaUniversity.png, id=151, 572.1375pt x 361.35pt>
+<Figs/SwanseaUniversity.png, id=175, 572.1375pt x 361.35pt>
 File: Figs/SwanseaUniversity.png Graphic file (type png)
 <use Figs/SwanseaUniversity.png>
 Package pdftex.def Info: Figs/SwanseaUniversity.png  used on input line 67. on 
@@ -1377,23 +1377,11 @@ l.69 \end{titlepage}
 
  [7] (./Thesis.lof
 
-LaTeX Warning: Citation `Cheesman2012' on page VIII undefined on input line 1.
-
-
-LaTeX Warning: Citation `Cheesman2012' on page VIII undefined on input line 2.
-
-
-LaTeX Warning: Citation `Cheesman2012' on page VIII undefined on input line 3.
-
-
-LaTeX Warning: Citation `Cheesman2012' on page VIII undefined on input line 4.
-
-
-LaTeX Warning: Citation `Adenowo2013' on page VIII undefined on input line 6.
+LaTeX Warning: Citation `Adenowo2013' on page VIII undefined on input line 2.
 
 
 LaTeX Warning: Citation `Agile vs Waterfall' on page VIII undefined on input li
-ne 7.
+ne 3.
 
 )
 \tf@lof=\write11
@@ -1428,88 +1416,27 @@ LaTeX Warning: Citation `Tom2012a' on page 2 undefined on input line 21.
 
 LaTeX Warning: Citation `Cao2016a' on page 4 undefined on input line 11.
 
-
-LaTeX Warning: Citation `Cheesman2012' on page 4 undefined on input line 21.
-
 [4
 
 
 
 ]
-<Figs/Time-Map.png, id=307, 532.99126pt x 360.59718pt>
-File: Figs/Time-Map.png Graphic file (type png)
-<use Figs/Time-Map.png>
-Package pdftex.def Info: Figs/Time-Map.png  used on input line 32. on input lin
-e 32.
-Package pdftex.def Info: Requested size: 341.43855pt x 227.62311pt on input lin
-e 32.
-
-
-LaTeX Warning: Citation `Cheesman2012' on page 5 undefined on input line 33.
-
-<Figs/Alignment-Map.png, id=309, 660.21657pt x 450.18187pt>
-File: Figs/Alignment-Map.png Graphic file (type png)
-<use Figs/Alignment-Map.png>
-Package pdftex.def Info: Figs/Alignment-Map.png  used on input line 43. on inpu
-t line 43.
-Package pdftex.def Info: Requested size: 369.90009pt x 227.62512pt on input lin
-e 43.
-
-LaTeX Warning: Citation `Cheesman2012' on page 5 undefined on input line 44.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figs/Parallel-View.png, id=311, 760.34062pt x 338.01282pt>
-File: Figs/Parallel-View.png Graphic file (type png)
-<use Figs/Parallel-View.png>
-Package pdftex.def Info: Figs/Parallel-View.png  used on input line 53. on inpu
-t line 53.
-Package pdftex.def Info: Requested size: 341.4424pt x 170.71832pt on input line
- 53.
-
-LaTeX Warning: Citation `Cheesman2012' on page 5 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Cheesman2012' on page 5 undefined on input line 54.
-
-[5 <./Figs/Time-Map.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figs/Eddy-Viv-View.png, id=317, 631.60968pt x 375.65344pt>
-File: Figs/Eddy-Viv-View.png Graphic file (type png)
-<use Figs/Eddy-Viv-View.png>
-Package pdftex.def Info: Figs/Eddy-Viv-View.png  used on input line 64. on inpu
-t line 64.
-Package pdftex.def Info: Requested size: 341.44002pt x 170.71622pt on input lin
-e 64.
-
-LaTeX Warning: Citation `Cheesman2012' on page 6 undefined on input line 65.
-
-
-LaTeX Warning: Citation `Cheesman2012' on page 6 undefined on input line 65.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6 <./Figs/Alignment-Map.png>] [7 <./Figs/Parallel-View.png>]
-<Figs/Data-example.png, id=331, 535.2497pt x 385.44pt>
+<Figs/Data-example.png, id=328, 535.2497pt x 385.44pt>
 File: Figs/Data-example.png Graphic file (type png)
 <use Figs/Data-example.png>
-Package pdftex.def Info: Figs/Data-example.png  used on input line 92. on input
- line 92.
+Package pdftex.def Info: Figs/Data-example.png  used on input line 40. on input
+ line 40.
 Package pdftex.def Info: Requested size: 369.90256pt x 256.07324pt on input lin
-e 92.
+e 40.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [8 <./Figs/Eddy-Viv-View.png>] [9 <./Figs/Data-example.png>]
+) [5] [6 <./Figs/Data-example.png>]
 \openout2 = `Chapter02/ProjectSpecification.aux'.
 
-
-(./Chapter02/ProjectSpecification.tex) [10
+ (./Chapter02/ProjectSpecification.tex)
+[7
 
 
 
@@ -1518,12 +1445,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./Chapter03/ProjectPlan.tex
 
-LaTeX Warning: Citation `Adenowo2013' on page 11 undefined on input line 11.
+LaTeX Warning: Citation `Adenowo2013' on page 8 undefined on input line 11.
 
 
-LaTeX Warning: Reference `waterfall' on page 11 undefined on input line 11.
+LaTeX Warning: Reference `waterfall' on page 8 undefined on input line 11.
 
-<Figs/Waterfall-Model.png, id=346, 325.96782pt x 288.3272pt>
+<Figs/Waterfall-Model.png, id=344, 325.96782pt x 288.3272pt>
 File: Figs/Waterfall-Model.png Graphic file (type png)
 <use Figs/Waterfall-Model.png>
 Package pdftex.def Info: Figs/Waterfall-Model.png  used on input line 15. on in
@@ -1531,9 +1458,9 @@ put line 15.
 Package pdftex.def Info: Requested size: 170.72282pt x 170.72308pt on input lin
 e 15.
 
-LaTeX Warning: Citation `Adenowo2013' on page 11 undefined on input line 16.
+LaTeX Warning: Citation `Adenowo2013' on page 8 undefined on input line 16.
 
-<Figs/Waterfull-Agile.png, id=347, 392.21532pt x 250.68657pt>
+<Figs/Waterfull-Agile.png, id=345, 392.21532pt x 250.68657pt>
 File: Figs/Waterfull-Agile.png Graphic file (type png)
 <use Figs/Waterfull-Agile.png>
 Package pdftex.def Info: Figs/Waterfull-Agile.png  used on input line 24. on in
@@ -1541,18 +1468,18 @@ put line 24.
 Package pdftex.def Info: Requested size: 170.72pt x 170.72472pt on input line 2
 4.
 
-LaTeX Warning: Citation `Agile vs Waterfall' on page 11 undefined on input line
- 25.
+LaTeX Warning: Citation `Agile vs Waterfall' on page 8 undefined on input line 
+25.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11
+[8
 
 
 
  <./Figs/Waterfall-Model.png>]
-<Figs/Gantter-Chart.png, id=353, 666.99188pt x 340.27126pt>
+<Figs/Gantter-Chart.png, id=352, 666.99188pt x 340.27126pt>
 File: Figs/Gantter-Chart.png Graphic file (type png)
 <use Figs/Gantter-Chart.png>
 Package pdftex.def Info: Figs/Gantter-Chart.png  used on input line 57. on inpu
@@ -1563,22 +1490,22 @@ e 57.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./Figs/Waterfull-Agile.png>]
-<Figs/Risk-Analysis.png, id=358, 380.17032pt x 400.49625pt>
+[9 <./Figs/Waterfull-Agile.png>]
+<Figs/Risk-Analysis.png, id=357, 380.17032pt x 400.49625pt>
 File: Figs/Risk-Analysis.png Graphic file (type png)
 <use Figs/Risk-Analysis.png>
 Package pdftex.def Info: Figs/Risk-Analysis.png  used on input line 77. on inpu
 t line 77.
 Package pdftex.def Info: Requested size: 170.7212pt x 170.71892pt on input line
  77.
- [13 <./Figs/Gantter-Chart.png>]) [14 <./Figs/Risk-Analysis.png>]
+ [10 <./Figs/Gantter-Chart.png>]) [11 <./Figs/Risk-Analysis.png>]
 \openout2 = `Chapter04/Design.aux'.
 
- (./Chapter04/Design.tex) [15
+ (./Chapter04/Design.tex [12
 
 
 
-]
+] [13] [14]) [15]
 \openout2 = `Chapter06/Implementation.aux'.
 
 
@@ -1587,9 +1514,9 @@ Package pdftex.def Info: Requested size: 170.7212pt x 170.71892pt on input line
 
 
 ]
-\openout2 = `Chapter07/Reflection.aux'.
+\openout2 = `Chapter07/Evaluation.aux'.
 
- (./Chapter07/Reflection.tex) [17
+ (./Chapter07/Evaluation.tex) [17
 
 
 
@@ -1638,13 +1565,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
 (./Chapter00/introduction.aux) (./Chapter01/BackgroundResearch.aux)
 (./Chapter02/ProjectSpecification.aux) (./Chapter03/ProjectPlan.aux)
 (./Chapter04/Design.aux) (./Chapter06/Implementation.aux)
-(./Chapter07/Reflection.aux) (./Chapter08/FutureWork.aux)
+(./Chapter07/Evaluation.aux) (./Chapter08/FutureWork.aux)
 (./Chapter09/Conclusion.aux) (./Appendix1/appendix1.aux)
 (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A921CA48DADEB0A9282DAE265F72B407;2177.
+(rerunfilecheck)             Checksum: B77774D68100D5BF5CD44FF96FA219D7;2612.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1654,22 +1581,22 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24718 strings out of 492985
- 447727 string characters out of 6136283
- 676900 words of memory out of 5000000
- 27585 multiletter control sequences out of 15000+600000
+ 24727 strings out of 492985
+ 447613 string characters out of 6136283
+ 676667 words of memory out of 5000000
+ 27578 multiletter control sequences out of 15000+600000
  11795 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,6n,73p,1988b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,6n,73p,1988b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (34 pages, 1393858 bytes).
+Output written on Thesis.pdf (34 pages, 320727 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 389 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 426 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
