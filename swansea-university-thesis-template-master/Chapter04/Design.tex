@@ -21,16 +21,16 @@ Data preprocessing is the first stage in doing this project. As discussed in Cha
 
 The structure of the DataReader class is presented in figure \label{dataReader}.
 
-\paragraph{Concordance Class}
+\paragraph{Item Class}
 
 \paragraph[]{}
 
-The Concordance class is an object class used to store the basic information of terms: the string of word, frequency, rectangle, Tf-Idf value, location, font, translation sets, and lemma. All these values are generated from the DataReader class. Then these values are stored into lists of concordance as a column. When the visualization is being generated, these values will be used directly. The data can also be modified from accessor methods when interacting with software. The class diagram is shown in Figure \label{concordance}.
+The Item class is an object class used to store the basic information of terms: the string of word, frequency, rectangle, Tf-Idf value, location, font, translation sets, and lemma. All these values are generated from the DataReader class. Then these values are stored into lists of Item objects as a column. When the visualization is being generated, these values will be used directly. The data can also be modified from accessor methods when interacting with software. The class diagram is shown in Figure \label{concordance}.
 
 \paragraph{Version Class}
 
 \paragraph[]{}
-The Version class is another object class used to store information related to each version of text, such as author, publication year, title location. It also includes a list of concordance to store the concordance of this translation version. After all 16 texts have been read and processed, there will be a list of Version objects generated and the data will be displayed and modified on the visualization panels. The class diagram of Version class is shown in Figure \label{verson}.
+The Version class is another object class used to store information related to each version of text, such as author, publication year, title location. It also includes a list of Item objects for the concordance of this translation version. After all 16 texts have been read and processed, there will be a list of Version objects generated and the data will be displayed and modified on the visualization panels. The class diagram of Version class is shown in Figure \label{verson}.
 
 \paragraph{TFIDFCalculator Class}
 
