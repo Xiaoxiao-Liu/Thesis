@@ -2,11 +2,11 @@
 \clearpage
 \section{Implementation}
 %-----------------------------------------------------------------------------------------
-This section describes how the project is implemented in detail. it involves the implementation of the data reading, visualization rendering and the user options generating. Screen captures of the software interface are added to illustrate further information.
+In this section we describe how the project is implemented in detail. The subsystems executed are data reading, visualization rendering and the user options. Screen captures of the GUI are added to illustrate further information.
 
 \subsection{Data Processing}
 
-The main concept of data processing is to read text data from .txt files, calculate values we needed, and store them into Java Arraylists. In this stage, the greatest challenge is to keep the data being flexible, as these data may be reprocessed and stored due to the change of events in other class. Hence, after the original data being read and stored, they can be set and got through accessor methods \cite{Bob's coding convention} for many times. In addtion to the flexibility, another difficulty in this stage is to generate various data values for each token data and store them appropriately. As discussed in Project Features section, the aim of software we designed is to present information about terms and provide an concordance view for each version. In this project, for each token, we calculate and sort frequencies, weights; compute color values; computed locations; generate rectangle information; create a group of translation and lemma values.
+The main concept of data processing is to read text data from .txt files, calculate values need, and store them into Java Arraylist. At this stage, the greatest challenge is to keep the data being accessible and can be changed, as data may be reprocessed and stored due to the change of events in other class. Hence, after the original data being read and stored, they can be set and got through accessor methods \cite{Bob's coding convention} for many times. In addtion to the flexibility, another difficulty in this stage is to generate various data values for each token data and store them appropriately. As discussed in Project Features section, the aim of software we designed is to present information about terms and provide an concordance view for each version. In this project, for each token, we calculate and sort frequencies, weights; compute color values; computed locations; generate rectangle information; create a group of translation and lemma values.
 
 Java.io, which provides for system input and output through data streams, serialization and the file system \cite{javadoc java.io}, is the library used in this project. It serves as a data buffer and reader in this project. FileReader class, which extends the abstract calss "InputStreamReader", can be used to read character files which defaultly assuemed are in appropriate size. Since the volume of data in each document is not large, we generate FileReader class to access each text file. The other data reading class adopted is the BufferedReader class. It is available to read text data from character-input stream, buffer the data so as to provide for the efficient reading of strings, arrays and lines \cite{javadoc7}. Java.util is another package imported in DataReader class. To store and access data, ArrayList, Hashtable, and Map of this library are applied. In addition, data structures such as JsonObject, JsonReader, and JsonArray in Javax.json library are applied to read data from Json file.
 
@@ -70,7 +70,7 @@ Following the generation of concordance visualization, a parallel view of all co
 \begin{figure}[h]
 	\centering	
 	\includegraphics[width=13cm, height=8cm]{Figs/Parallel-Vis}\\[1ex]
-	\caption{The Screen shot of one concordance in the visualisation}
+	\caption{Parallel view of concordances}
 	\label{fig:parallelConcor}
 \end{figure} 
 
@@ -81,8 +81,52 @@ However, after this parallel visualization is being generated, an obvious proble
 
 Zooming in and out is a basic feature in the software which designed to provide two zooming options: one is for scaling the content of the visualisation, the other is for scaling the frame. In addition to these two scaling options, there are also scroll bars used to scroll the visualisation panel.
 
-During this stage, the most difficult part is to recalculate all values of graphics: points, widths and heights for rectangles, and the distances between versions.
+To implement these features, several steps as followed are gone through:
+\begin{itemize}
+	\item \textbf{} Generate the JSlider objects. This is carried out in the TranslationVisualization class. Figure \ref{fig:jSliders} displays the JSlider applied in the software.
+	\begin{figure}[h]
+		\centering	
+		\includegraphics[width=9cm, height=3cm]{Figs/JSliders}\\[1ex]
+		\caption{ Sliders applied to zoom in and out the graphic and panel}
+		\label{fig:jSliders}
+	\end{figure} 	
+	\item \textbf{} Obtain scale values from JSlider object and pass them to DataReader class.
+	\item \textbf{} Recalculated the data by invoking the calculating methods such as calculatePoint() and setRectWidth().
+	\item \textbf{} Update the List<Version> object.
+	\item \textbf{} Repaint graphics.
+\end{itemize} 
+ 
+During this process, the most difficult part is to recalculate all values of graphics: points, widths and heights for rectangles, and the distances between versions. To overcome this dilemma, two solutions are attempted:
+At the first phase, scale() method in Graphics2D class is invoked. By applying this method, computer will calculate and repaint all the graphics using scale parameters passed in. However, when the project prompting to the Term Selecting phase (See Interactive Selection of Terms section below), a problem of obtaining mouse clicking location appears. Hence, the second phase of scaling visualisation comes out.  
 
+At the second phase, scale values attained from JSlider objects are passed to DataReader class and applied in relevant formulas to calculate variables such as points, widths and heights of rectangles. See Equation \eqref{rectWidth}, \eqref{PointX}, and \eqref{PointY}. As shown in \ref{fig:jSliders}, 100 is set as the initial value for the slider, so that the visualisation shown when the visualisation generated at the first time is scaled as 100\%. Figure \ref{fig:zoomIn} and Figure \ref{fig:zoomOut} show the zooming results for the visualisation.
+
+	\begin{figure}[h]
+	\centering	
+	\includegraphics[width=9cm, height=3cm]{Figs/Zoom-In}\\[1ex]
+	\caption{}
+	\label{fig:zoomIn}
+	\end{figure}
+
+	\begin{figure}[h]
+	\centering	
+	\includegraphics[width=9cm, height=3cm]{Figs/Zoom-Out}\\[1ex]
+	\caption{}
+	\label{fig:zoomOut}
+	\end{figure}
+
+\subsection{Text Labels On and Off}
+
+When the scale values becoming smaller, the strings overlap. Hence a new desire appearing: hide strings on the visualisation. So that users can focus on the rectangles and colours only. 
+
+To implement this feature, a JButton is generated on the panel firstly. Also, "Text On" is set as default label displayed on the button. Secondly, event listener is added to the button. When button is clicked, the label "Text On" on the button will be switched to "Text Off" label. In the meantime, a boolean value which set "true" as default will change to "false", then being given to ConcordancePanel class. In the third step, a boolean value preset when drawing strings of terms will be switched equals to the boolean value passed in. if it is "true", then draw the strings, if it is "false" then not invoke the drawString() method. At last, repaint the graphic. Figure \ref{fig:textOnOff} is a screen shot when we turn off the text.
+
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=18cm, height=12cm]{Figs/Text-On-Off}\\[1ex]
+	\caption{}
+	\label{fig:textOnOff}
+\end{figure} 
 
 \subsection{Adding, Subtracting, Selecting Concordances}
 
@@ -114,19 +158,35 @@ Figure \ref{fig:versionChoosDemo}is a screen shot of selecting several versions 
 	\label{fig:versionChoosDemo}
 \end{figure} 
 
-
-
-
-\subsection{Text Labels On and Off}
-
 \subsection{Interaction Selection of Terms}
 
+As each concordance contains a large number of terms, highlight the term following users' options is desired. In order to provide an interactive features for terms, new feature are enable in the visualisation. By achieving these functions, a clear view of term comes out. 
+
+This features are achieved by implementing following phases:
+\begin{itemize}
+	\item \textbf{}
+	\item \textbf{}
+	\item \textbf{}
+	\item \textbf{}
+\end{itemize}
+
+As a result, by clicking one single rectangle in the panel, the rectangle is highlighted and rounded by line while the colour of other rectangles become transparent. In the mean time, lines connecting same terms become highlighted by setting other lines transparent. See Figure \ref{fig:highlightView}
+
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=16cm, height=9cm]{Figs/Highlight-Terms}\\[1ex]
+	\caption{}
+	\label{fig:highlightView}
+\end{figure} 
+
 \subsection{Color Mapping}
+
+
 
 \subsection{Interactive Color Legend}
 
 \subsection{Lemmatization}
-
+=
 \subsection{Tf-Idf}
 
 \subsection{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  10 DEC 2017 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  10 DEC 2017 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1418,16 +1418,16 @@ ne 3.
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
 
 (d:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
 
 
-LaTeX Warning: Citation `Tom2012a' on page 2 undefined on input line 21.
+LaTeX Warning: Citation `Tom2012a' on page 2 undefined on input line 22.
 
 [2]) [3]
 \openout2 = `Chapter01/BackgroundResearch.aux'.
@@ -1441,7 +1441,7 @@ LaTeX Warning: Citation `Cao2016a' on page 4 undefined on input line 11.
 
 
 ]
-<Figs/Data-example.png, id=336, 535.2497pt x 385.44pt>
+<Figs/Data-example.png, id=346, 535.2497pt x 385.44pt>
 File: Figs/Data-example.png Graphic file (type png)
 <use Figs/Data-example.png>
 Package pdftex.def Info: Figs/Data-example.png  used on input line 38. on input
@@ -1470,7 +1470,7 @@ LaTeX Warning: Citation `Adenowo2013' on page 8 undefined on input line 11.
 
 LaTeX Warning: Reference `waterfall' on page 8 undefined on input line 11.
 
-<Figs/Waterfall-Model.png, id=352, 325.96782pt x 288.3272pt>
+<Figs/Waterfall-Model.png, id=362, 325.96782pt x 288.3272pt>
 File: Figs/Waterfall-Model.png Graphic file (type png)
 <use Figs/Waterfall-Model.png>
 Package pdftex.def Info: Figs/Waterfall-Model.png  used on input line 15. on in
@@ -1480,7 +1480,7 @@ e 15.
 
 LaTeX Warning: Citation `Adenowo2013' on page 8 undefined on input line 16.
 
-<Figs/Waterfull-Agile.png, id=353, 392.21532pt x 250.68657pt>
+<Figs/Waterfull-Agile.png, id=363, 392.21532pt x 250.68657pt>
 File: Figs/Waterfull-Agile.png Graphic file (type png)
 <use Figs/Waterfull-Agile.png>
 Package pdftex.def Info: Figs/Waterfull-Agile.png  used on input line 24. on in
@@ -1499,7 +1499,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./Figs/Waterfall-Model.png>]
-<Figs/Gantter-Chart.png, id=360, 666.99188pt x 340.27126pt>
+<Figs/Gantter-Chart.png, id=370, 666.99188pt x 340.27126pt>
 File: Figs/Gantter-Chart.png Graphic file (type png)
 <use Figs/Gantter-Chart.png>
 Package pdftex.def Info: Figs/Gantter-Chart.png  used on input line 57. on inpu
@@ -1511,7 +1511,7 @@ e 57.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9 <./Figs/Waterfull-Agile.png>]
-<Figs/Risk-Analysis.png, id=365, 380.17032pt x 400.49625pt>
+<Figs/Risk-Analysis.png, id=375, 380.17032pt x 400.49625pt>
 File: Figs/Risk-Analysis.png Graphic file (type png)
 <use Figs/Risk-Analysis.png>
 Package pdftex.def Info: Figs/Risk-Analysis.png  used on input line 77. on inpu
@@ -1546,7 +1546,7 @@ LaTeX Warning: Citation `javadoc7' on page 16 undefined on input line 11.
 
 
 ]
-<Figs/condordanceVis.png, id=416, 210.03468pt x 458.46281pt>
+<Figs/condordanceVis.png, id=426, 210.03468pt x 458.46281pt>
 File: Figs/condordanceVis.png Graphic file (type png)
 <use Figs/condordanceVis.png>
 Package pdftex.def Info: Figs/condordanceVis.png  used on input line 20. on inp
@@ -1575,7 +1575,7 @@ m/m/it/12 scaleValue$ [][][]
  []
 
 [18]
-<Figs/Parallel-Vis.png, id=436, 593.96906pt x 466.74374pt>
+<Figs/Parallel-Vis.png, id=447, 593.96906pt x 466.74374pt>
 File: Figs/Parallel-Vis.png Graphic file (type png)
 <use Figs/Parallel-Vis.png>
 Package pdftex.def Info: Figs/Parallel-Vis.png  used on input line 72. on input
@@ -1586,72 +1586,125 @@ Package pdftex.def Info: Requested size: 369.89745pt x 227.6239pt on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/VersionChoosePanel.png, id=438, 196.48407pt x 315.42844pt>
-File: Figs/VersionChoosePanel.png Graphic file (type png)
-<use Figs/VersionChoosePanel.png>
-Package pdftex.def Info: Figs/VersionChoosePanel.png  used on input line 86. on
- input line 86.
-Package pdftex.def Info: Requested size: 170.72688pt x 284.54234pt on input lin
-e 86.
+<Figs/JSliders.png, id=449, 176.91093pt x 48.18pt>
+File: Figs/JSliders.png Graphic file (type png)
+<use Figs/JSliders.png>
+Package pdftex.def Info: Figs/JSliders.png  used on input line 89. on input lin
+e 89.
+Package pdftex.def Info: Requested size: 256.07965pt x 85.35794pt on input line
+ 89.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19]
-<Figs/Version-Selecting-Demo.png, id=447, 1028.34187pt x 546.54187pt>
-File: Figs/Version-Selecting-Demo.png Graphic file (type png)
-<use Figs/Version-Selecting-Demo.png>
-Package pdftex.def Info: Figs/Version-Selecting-Demo.png  used on input line 10
-5. on input line 105.
-Package pdftex.def Info: Requested size: 512.16121pt x 284.52864pt on input lin
-e 105.
+[19] [20 <./Figs/Parallel-Vis.png> <./Figs/JSliders.png>]
+<Figs/Zoom-In.png, id=469, 838.63312pt x 527.72156pt>
+File: Figs/Zoom-In.png Graphic file (type png)
+<use Figs/Zoom-In.png>
+Package pdftex.def Info: Figs/Zoom-In.png  used on input line 106. on input lin
+e 106.
+Package pdftex.def Info: Requested size: 256.07065pt x 85.35513pt on input line
+ 106.
+<Figs/Zoom-Out.png, id=470, 835.62187pt x 525.46312pt>
+File: Figs/Zoom-Out.png Graphic file (type png)
+<use Figs/Zoom-Out.png>
+Package pdftex.def Info: Figs/Zoom-Out.png  used on input line 113. on input li
+ne 113.
+Package pdftex.def Info: Requested size: 256.08197pt x 85.35066pt on input line
+ 113.
+<Figs/Text-On-Off.png, id=472, 1025.33063pt x 543.53062pt>
+File: Figs/Text-On-Off.png Graphic file (type png)
+<use Figs/Text-On-Off.png>
+Package pdftex.def Info: Figs/Text-On-Off.png  used on input line 126. on input
+ line 126.
+Package pdftex.def Info: Requested size: 512.14777pt x 341.44745pt on input lin
+e 126.
 
-Overfull \hbox (42.40622pt too wide) in paragraph at lines 105--105
+Overfull \hbox (42.39278pt too wide) in paragraph at lines 126--126
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [20 <./Figs/Parallel-Vis.png>] [21 <./Figs/VersionChoosePanel.png>] [22 <./Fi
-gs/Version-Selecting-Demo.png>]
+<Figs/VersionChoosePanel.png, id=474, 196.48407pt x 315.42844pt>
+File: Figs/VersionChoosePanel.png Graphic file (type png)
+<use Figs/VersionChoosePanel.png>
+Package pdftex.def Info: Figs/VersionChoosePanel.png  used on input line 137. o
+n input line 137.
+Package pdftex.def Info: Requested size: 170.72688pt x 284.54234pt on input lin
+e 137.
+[21 <./Figs/Zoom-In.png> <./Figs/Zoom-Out.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./Figs/Text-On-Off.png>]
+<Figs/Version-Selecting-Demo.png, id=487, 1028.34187pt x 546.54187pt>
+File: Figs/Version-Selecting-Demo.png Graphic file (type png)
+<use Figs/Version-Selecting-Demo.png>
+Package pdftex.def Info: Figs/Version-Selecting-Demo.png  used on input line 15
+6. on input line 156.
+Package pdftex.def Info: Requested size: 512.16121pt x 284.52864pt on input lin
+e 156.
+
+Overfull \hbox (42.40622pt too wide) in paragraph at lines 156--156
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./Figs/VersionChoosePanel.png>]
+<Figs/Highlight-Terms.png, id=494, 660.21657pt x 511.9125pt>
+File: Figs/Highlight-Terms.png Graphic file (type png)
+<use Figs/Highlight-Terms.png>
+Package pdftex.def Info: Figs/Highlight-Terms.png  used on input line 177. on i
+nput line 177.
+Package pdftex.def Info: Requested size: 455.25777pt x 256.07278pt on input lin
+e 177.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <./Figs/Version-Selecting-Demo.png>]) [25 <./Figs/Highlight-Terms.png>]
 \openout2 = `Chapter07/Evaluation.aux'.
 
- (./Chapter07/Evaluation.tex) [23
+
+(./Chapter07/Evaluation.tex) [26
 
 
 
 ]
 \openout2 = `Chapter08/FutureWork.aux'.
 
-
-(./Chapter08/FutureWork.tex) [24
+ (./Chapter08/FutureWork.tex) [27
 
 
 ]
 \openout2 = `Chapter09/Conclusion.aux'.
 
- (./Chapter09/Conclusion.tex) [25
+
+(./Chapter09/Conclusion.tex) [28
 
 
-]
-(./Thesis.bbl) [26
+] (./Thesis.bbl) [29
 
 
-] [27
+] [30
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
 
- (./Appendix1/appendix1.tex) [28
+
+(./Appendix1/appendix1.tex) [31
 
 ]
 \openout2 = `Appendix2/appendix2.aux'.
 
+ (./Appendix2/appendix2.tex) [32
 
-(./Appendix2/appendix2.tex) [29
 
+]
 
-] 
 AED: lastpage setting LastPage
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -1671,7 +1724,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9A9439BA7FEFF85AA111607F3ECE8120;2614.
+(rerunfilecheck)             Checksum: C29BBED271A008DCA6B857E8983A34EE;2614.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1681,23 +1734,23 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25246 strings out of 492985
- 457103 string characters out of 6136283
- 689222 words of memory out of 5000000
- 28071 multiletter control sequences out of 15000+600000
+ 25284 strings out of 492985
+ 457782 string characters out of 6136283
+ 689383 words of memory out of 5000000
+ 28096 multiletter control sequences out of 15000+600000
  11795 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,9n,73p,1988b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,9n,73p,1988b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2017
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (40 pages, 455583 bytes).
+Output written on Thesis.pdf (43 pages, 629804 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 129 named destinations out of 1000 (max. 500000)
- 399 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 
