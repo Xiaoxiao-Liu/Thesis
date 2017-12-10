@@ -8,19 +8,114 @@ This section describes how the project is implemented in detail. it involves the
 
 The main concept of data processing is to read text data from .txt files, calculate values we needed, and store them into Java Arraylists. In this stage, the greatest challenge is to keep the data being flexible, as these data may be reprocessed and stored due to the change of events in other class. Hence, after the original data being read and stored, they can be set and got through accessor methods \cite{Bob's coding convention} for many times. In addtion to the flexibility, another difficulty in this stage is to generate various data values for each token data and store them appropriately. As discussed in Project Features section, the aim of software we designed is to present information about terms and provide an concordance view for each version. In this project, for each token, we calculate and sort frequencies, weights; compute color values; computed locations; generate rectangle information; create a group of translation and lemma values.
 
-Java.io, which provides for system input and output through data streams, serialization and the file system \cite{javadoc java.io}, is the libraray used in this project. It serves as a data buffer and reader in this project. FileReader class, which extends the abstract calss "InputStreamReader", can be used to read character files which defaultly assuemed are in appropriate size. Since the volume of data in each document is not large, we generate FileReader class to access each text file. The other data reading class adopted is the BufferedReader class. It is available to read text data from character-input stream, buffer the data so as to provide for the efficient reading of strings, arrays and lines \cite{javadoc7}. Java.util is another package imported in DataReader class. To store and access data, ArrayList, Hashtable, and Map of this library are applied. In addition, data structures such as JsonObject, JsonReader, and JsonArray in Javax.json library are applied to read data from Json file.
+Java.io, which provides for system input and output through data streams, serialization and the file system \cite{javadoc java.io}, is the library used in this project. It serves as a data buffer and reader in this project. FileReader class, which extends the abstract calss "InputStreamReader", can be used to read character files which defaultly assuemed are in appropriate size. Since the volume of data in each document is not large, we generate FileReader class to access each text file. The other data reading class adopted is the BufferedReader class. It is available to read text data from character-input stream, buffer the data so as to provide for the efficient reading of strings, arrays and lines \cite{javadoc7}. Java.util is another package imported in DataReader class. To store and access data, ArrayList, Hashtable, and Map of this library are applied. In addition, data structures such as JsonObject, JsonReader, and JsonArray in Javax.json library are applied to read data from Json file.
 
 The main class that is responsible for reading the original data file is the DataReader class. This class analyses .txt files and generates a List of Version objects to parse all information needed in the software. Each Version object represents a version of German translations and contains essential data of the version. The Version object also has an accessor method to access the list of Concordance objects which contains all information of terms in the concordance. For more detailed description of the Version class and Concordance class, please see the Design section.
 
-
-
 \subsection{Generating Concordances}
+
+Concordances are the most basic visualisation in this project. They are designed to display the information of terms, and to help in comparing the terms between different translation versions.As shown in the Figure \ref{fig:condorVis}, the concordance visualisation involves several parts:
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=9cm, height=15cm]{Figs/condordanceVis}\\[1ex]
+	\caption{The Screen shot of one concordance in the visualisation}
+	\label{fig:condorVis}
+\end{figure} 
+
+\begin{itemize}
+	\item \textbf{String} is drawn to display the term, frequency, version author, publication year; 
+	\item \textbf{Rectangle} is used to present the frequency. As the values are sorted in data processing phase, the width of rectangles are set according to these sorted values.
+	\item \textbf{Colour} is used to present differences on frequency. Each colour represents a number of frequency, so there will be same colours in different terms.
+\end{itemize}
+
+The process in generating the concordance visualization goes through the following steps:
+\begin{itemize}
+	\item \textbf{} Obtain the string of each term from text source. This step is done in the DataReader class. Detailed illustration seeing Data Reading implementation section.
+	\item \textbf{} Calculate the number of times, namely term frequency, of each term occurred in the text (See Data Reading implementation section).  	
+	\item \textbf{} Calculate the rectangle width for each term using the frequency of term. The equation of the rectangle width calculating is show in Equation \eqref{rectWidth}:
+	
+	\begin{multline}\label{rectWidth}
+	rectWidth=wordFrequency*unit*scaleValue
+	\end{multline}
+	
+	Where unit is the width of each segment since the rectangle is composed of a number of segments. WordFrequency is the value deciding how many segments compose the rectangle, while scaleValue is the percentage value used to scale the rectangle, range from 10\% to 200\%.
+	
+	\item \textbf{}Calculate the location of the string and rectangle.The location, or point, is the start drawing point for the string and rectangle. It combined with two point value: point.X, and point.Y. The Equation \eqref{PointX}, \eqref{PointY} illustrate how we calculate these points in the software:
+	
+	\begin{multline}\label{PointX}
+	point.x=versionNumber*versionDistance*scaleValue
+	\end{multline}
+	
+	\begin{multline}\label{PointY}
+	point.y= lineNumber*lineDistance*scaleValue
+	\end{multline}
+	
+	Where versionNumber represents order number of the version. versionDistance performs the  distance between two neighbour versions. In addition, a scale value need to be multiplied so that the location of string and rectangle changes according to user preference.
+	Similarly, the lineNumber is order number of the term while lineDistance represents the distance between two terms. 
+	
+	\item \textbf{}Calculate the value of colour. According to \cite{Jbum}, we use the equation as shown in Equation \eqref{Red}: 	
+	\begin{multline}\label{Red}
+	color = Math.sin(colorFrequency*wordFrequency + phase) * amplitude + center
+	\end{multline}
+	Where colorFrequency is a constant that controls how fast the wave oscillates. The wordFrequency is  variable used to display different colour according to word frequency. The phase is applied to change the alignment of the green or blue sine waves. The amplitude controls how high (or low) the wave goes. The center controls the center position of the wave.
+	
+	\item \textbf{}Paint the strings, blocks, and colours by invoking drawing methods in Graphic class. 
+	
+\end{itemize}
 
 \subsection{Parallel View of Concordances}
 
-\subsection{Adding, Subtracting, Selecting Concordances}
+Following the generation of concordance visualization, a parallel view of all concordances is created. As shown in Figure \ref{fig:parallelConcor}, all versions of concordances are represented on the panel. During this stage, lines will be drawn to connect same terms. The comparison stage is done in concordancePanel class. 
+
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=13cm, height=8cm]{Figs/Parallel-Vis}\\[1ex]
+	\caption{The Screen shot of one concordance in the visualisation}
+	\label{fig:parallelConcor}
+\end{figure} 
+
+
+However, after this parallel visualization is being generated, an obvious problem appears: there is not enough space for all 16 concordances. So the solution is either to scale the panel, or to select several versions showing one time. We have done both, which are introduced in the following section. 
 
 \subsection{Zooming}
+
+Zooming in and out is a basic feature in the software which designed to provide two zooming options: one is for scaling the content of the visualisation, the other is for scaling the frame. In addition to these two scaling options, there are also scroll bars used to scroll the visualisation panel.
+
+During this stage, the most difficult part is to recalculate all values of graphics: points, widths and heights for rectangles, and the distances between versions.
+
+
+\subsection{Adding, Subtracting, Selecting Concordances}
+
+To render an user option feature for selecting several concordances displaying on the panel, a new class called VersionChoosenPanel is created. By interacting with this feature, not only can the user select which concordance to display in the visualization, but also the order of concordance displayed can be arranged. Figure
+\ref{fig:versionChoosPanel} reveals the menu of version list can be selected. 
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=6cm, height=10cm]{Figs/VersionChoosePanel}\\[1ex]
+	\caption{The index of version selection}
+	\label{fig:versionChoosPanel}
+\end{figure} 
+
+The generation of version selection feature goes through the following steps:
+\begin{itemize}
+	\item \textbf{} Generate a list of JCheckBox class to display the author name as the index. 
+	\item \textbf{} Add event listener for each JCheckBox object. So that the action of selection can be generated as an Object class.
+	\item \textbf{} Change the selecting status of the index. 
+	\item \textbf{} Generate new list of Version objects according to the events passed from JCheckBox ActionListener. Every time the user select a name in the index, a new list of Version objects will be generated and passed to ConcordancePanel class. 
+	\item \textbf{} Repaint the concordance visualisation. The ConcordancePanel will be repainted by invoking repaint() method.
+	\item \textbf{} Add an option of "All" selection, which is responsible to display or hide all concordances as the original order.
+\end{itemize}
+
+Figure \ref{fig:versionChoosDemo}is a screen shot of selecting several versions of concordances to show on the visualisation. Further more, concordances are reordered on the visualisation, where the base text which supposed to be shown as the first version on the left, now being moved to the last one.
+
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=18cm, height=10cm]{Figs/Version-Selecting-Demo}\\[1ex]
+	\caption{The screen shot of version selecting feature}
+	\label{fig:versionChoosDemo}
+\end{figure} 
+
+
+
 
 \subsection{Text Labels On and Off}
 

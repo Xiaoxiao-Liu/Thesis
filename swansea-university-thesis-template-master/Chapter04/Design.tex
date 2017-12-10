@@ -2,21 +2,21 @@
 \clearpage
 \section{Project Design}
 %-----------------------------------------------------------------------------------------
-Project design goes to the first step in software development. Due to the programming language used to implement the project is Java, the design will follow object-oriented principles. Classes and their responsibilities will provided in following sessions.
+Project design is the first step in software development. Due to the programming language used to implement the project being Java, the design will follow object-oriented principles. Classes and their responsibilities will be provided in following sections.
 
 \subsection{Data Reading}
-Data preprocessing is the first stage in doing this project. As discussed in Chapter 2, the data source is a collection of 16 .txt files. In the following part, 
+Data preprocessing is the first stage in doing this project. As discussed in Chapter 2, the data source is a collection of 16 .txt files. In the following part, all classes in Data preprocessing phase are introduced, with diagrams to illustrate the concept of the design.
 
-\paragraph{Datareader Class}
+\paragraph{DataReader Class}
 
-\paragraph[]{}The DataReader class is one of the base class that is designed for reading and processing data from all 16 files. Then it parse to other objects to be stored and used. There are 5 mainly functions as followed:
+\paragraph[]{}The DataReader class is one of the base classes that is designed for reading and processing data from all 16 files. The data is then passed to other objects to be stored and used. There are 5 main functions as follows:
 
 \begin{itemize}
 	\item \textbf{}Read data from .txt files;
-	\item \textbf{}Calculate term frequencies, point locations, color values; 
-	\item \textbf{}Parse the calculated values to other classes and store them;
+	\item \textbf{}Calculate term frequencies, point locations, colour values; 
+	\item \textbf{}Pass the calculated values to other classes and store them;
 	\item \textbf{}Accept Tf-Idf values from other classes;
-	\item \textbf{}Generate a List of Lists to store all information needed and parse that to visualization parts;
+	\item \textbf{}Generate a List of Lists to store all information needed and pass that to visualisation parts;
 \end{itemize} 
 
 The structure of the DataReader class is presented in figure \label{dataReader}.
@@ -25,23 +25,23 @@ The structure of the DataReader class is presented in figure \label{dataReader}.
 
 \paragraph[]{}
 
-The Concordance class is an object class used to store the basic information of terms: the string of word, frequency, rectangle, Tf-Idf value, location, font, translation sets, and lemma. All these values are generated from DataReader class. Then these values are stored into lists of concordance as a column. When the visualization being generated, these values will be used directly. The data can also be modified from accessors methods when interacting with software. The class diagram is shown in figure \label{concordance}.
+The Concordance class is an object class used to store the basic information of terms: the string of word, frequency, rectangle, Tf-Idf value, location, font, translation sets, and lemma. All these values are generated from the DataReader class. Then these values are stored into lists of concordance as a column. When the visualization is being generated, these values will be used directly. The data can also be modified from accessor methods when interacting with software. The class diagram is shown in Figure \label{concordance}.
 
 \paragraph{Version Class}
 
 \paragraph[]{}
-The Version class is another object class used to store information related to each version of text, such as author, publication year, title location. It also includes a list of concordance to store the concordance of this translation version. After all 16 texts being read and processed, there will be a list of Version objects generated. and These data will be displayed and modified on the visualization panels. The class diagram of Version class is shown in Figure \label{verson}.
+The Version class is another object class used to store information related to each version of text, such as author, publication year, title location. It also includes a list of concordance to store the concordance of this translation version. After all 16 texts have been read and processed, there will be a list of Version objects generated and the data will be displayed and modified on the visualization panels. The class diagram of Version class is shown in Figure \label{verson}.
 
 \paragraph{TFIDFCalculator Class}
 
 \paragraph[]{}
-The TFIDFCalculator class is designed to process the Tf-Idf value for each term. The Tf-Idf calculation comes after the original data is read and processed, so that the term frequecy can be used directly in this class. This class includes 3 stages:
+The TFIDFCalculator class is designed to process the Tf-Idf value for each term. The Tf- Idf calculation comes after the original data is read and processed, so that the term frequency can be used directly in this class. This class includes 3 stages:
 \begin{itemize}
 	\item \textbf{}Accept frequency data and word sets from DataReader class;
 	\item \textbf{}Calculate Idf value using word sets;
-	\item \textbf{}Calculate Tf-Idf value and parse them back to DataReader class;
+	\item \textbf{}Calculate Tf-Idf value and pass them back to DataReader class;
 \end{itemize} 
-The algorithm of Tf-Idf value will be introduced in Implementation session. The class diagram of TFIDFCalculator is presented in Figure \label{tFiDFCalculator}.
+The algorithm of Tf-Idf value will be introduced in the Implementation chapter. The class diagram of TFIDFCalculator is presented in Figure \label{tFiDFCalculator}.
 
 \paragraph{LemmaProcess Class}
 
@@ -49,40 +49,40 @@ The algorithm of Tf-Idf value will be introduced in Implementation session. The 
 The LemmaProcess class is designed to generate lemma for each term. As shown in Figure \label{lemma}, this class includes 3 main steps:
 \begin{itemize}
 	\item \textbf{}Read data from German lemma corpus;
-	\item \textbf{}Search lemma for each term which is parsed from DataReader class;
+	\item \textbf{}Search lemma for each term which is passed from DataReader class;
 	\item \textbf{}Store the lemma for each term into a new .txt file;
 \end{itemize} 
 Detailed information of the lemma processing part will be stated in Implementation part. 
 
-\subsection{Translation generation}
+\subsection{Visualisation generation}
 
 \paragraph{TranslationVisualisation Class}
 
-\paragraph[]{}The translation generation stage comes after data reading and processing. The TranslationVisualisation class is designed for accepting all data processed from data reading part and generating the visualization for software. This includes following stages:
+\paragraph[]{}The translation generation stage comes after data reading and processing. The Transla- tionVisualisation class is designed for accepting all data processed from the data reading phase and generating the visualization using the software. This includes following stages:
 \begin{itemize}
 	\item \textbf{}Accept data from DataReader class;
 	\item \textbf{}Initialize all GUI components;
-	\item \textbf{}Parse the data to GUI components;
+	\item \textbf{}Pass the data to GUI components;
 	\item \textbf{}Set GUI components and add them to accordingly visualisation panels and frames;
 
 \end{itemize}  
 
 \subsection{GUI}
-Most of the GUI classes in the software inherit from Java AWT libraries. 
+Most of the GUI classes in the software are inherited from Java AWT libraries. 
 \paragraph{ConcordancePanel Class}
-\paragraph[]{}The ConcordancePanel is the main visualization panel in the software. It inherits the JPanel class which belongs to Java Swing library. It is designed to render a canvas drawing all parallel visualization of concordances. Data are parsed from visualization part and used to display visualization here. There are also a Mouse Click Listener in this class used to listen the rectangle area clicking event.Several functions of this class are as follow:
+\paragraph[]{}The ConcordancePanel is the main visualization panel in the software. It is inherited the JPanel class which belongs to Java Swing library. It is designed to render a canvas drawing of all parallel visualization of concordances. Data is passed from the visualization part and used to display visualization within the ConcordancePanel. There are also a Mouse Click Listener in this class used to listen to the rectangle area clicking event. Several functions of this class are as follow:
 \begin{itemize}
 	\item \textbf{}Accept data from DataReader class;
 	\item \textbf{}Initialize JPanel;
 	\item \textbf{}Draw strings, rectangles, lines on the canvass;
-	\item \textbf{}Parse events data from event listeners;
+	\item \textbf{}Pass events data from event listeners;
 	\item \textbf{}Recalculate data;
 	\item \textbf{}Repaint the graphic;
 \end{itemize}  
 The class hierarchy of ConcordancePanel class is shown in Figure \label{concordancePanel}. 
 
 \paragraph{ColorLegendPanel Class}
-\paragraph[]{}The ColorLegendPanel class inherits from JPanel. This class renders a color map, where each color owns an event listener. The data parsed in this class are term frequencies, or Tf-Idf value, depending on user preference. Event listener is added to each color block to listen which block is clicked. Then the clicking data will be parsed to TranslationVisualisation class. The class diagram is displayed in Figure \label{colorLegendPanel}
+\paragraph[]{}The ColourLegendPanel class inherits data from JPanel. This class renders a colour map, where each colour owns an event listener. The data passed in this class is term frequencies, or Tf- Idf values, depending on user preferences. Event listener is added to each colour block to listen which block is selected. Then the selected data will be passed to TranslationVisualisation class. The class diagram is displayed in Figure \label{colourLegendPanel}
 
 \paragraph{VersionChoosenPanel Class}
 \paragraph[]{}The VersionChoosenPanel class inherits from JPanel. There are several steps in this class:
@@ -90,7 +90,7 @@ The class hierarchy of ConcordancePanel class is shown in Figure \label{concorda
 	\item \textbf{}Accept data from DataReader class;
 	\item \textbf{}Initialize JPanel;
 	\item \textbf{}Dispaly version titles in JCheckBox as a version selector;
-	\item \textbf{}Parse events data to ConcordancePanel class;
+	\item \textbf{}Pass events data to ConcordancePanel class;
 	\item \textbf{}Display which version is selected;
 \end{itemize}  
 The structure of this class is shown in the diagram of Figure \label{versionChoosenPanel}.

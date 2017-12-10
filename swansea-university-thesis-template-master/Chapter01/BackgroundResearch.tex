@@ -21,24 +21,22 @@ In this section, interactive visualization of previsous system are introduced. F
 
 \subsection{Data Characteristics}
 
-The data is major part of visualization. Along with the user experience, data plays an important role as "driving factor" with respect to the choice and attributes of the visualization method \cite{Laramee}. In this chapter, the data relevant to this project is analysed, including the type, size, format and characteristics of data. Also, a description of data preprocessing will be discussed. 
+Data is a major part of all visualisation, which along with user experience play an important role as "driving factor" with respect to the choice and attributes of the visualization method \cite{Laramee}. In this chapter, the data relevant to this project is analysed, including the type, size, format and characteristics of data. Also, a description of data preprocessing will be discussed. 
 
-The data sets used in this project come from a collection of 57 different German translations of \emph{Othello}, which is contributed by Digital Humanities researchers working on a project in \cite{Tom2012}. To develop analytic tools and probe the translations in this corpus, the team has digitalized 32 translation versions, with the formats being normalized, texts being segmented, speech by speech and line by line. Also, the content of these 32 texts is a specific scene: the Act1, Scene 3 according to the English version of \emph{Othello} play as base text . Based on this corpus, we select 16 text files of German translation versions to study and focus on the words analysis. 
+The data sets used in this project come from a collection of 57 different German translations of \emph{Othello}, which is contributed by Dr. Tom Cheesman, from College of Arts and Humanities at Swansea university, working on a project in \cite{Tom2012}. To develop analytic tools and probe the translations in this corpus, the team digitalized 32 translation versions, with the formats being normalized, texts being segmented, speech by speech and line by line. The content of these 32 texts correspond to Act1, Scene 3 of the English version of \emph{Othello} (1604) play as base text. Based on this corpus, we are given 15 text files of German translation versions by Dr. Tom Cheesman for this project. And together with the base text in English, these 16 text sets are read and processed when implementing the project.All these files are encoded as UTF-8 when converting from .docx format to .txt format. The number of words in each document are different according to the genres of text data (327 words at maximum, and 214 words at minimum). Figure \label{dataExample} is an screen shot of the text data used in the project.
 
-In this project, 17 text files are generated as corpus, among which 16 are German translation versions and 1 is the base text in English. All files are encoded as UTF-8 when converting from .docx file to .txt. file The number of words in each file are different according to the genres of text data (327 words at maximum, and 214 words at minimum). The data in each file has been preprocessed and organized line by line, and segmented speech by speech. 
-
-Since the project is programmed in Java and focus on the words, the .txt is an appropriate format to store the data. Choosing .txt file as the data set is owing to following reasons:
+Text file is commonly used to store plain texts data. It is a simple text file format which can be worked with many programming language, including Java. Choosing .txt file as the data set is owing to following reasons:
 
 \begin{itemize}
-	\item \textbf{} The aim of this project focus on word processing, which require computer to read text literally, without applying complicated data processing techniques.
-	\item \textbf{} Since the text data sets in the corpus are stored in .docx file which is difficult to read by Java directly, it is easy and safe to convert the texts into .txt file.
-	\item \textbf{} There exits methods in Java API to read .txt data directly from files.
-	\item \textbf{} Apart from the basic and simple information (year and author) of each version, there is no need to exact more information from the text. And because the data set in each version is not large, the computer can calculate the essential features of data, in a short time, every time the program is ran. 
+	\item \textbf{} The aim of this project focuses on word processing, which require computers to read text literally, without applying complicated data processing techniques.
+	\item \textbf{} Since the text data sets in the corpus are stored in .docx format which is difficult to read directly by Java, it is easier and safer to convert the .docx format into .txt format.
+	\item \textbf{} There exists methods in Java.io, a Java API, used to read .txt data directly from files.
+	\item \textbf{} Apart from the basic and simple information (year and author) of each version, there is no need to obtain more information from the text. Additionally, because the data set in each version is not large, the computer can calculate the essential features of the data, in a short time, every time the program is ran. 
 \end{itemize}
 \begin{figure}[h]
 	\centering	
 	\includegraphics[width=13cm, height=9cm]{Figs/Data-example}\\[1ex]
-	\caption{The text in .txt file. All data has been segmented and cleaned}
+	\caption{The text in the .txt file. All data has been segmented and cleaned}
 	\label{fig:dataExample}
 \end{figure}
 

@@ -19,6 +19,14 @@ White space in argument---line 5 of file Chapter03/ProjectPlan.aux
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter04/Design.aux
 A level-1 auxiliary file: Chapter06/Implementation.aux
+White space in argument---line 3 of file Chapter06/Implementation.aux
+ : \citation{Bob's
+ :                 coding convention}
+I'm skipping whatever remains of this command
+White space in argument---line 4 of file Chapter06/Implementation.aux
+ : \citation{javadoc
+ :                   java.io}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter07/Evaluation.aux
 A level-1 auxiliary file: Chapter08/FutureWork.aux
 A level-1 auxiliary file: Chapter09/Conclusion.aux
@@ -26,25 +34,28 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-Repeated entry---line 178 of file References/TransVisReferences.bib
+Repeated entry---line 363 of file References/TransVisReferences.bib
  : @misc{Laramee
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 249 of file References/TransVisReferences.bib
+Repeated entry---line 427 of file References/TransVisReferences.bib
  : @misc{Tom2012
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 487 of file References/TransVisReferences.bib
+Repeated entry---line 441 of file References/TransVisReferences.bib
  : @misc{Larameea
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 493 of file References/TransVisReferences.bib
+I was expecting a `,' or a `}'---line 454 of file References/TransVisReferences.bib
  : @misc{Agile 
  :             vs Waterfall,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Adenowo2013"
 Warning--I didn't find a database entry for "Tom2012a"
 Warning--I didn't find a database entry for "Cao2016a"
+Warning--I didn't find a database entry for "javadoc7"
+Warning--to sort, need author or key in Jbum
+Warning--empty year in Jbum
 Warning--empty journal in Alrehiely2014
 Warning--there's a number but no volume in Alrehiely2014
 Warning--empty journal in Geng2011
@@ -57,45 +68,45 @@ Warning--empty journal in Laramee
 Warning--empty year in Liu
 Warning--empty note in Liu
 Warning--empty publisher in Ward2015
-You've used 12 entries,
+You've used 13 entries,
             1935 wiz_defined-function locations,
-            558 strings with 5659 characters,
-and the built_in function-call counts, 4298 in all, are:
-= -- 414
+            563 strings with 5755 characters,
+and the built_in function-call counts, 4486 in all, are:
+= -- 434
 > -- 170
 < -- 9
 + -- 57
 - -- 56
-* -- 340
-:= -- 765
-add.period$ -- 32
-call.type$ -- 12
-change.case$ -- 87
-chr.to.int$ -- 11
-cite$ -- 24
-duplicate$ -- 174
-empty$ -- 287
+* -- 353
+:= -- 793
+add.period$ -- 33
+call.type$ -- 13
+change.case$ -- 92
+chr.to.int$ -- 12
+cite$ -- 28
+duplicate$ -- 184
+empty$ -- 305
 format.name$ -- 68
-if$ -- 826
+if$ -- 864
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 11
-newline$ -- 59
+newline$ -- 62
 num.names$ -- 36
-pop$ -- 91
+pop$ -- 98
 preamble$ -- 1
-purify$ -- 88
+purify$ -- 93
 quote$ -- 0
-skip$ -- 138
+skip$ -- 144
 stack$ -- 0
-substring$ -- 255
+substring$ -- 268
 swap$ -- 24
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
-warning$ -- 12
+type$ -- 76
+warning$ -- 14
 while$ -- 37
 width$ -- 0
-write$ -- 139
-(There were 6 error messages)
+write$ -- 146
+(There were 8 error messages)
