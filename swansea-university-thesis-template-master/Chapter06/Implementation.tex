@@ -166,6 +166,12 @@ This features are achieved by put into effect following phases:
 \begin{itemize}
 	\item \textbf{} Obtain clicking point through getPoint() method in MouseEvent class.
 	\item \textbf{} Calculate which item region the point belongs to. In this process, the regions of concordance and item are divided as illustrated in Figure \ref{fig:regionDivide}. As the value of each region can be achieved during data reading phase, the point passed from mouseClikcked() method can be used to identify which region the point belongs. Further more, the Item object of this block is singled out and returned.
+	\begin{figure}[h]
+		\centering	
+		\includegraphics[width=6cm, height=10cm]{Figs/Region-Divide}\\[1ex]
+		\caption{}
+		\label{fig:regionDivide}
+	\end{figure} 
 	\item \textbf{} Identify the Item objects in other concordances sharing the same term. So that we get Item objects to be highlighted.
 	\item \textbf{} Highlight the blocks of all singled out Item objects. In this step, lines are drawn to round the rectangles. 
 	\item \textbf{} Make other blocks transparent. The transparency values of other rectangles are set as  semitransparent values by overwriting colour values of blocks.
@@ -193,12 +199,24 @@ Colour represents the occurrences of terms in each concordance. To demonstrate a
 \end{itemize}
 
 The demo of Colour Mapping is shown in Figure \ref{fig:colourMapping}.
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=4cm, height=15cm]{Figs/Color-Mapping}\\[1ex]
+	\caption{}
+	\label{fig:colourMapping}
+\end{figure} 
 
 \subsection{Interactive Color Legend}
 
 Apart from displaying data, colour mapping can be served as interactive visualisation. In this project, we add an feature so that user can interact with the colour legend. If the user click a label of colour in the colour legend, all blocks of that colour in the concordance view will be highlighted. This function is performed by identifying all items possessing same frequency value. As illustrated in the Design chapter, an index of frequency values is generated in DataReader class. After data reading phase, we can access this list of frequency values through accessor method. By iterating all values in the list, the items are identified and returned to ConcordancePanel class. Then the list of Version objects are overwritten and the panel is repainted.
 
 As a result, by clicking one colour block in colour legend, all items sharing same frequency, or colour, are highlighted using same methods of highlighting described in Interaction and Selection of Terms chapter. Figure \ref{fig:interactiveColourMapping} serves as a demo to illustrate this feature.
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=16cm, height=12cm]{Figs/Colour-Legend-Interation}\\[1ex]
+	\caption{}
+	\label{fig:interactiveColourMapping}
+\end{figure} 
 
 \subsection{Lemmatisation}
 
@@ -213,7 +231,14 @@ For this project, an inevitable dilemma is the limited resources of German lemma
 
 \subsubsection{TreeTagger}
 
-TreeTagger, developed by Helmut Schmid at the Institute for Computational Linguistics of the University of Stuttgart, is a tool for annotating text data and lemma information. It has been used to tag many languages including German. Figure \ref{fig:treeTaggerUI} shows the Interface of TreeTagger. During applying this tool in the lemmatizing task of the project, we found this tool has following advantages:
+As introduced in Technology Choices chapter, the TreeTagger is a tool for annotating text data and lemma information. Figure \ref{fig:treeTaggerUI} shows the Interface of TreeTagger. During applying this tool in the lemmatizing task of the project, we found this tool has following advantages:
+
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=16cm, height=12cm]{Figs/TreeTaggerInterface}\\[1ex]
+	\caption{}
+	\label{fig:treeTaggerUI}
+\end{figure} 
 
 \begin{itemize}
 	\item \textbf{} The software is easy to obtain. Without any redundant procedures such as registration, the tool can be downloaded directly from the website \url{http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/}.
@@ -245,6 +270,13 @@ There are several phases of using DeReWo to generate lemma visualisation:
 
 Figure \ref{fig:lemmaView} shows the outcome of the lemma visualisation. 
 
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=16cm, height=12cm]{Figs/LemmaView}\\[1ex]
+	\caption{}
+	\label{fig:lemmaView}
+\end{figure} 
+
 \subsection{Tf-Idf}
 
 Tf-Idf visualisation is an important feature in this project. As explained in Design chapter, the Tf-Idf value represents weightings of words, which also means we can get rid of unimportant words, namely stopping words. Therefore, the visualisation provided will be more helpful for researchers to study the varieties of translation. To fulfill this function, the most challenging step is to apply the formula of the Tf-Idf into the codes. Equation \ref{Tf-Idf} is used in this project to calculate the Tf-Idf value for each term \cite{Asking Mohammad about the equation referance}. The TfIdfCalculator class is created to process the Tf-Idf values.
@@ -260,5 +292,17 @@ The Tf-Idf visualisation generation process goes through the following steps:
 
 There are two visualisation generated using Tf-Idf value: one is to visualise data using Tf-Idf value and original words, as shown in Figure \ref{fig:tfIdfView}; the other is to visualise using Tf-Idf value together with lemma data which is displayed in Figure \ref{fig:tfIdfLemma}.
 
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=16cm, height=12cm]{Figs/Lemma-Frequency}\\[1ex]
+	\caption{}
+	\label{fig:tfIdfView}
+\end{figure} 
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=16cm, height=12cm]{Figs/Lemma-TfIdf}\\[1ex]
+	\caption{}
+	\label{fig:tfIdfLemma}
+\end{figure} 
 
 

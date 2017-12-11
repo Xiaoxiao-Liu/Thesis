@@ -2,8 +2,57 @@
 \clearpage
 \section{Project Specification}
 %-----------------------------------------------------------------------------------------
-This part is the specification of the project which includes the features specification and technology choices to the software. 
+This part is the specification of the project which includes the features specification and technology choices to the software. The user features for the system will also be stated. The project specification discussed in the initial document is modified and updated here as a section of final dissertation.
 
 \subsection{Feature Specification}
-
+This project is aimed at developing an interactive visualisation for a group of different text documents. The result of this visualisation should assist users in identifying and exploring the variations between these translation versions. The software has following features:
+\begin{itemize}
+	\item \textbf{} Provide an interactive visualisation system.
+	\item \textbf{} Develop a user interface serves as a tool for users to select options.
+	\item \textbf{} Read and store data from .txt files.
+	\item \textbf{} Provide a parallel visualisation for comparing terms in different translation versions.
+	\item \textbf{} Generate concordance view with frequency bars
+	\item \textbf{} Add author and publish year as the title of each concordance.
+	\item \textbf{} Provide a visualisation with scroll bars.
+	\item \textbf{} Connect same words in each concordance applying coloured edge.
+	\item \textbf{} Provide user option for scaling the visualisation.
+	\item \textbf{} Scale the size of window.
+	\item \textbf{} Generate a colour mapping view, and the colour represents the frequency of words.
+	\item \textbf{} Render a user option for turning translations on and off.
+	\item \textbf{} Create a English-German word translation index.
+	\item \textbf{} Add user option: highlight the bar and connection when clicking single bar.
+	\item \textbf{} Provide user option: highlight bars with same frequency when clicking a block in colour legend.
+	\item \textbf{} Generate a Lemmatisation+Frequency visualisation.
+	\item \textbf{} Generate a Tf-Idf visualisation.
+	\item \textbf{} Generate a Lemmatisation+ Tf-Idf visualisation.
+\end{itemize}
 \subsection{Technology Choices}
+According to the project specification and required features presented previously, the demonstration of technology choices are made in following chapter.
+\subsubsection{Programming language}
+For the implementation of the software in this project, Java programming language is selected to develop the software. Java is known that it is an object-oriented language and class-based \cite{Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad; Buckley, 2014}. It is also simple enough to understand fast. With years of upgrading and improvement, it has been growing into a mature programming language. This also means using Java to develop software will have less mistakes and bugs when programming. There are also active communities on the internet, in which lots of people share useful ideas and resources of Java. In addition, due to the limitation of background which is not Computer Science, the author is more familiar with Java programming language. 
+Another important technology used for data visualization is some Java library online. For example, KUMO provides powerful API to visualize Word Cloud in Java. 
+
+\subsubsection{Java Library}
+
+\paragraph{Java Swing Library}
+\paragraph[]{} The Java Swing Library is the tool we used in this project to generate GUI of the software. This is a free, cross-platform resource which is appropriate for using Java in implementing this project.
+
+\paragraph{StanfordNLP Library}
+\paragraph[]{} The StanfordNLP Library is attempted during we generate the lemma for English version text. This is a free and open source for Natural Language Processing. However, because this library has not provided German lemmatisation function, we adopted other solutions in this project.
+
+\subsubsection{Other Techiniques}
+
+\paragraph{TreeTagger}
+\paragraph[]{}TreeTagger, developed by Helmut Schmid at the Institute for Computational Linguistics of the University of Stuttgart, is a tool for annotating text data and lemma information. It has been used to tag many languages including German.
+
+\paragraph{Github}
+\paragraph[]{} For source code backup requirement, the Github is adopted. The main software we used most is the GitKraken, which provides a interactive user interface to comit project. As a version control tool, the Github helps in organising the development process of our software and in keeping an updated version of the software.
+
+\paragraph{Dropbox}
+\paragraph[]{} The Dropbox is another backup software which can be used to store data. We adopt this software to store our source data in the case that equipment is broken, or the website of Github is collasped.
+
+\paragraph{Eclipse and Visual Studio Code}
+\paragraph[]{} Eclipse and Visual Studio Code are tools we used in this project for Java programming. The Eclipse is the main tool to program in Java, while the Visual Studio Code serves as a backup software in the case that Eclipse is collapsed. 
+
+\paragraph{Notepad++}
+\paragraph[]{}The Notepad++ is a free and useful tool for source code editing. It also support editing files in many kinds of format. in this project, we adopt Noteoad++ to encode data during Data Processing phase.
