@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {5.1}Data Reading}{12}{subsection.5.1}
 \contentsline {paragraph}{DataReader Class}{12}{section*.6}
 \contentsline {paragraph}{}{12}{section*.7}
-\contentsline {paragraph}{Concordance Class}{12}{section*.8}
+\contentsline {paragraph}{Item Class}{12}{section*.8}
 \contentsline {paragraph}{}{12}{section*.9}
 \contentsline {paragraph}{Version Class}{13}{section*.10}
 \contentsline {paragraph}{}{13}{section*.11}
@@ -40,23 +40,24 @@
 \contentsline {subsection}{\numberline {6.1}Data Processing}{16}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Generating Concordances}{17}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Parallel View of Concordances}{19}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Zooming}{19}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.4}Zooming}{20}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Text Labels On and Off}{21}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Adding, Subtracting, Selecting Concordances}{22}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Interaction Selection of Terms}{23}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Color Mapping}{25}{subsection.6.8}
-\contentsline {subsection}{\numberline {6.9}Interactive Color Legend}{25}{subsection.6.9}
-\contentsline {subsection}{\numberline {6.10}Lemmatization}{25}{subsection.6.10}
-\contentsline {subsection}{\numberline {6.11}Tf-Idf}{25}{subsection.6.11}
-\contentsline {subsection}{\numberline {6.12}}{25}{subsection.6.12}
-\contentsline {section}{\numberline {7}Evaluation}{26}{section.7}
-\contentsline {subsection}{\numberline {7.1}Results}{26}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Domain Expert Feedback}{26}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Session 1}{26}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Session 2}{26}{subsubsection.7.2.2}
-\contentsline {section}{\numberline {8}Conclusion}{27}{section.8}
-\contentsline {section}{\numberline {9}Future Work}{28}{section.9}
-\contentsline {section}{References}{29}{section*.24}
-\contentsline {section}{Appendices}{30}{section*.25}
-\contentsline {section}{\numberline {A}Minutes of Meeting }{31}{Appendix.a.A}
-\contentsline {section}{\numberline {B}JavaDoc of Project }{32}{Appendix.a.B}
+\contentsline {subsection}{\numberline {6.6}Adding, Subtracting, Selecting Items}{22}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Interaction and Selection of Terms}{23}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Colour Mapping}{25}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Interactive Color Legend}{26}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Lemmatisation}{26}{subsection.6.10}
+\contentsline {subsubsection}{\numberline {6.10.1}TreeTagger}{27}{subsubsection.6.10.1}
+\contentsline {subsubsection}{\numberline {6.10.2}DeReWo}{28}{subsubsection.6.10.2}
+\contentsline {subsection}{\numberline {6.11}Tf-Idf}{28}{subsection.6.11}
+\contentsline {section}{\numberline {7}Evaluation}{30}{section.7}
+\contentsline {subsection}{\numberline {7.1}Results}{30}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Domain Expert Feedback}{30}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Session 1}{30}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Session 2}{30}{subsubsection.7.2.2}
+\contentsline {section}{\numberline {8}Conclusion}{31}{section.8}
+\contentsline {section}{\numberline {9}Future Work}{32}{section.9}
+\contentsline {section}{References}{33}{section*.24}
+\contentsline {section}{Appendices}{34}{section*.25}
+\contentsline {section}{\numberline {A}Minutes of Meeting }{35}{Appendix.a.A}
+\contentsline {section}{\numberline {B}JavaDoc of Project }{36}{Appendix.a.B}

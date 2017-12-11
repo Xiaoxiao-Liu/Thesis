@@ -6,7 +6,7 @@ In this section we describe how the project is implemented in detail. The subsys
 
 \subsection{Data Processing}
 
-The main concept of data processing is to read text data from .txt files, calculate values need, and store them into Java Arraylist. At this stage, the greatest challenge is to keep the data being accessible and can be changed, as  the new data may be written over the old due to events in other class. Hence, after the original data is read and stored, it is retrieved and modified through  mutator methods \cite{Bob's coding convention}. In addtion to the flexibility, another difficulty at this stage is generating values for each term and store them appropriately. As discussed in the Project Features section, the aim of the software we designed is to present information about terms and provide an concordance view for each version. In this project, we calculate and sort frequencies of terms; compute colour values; computed locations of strings; generate Rectangle objects to represent data; create arrays to store translations.
+The main concept of data processing is to read text data from .txt files, calculate values need, and store them into Java Arraylist. At this stage, the greatest challenge is to keep the data being accessible and can be changed, as  the new data may be written over the old due to events in other class. Hence, after the original data is read and stored, it is retrieved and modified through  mutator methods \cite{Bob's coding convention}. In addtion to the flexibility, another difficulty at this stage is generating values for each term and store them appropriately. As discussed in the Project Features section, the aim of the software we designed is to present information about terms and provide an concordance view for each version. In this project, we calculate and sort frequencies of terms; compute colour values; computed locations of strings; instantiate Rectangle objects to represent data; create arrays to store translations.
 
 Java.io, which enables for system input and output through data streams \cite{javadoc java.io}, is used in this project. It serves as a data buffer and reader in this project. The FileReader class, which extends the InputStreamReader class, can be used to read character files which by default are assumed to be an appropriate size. Since the volume of data in each document is not large, we instantiate a FileReader (object) to access each text file. The other data reading class adopted is the BufferedReader class. It is used to read text data from a character-input stream, and buffer the data to provide efficient reading of strings, arrays and lines \cite{javadoc7}. Java.util is another package imported in the DataReader class. To store and access data, the ArrayList, Hashtable, and Map classes from this package are used. In addition, classes such as JsonObject, JsonReader, and JsonArray in Javax.json package are used to read data from a Json file.
 
@@ -158,16 +158,19 @@ Figure \ref{fig:versionChoosDemo}is a screen shot of selecting several versions 
 	\label{fig:versionChoosDemo}
 \end{figure} 
 
-\subsection{Interaction Selection of Terms}
+\subsection{Interaction and Selection of Terms}
 
-As each concordance contains a large number of terms, highlight the term following users' options is desired. In order to provide an interactive features for terms, new feature are enable in the visualisation. By achieving these functions, a clear view of term comes out. 
+On the ground that each concordance contains a large number of terms, highlight the term following users' options is desired. In order to provide an interactive features for terms, new feature are enable in the visualisation. Therefore a clear view of highlighting terms comes out. 
 
-This features are achieved by implementing following phases:
+This features are achieved by put into effect following phases:
 \begin{itemize}
-	\item \textbf{}
-	\item \textbf{}
-	\item \textbf{}
-	\item \textbf{}
+	\item \textbf{} Obtain clicking point through getPoint() method in MouseEvent class.
+	\item \textbf{} Calculate which item region the point belongs to. In this process, the regions of concordance and item are divided as illustrated in Figure \ref{fig:regionDivide}. As the value of each region can be achieved during data reading phase, the point passed from mouseClikcked() method can be used to identify which region the point belongs. Further more, the Item object of this block is singled out and returned.
+	\item \textbf{} Identify the Item objects in other concordances sharing the same term. So that we get Item objects to be highlighted.
+	\item \textbf{} Highlight the blocks of all singled out Item objects. In this step, lines are drawn to round the rectangles. 
+	\item \textbf{} Make other blocks transparent. The transparency values of other rectangles are set as  semitransparent values by overwriting colour values of blocks.
+	\item \textbf{} Overwritten the colour values of all lines to make sure lines connecting two highlighting items are highlighted as well, while other lines becoming semitransparent.
+	\item \textbf{} Find out the translations of this term and highlight the blocks of them.	
 \end{itemize}
 
 As a result, by clicking one single rectangle in the panel, the rectangle is highlighted and rounded by line while the colour of other rectangles become transparent. In the mean time, lines connecting same terms become highlighted by setting other lines transparent. See Figure \ref{fig:highlightView}
@@ -179,17 +182,83 @@ As a result, by clicking one single rectangle in the panel, the rectangle is hig
 	\label{fig:highlightView}
 \end{figure} 
 
-\subsection{Color Mapping}
+\subsection{Colour Mapping}
 
+Colour represents the occurrences of terms in each concordance. To demonstrate all colours in the visualisation, colour mapping is essential. In this project, we instantiate a ColorLegendPanel class to fulfill this feature. In addition, values of the frequency is displayed in the Colour Mapping view. Following is the process to implement this function: 
+\begin{itemize}
+	\item \textbf{} Achieve the colour value of each item from DataReader object. The detailed illustration of colour values can be retrieved in Data Reading chapter.
+	\item \textbf{} Instantiate JLabel objects as the components representing colours.
+	\item \textbf{} Add the JLabel objects to the panel.
+	\item \textbf{} Display frequency values beside colour blocks.
+\end{itemize}
 
+The demo of Colour Mapping is shown in Figure \ref{fig:colourMapping}.
 
 \subsection{Interactive Color Legend}
 
-\subsection{Lemmatization}
-=
+Apart from displaying data, colour mapping can be served as interactive visualisation. In this project, we add an feature so that user can interact with the colour legend. If the user click a label of colour in the colour legend, all blocks of that colour in the concordance view will be highlighted. This function is performed by identifying all items possessing same frequency value. As illustrated in the Design chapter, an index of frequency values is generated in DataReader class. After data reading phase, we can access this list of frequency values through accessor method. By iterating all values in the list, the items are identified and returned to ConcordancePanel class. Then the list of Version objects are overwritten and the panel is repainted.
+
+As a result, by clicking one colour block in colour legend, all items sharing same frequency, or colour, are highlighted using same methods of highlighting described in Interaction and Selection of Terms chapter. Figure \ref{fig:interactiveColourMapping} serves as a demo to illustrate this feature.
+
+\subsection{Lemmatisation}
+
+The lemma visualisation a significant feature in this project. Lemma is a linguistic term which described as the dictionary form of a word. Take the English word 'decide' for example: 'decide' is the lemma for 'decided', 'decides', 'deciding'. Accordingly, lemmatisation is the process to obtain the lemma for each word. To achieve the effect of lemma view, several steps is necessary:
+\begin{itemize}
+	\item \textbf{} Obtain the German lemma corpus which contains an index of lemmas and words.
+	\item \textbf{} Compare the words in our German translation corpus with the words in the German lemma corpus, and find the lemma for each term in our corpus.
+	\item \textbf{} Store all the lemmas being found and generate a new lemma index.
+	\item \textbf{} Apply the lemmas into visualisation.
+\end{itemize}
+For this project, an inevitable dilemma is the limited resources of German lemma corpus. As illustrated in Data Characteristics chapter, there is no relevant German lemma corpus in this project when we start this project. Also, German, as an affected language, is difficult to lemmatise. It is more challenging to acquire this kind of corpus from other sources. During this process, we attempted two solutions: Treetagger and DeReWo, which will be explained in following sections.
+
+\subsubsection{TreeTagger}
+
+TreeTagger, developed by Helmut Schmid at the Institute for Computational Linguistics of the University of Stuttgart, is a tool for annotating text data and lemma information. It has been used to tag many languages including German. Figure \ref{fig:treeTaggerUI} shows the Interface of TreeTagger. During applying this tool in the lemmatizing task of the project, we found this tool has following advantages:
+
+\begin{itemize}
+	\item \textbf{} The software is easy to obtain. Without any redundant procedures such as registration, the tool can be downloaded directly from the website \url{http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/}.
+	\item \textbf{} The user interface of the tool is clear and easy to use.
+	\item \textbf{} The concept in using software is to upload a .txt file, create a .txt file to store results, and lemmatise the data.	
+\end{itemize}
+
+However, there are also some problems we encountered:
+\begin{itemize}
+	\item \textbf{} The format of the text file must be encoded in Latin-1, while the text file we have is encoded in UTF-8. Therefore, some German terms with special characters cannot be recognised by the tool.
+	\item \textbf{} From the results we achieved, the tool cannot recognise words with capital letters. 
+	\item \textbf{} The tool cannot be used to lemmatise a group of files at one time, which is not appropriate for project which needs to process large data sets. 	
+\end{itemize}
+
+We connected an domain expert, Dr. Tom Cheesman form the Mordern Language Center of Swansea University, to evaluate the results of the lemmatisation for TreeTagger. Appendix {?} is the file of sample lemma we sent to Dr. Cheesman with the comments he sent back. Due to the low accuracy of the results for the data in this project, this solution is given up in the end.
+
+\subsubsection{DeReWo}
+
+DeReWo is a project done by Institut Fur Deutsche Sprache. This project aims at developing methods to create frequncy-based ranking lists of lemma based on random virtual corpora. In the DeReWo website \url{http://www1.ids-mannheim.de/direktion/kl/projekte/methoden/derewo.html?L=1}, there are some downloadable resources of German lemma, including 'DeReKo-2014-II-MainArchive-STT.100000.freq', which is a file storing top 100,000 German words, lemmas and POS. The format of this document is .freq, which can be edit in Visual Studio Code. It also can be read from Java directly. Using this corpus, we successrully obtain all the lemmas for each term in the \emph{Othello} corpus for this project.
+
+There are several phases of using DeReWo to generate lemma visualisation:
+\begin{itemize}
+	\item \textbf{} Read text file from \emph{Othello} corpus.	
+	\item \textbf{} Read German lemma corpus file.
+	\item \textbf{} Search for the lemma of each term.
+	\item \textbf{} Store the lemma in a new text file. In this step, we create 15 .txt files for all German translation. Meanwhile, order of the lemma is kept as the same with their original text. For each version of \emph{Othello} translation, the two files (\emph{Othello} source file and lemma file) are served as an index for words and lemmas.
+	\item \textbf{} Replace all terms with according lemmas and visualise the new results.
+\end{itemize}	
+
+Figure \ref{fig:lemmaView} shows the outcome of the lemma visualisation. 
+
 \subsection{Tf-Idf}
 
-\subsection{}
+Tf-Idf visualisation is an important feature in this project. As explained in Design chapter, the Tf-Idf value represents weightings of words, which also means we can get rid of unimportant words, namely stopping words. Therefore, the visualisation provided will be more helpful for researchers to study the varieties of translation. To fulfill this function, the most challenging step is to apply the formula of the Tf-Idf into the codes. Equation \ref{Tf-Idf} is used in this project to calculate the Tf-Idf value for each term \cite{Asking Mohammad about the equation referance}. The TfIdfCalculator class is created to process the Tf-Idf values.
+
+The Tf-Idf visualisation generation process goes through the following steps:
+
+\begin{itemize}
+\item \textbf{} Calculate term frequency value. This step is done in the data reading stage. The Tf value hence can be achieved from DataReader object.
+\item \textbf{} Calculate Idf value. As shown in Equation \ref{Tf-Idf},
+\item \textbf{} Replace the frequency with Tf-Idf value.
+\item \textbf{} Visulise according to new results.
+\end{itemize} 
+
+There are two visualisation generated using Tf-Idf value: one is to visualise data using Tf-Idf value and original words, as shown in Figure \ref{fig:tfIdfView}; the other is to visualise using Tf-Idf value together with lemma data which is displayed in Figure \ref{fig:tfIdfLemma}.
 
 
 

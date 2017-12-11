@@ -22,21 +22,22 @@
 \BOOKMARK [2][-]{subsection.6.3}{Parallel View of Concordances}{section.6}% 22
 \BOOKMARK [2][-]{subsection.6.4}{Zooming}{section.6}% 23
 \BOOKMARK [2][-]{subsection.6.5}{Text Labels On and Off}{section.6}% 24
-\BOOKMARK [2][-]{subsection.6.6}{Adding, Subtracting, Selecting Concordances}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.7}{Interaction Selection of Terms}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.8}{Color Mapping}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.6}{Adding, Subtracting, Selecting Items}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.7}{Interaction and Selection of Terms}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.8}{Colour Mapping}{section.6}% 27
 \BOOKMARK [2][-]{subsection.6.9}{Interactive Color Legend}{section.6}% 28
-\BOOKMARK [2][-]{subsection.6.10}{Lemmatization}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.11}{Tf-Idf}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.12}{}{section.6}% 31
-\BOOKMARK [1][-]{section.7}{Evaluation}{}% 32
-\BOOKMARK [2][-]{subsection.7.1}{Results}{section.7}% 33
-\BOOKMARK [2][-]{subsection.7.2}{Domain Expert Feedback}{section.7}% 34
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Session 1}{subsection.7.2}% 35
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Session 2}{subsection.7.2}% 36
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 37
-\BOOKMARK [1][-]{section.9}{Future Work}{}% 38
-\BOOKMARK [1][-]{section*.24}{References}{}% 39
-\BOOKMARK [1][-]{section*.25}{Appendices}{}% 40
-\BOOKMARK [1][-]{Appendix.a.A}{Minutes of Meeting }{}% 41
-\BOOKMARK [1][-]{Appendix.a.B}{JavaDoc of Project }{}% 42
+\BOOKMARK [2][-]{subsection.6.10}{Lemmatisation}{section.6}% 29
+\BOOKMARK [3][-]{subsubsection.6.10.1}{TreeTagger}{subsection.6.10}% 30
+\BOOKMARK [3][-]{subsubsection.6.10.2}{DeReWo}{subsection.6.10}% 31
+\BOOKMARK [2][-]{subsection.6.11}{Tf-Idf}{section.6}% 32
+\BOOKMARK [1][-]{section.7}{Evaluation}{}% 33
+\BOOKMARK [2][-]{subsection.7.1}{Results}{section.7}% 34
+\BOOKMARK [2][-]{subsection.7.2}{Domain Expert Feedback}{section.7}% 35
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Session 1}{subsection.7.2}% 36
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Session 2}{subsection.7.2}% 37
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 38
+\BOOKMARK [1][-]{section.9}{Future Work}{}% 39
+\BOOKMARK [1][-]{section*.24}{References}{}% 40
+\BOOKMARK [1][-]{section*.25}{Appendices}{}% 41
+\BOOKMARK [1][-]{Appendix.a.A}{Minutes of Meeting }{}% 42
+\BOOKMARK [1][-]{Appendix.a.B}{JavaDoc of Project }{}% 43

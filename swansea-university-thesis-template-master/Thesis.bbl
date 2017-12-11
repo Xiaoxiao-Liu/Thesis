@@ -30,14 +30,15 @@ Kucher, K. (2014).
   Techniques}.
 \newblock {\em InfoVis}, (November 2014).
 
-\bibitem[Laramee, a]{Larameea}
+\bibitem[Laramee, a]{Laramee}
+Laramee, R.
+\newblock {CSCM94 Software Engineering Principles Introduction and the Software
+  Crisis}.
+
+\bibitem[Laramee, b]{Larameea}
 Laramee, R.~S.
 \newblock {Flow Visualization Lecture Part 4 Overview : Previous Lecture}.
 \newblock pages 1--41.
-
-\bibitem[Laramee, b]{Laramee}
-Laramee, R.~S.
-\newblock {Visualization , Introduction Lecture Part II About data}.
 
 \bibitem[Laramee, 2011]{Laramee2011}
 Laramee, R.~S. (2011).
@@ -52,7 +53,7 @@ Liu, X.
 
 \bibitem[Tom et~al., 2012]{Tom2012}
 Tom, C., Kevin, F., and Stephan, T. (2012).
-\newblock delightedbeauty.org.
+\newblock {VVV - Project}.
 
 \bibitem[Ward et~al., 2015]{Ward2015}
 Ward, M., Grinstein, G., and Keim, D. (2015).
