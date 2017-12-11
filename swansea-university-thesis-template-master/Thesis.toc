@@ -69,7 +69,7 @@
 \contentsline {subsection}{\numberline {6.11}Tf-Idf}{31}{subsection.6.11}
 \contentsline {section}{\numberline {7}Evaluation}{38}{section.7}
 \contentsline {subsection}{\numberline {7.1}Results}{38}{subsection.7.1}
-\contentsline {paragraph}{Interactive Frequency Visualisation}{38}{section*.38}
+\contentsline {paragraph}{Frequency Visualisation}{38}{section*.38}
 \contentsline {paragraph}{}{38}{section*.39}
 \contentsline {subsection}{\numberline {7.2}Domain Expert Feedback}{38}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Session 1}{38}{subsubsection.7.2.1}

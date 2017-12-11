@@ -5,9 +5,14 @@
 In this section, we provide the performance and feedback from a domain expert as evaluation.
 
 \subsection{Results}
-\paragraph{Interactive Frequency Visualisation}
+\paragraph{Frequency Visualisation}
 \paragraph[]{}
+The Frequency Visualisation is the basic visualisation and the first task in this project. In this visualisation, we aim at providing a parallel view for concordances to display the most frequent words in each version of translaiton. As shown in Figure \ref{fig:highlightView}, the colour of blocks differs from each other and the width of blocks represents ranges from the longest to the shortest. And highlight feature allows user to see same terms in each concordance. 
 
+However, from the result in the frequency visualisation, we can tell that the most frequent words in each version are the noise, and stop words such as 'ich' which means 'I' in English, or 'und' which means 'and' in Enghlish. These kinds of words are help a little in translation comparison.
+
+\paragraph{Tf-Idf Visualisation}
+\paragraph[]{}The Tf-Idf Visualisation is another feature provided in this project. Based on features in Frequency Visualisation, the Tf-Idf Visualisation displays the most important words in the concordance. Therefore, the results of this visualisation is quite different with the Frequency Visualisation. In Figure \ref{fig:tfIdfView}, terms in each concordance changed a lot. As illustrated in Tf-Idf visualisaiton implementation part, if a word is listed on the top of on concordance, it means this word may appear a lot of times in this version of translation, while appearing not many time in other concordance. In that case, this might be due to the unique translation of one 
 
 \subsection{Domain Expert Feedback}
 
