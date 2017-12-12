@@ -8,6 +8,11 @@ Alrehiely, M.~M. (2014).
 \newblock {Visualization of version variation}.
 \newblock (October).
 
+\bibitem[Cao and Cui, 2016]{Cao2016}
+Cao, N. and Cui, W. (2016).
+\newblock {Overview of Text Visualization Techniques}.
+\newblock In {\em Introduction to Text Visualization}, pages 11--40.
+
 \bibitem[Geng et~al., 2015]{Geng2015}
 Geng, Z., Cheesman, T., Laramee, R.~S., Flanagan, K., and Thiel, S. (2015).
 \newblock {ShakerVis: Visual analysis of segment variation of German
@@ -18,6 +23,18 @@ Geng, Z., Cheesman, T., Laramee, R.~S., Flanagan, K., and Thiel, S. (2015).
 Geng, Z., Laramee, R.~S., Cheesman, T., Ehrmann, A., and Berry, D.~M. (2011).
 \newblock {Visualizing Translation Variation : Shakespeare ' s Othello}.
 \newblock pages 653--663.
+
+\bibitem[{Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad; Buckley},
+  2014]{Gosling2014}
+{Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad; Buckley}, A. (2014).
+\newblock {The Java{\textregistered} Language Specification - jls8.pdf}.
+\newblock {\em Addison-Wesley}, page 688.
+
+\bibitem[Hotho et~al., 2005]{Hotho2005}
+Hotho, A., N{\"{u}}rnberger, A., and Paa{\ss}, G. (2005).
+\newblock {A Brief Survey of Text Mining}.
+\newblock {\em LDV Forum - GLDV Journal for Computational Linguistics and
+  Language Technology}, 20:19--62.
 
 \bibitem[Jong et~al., 2008]{Jong2008}
 Jong, C.-h., Rajkumar, P., and Siddiquie, B. (2008).
@@ -30,15 +47,13 @@ Kucher, K. (2014).
   Techniques}.
 \newblock {\em InfoVis}, (November 2014).
 
-\bibitem[Laramee, a]{Laramee}
-Laramee, R.
-\newblock {CSCM94 Software Engineering Principles Introduction and the Software
-  Crisis}.
-
-\bibitem[Laramee, b]{Larameea}
+\bibitem[Laramee, a]{Larameea}
 Laramee, R.~S.
-\newblock {Flow Visualization Lecture Part 4 Overview : Previous Lecture}.
-\newblock pages 1--41.
+\newblock {Data Visualization : An Introduction}.
+
+\bibitem[Laramee, b]{Laramee}
+Laramee, R.~S.
+\newblock {Visualization , Introduction Lecture Part II About data}.
 
 \bibitem[Laramee, 2011]{Laramee2011}
 Laramee, R.~S. (2011).
@@ -53,7 +68,7 @@ Liu, X.
 
 \bibitem[Tom et~al., 2012]{Tom2012}
 Tom, C., Kevin, F., and Stephan, T. (2012).
-\newblock {VVV - Project}.
+\newblock delightedbeauty.org.
 
 \bibitem[Ward et~al., 2015]{Ward2015}
 Ward, M., Grinstein, G., and Keim, D. (2015).

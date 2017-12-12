@@ -4,6 +4,27 @@
 %-----------------------------------------------------------------------------------------
 This part is the specification of the project which includes the features specification and technology choices to the software. The user features for the system will also be stated. The project specification discussed in the initial document is modified and updated here as a section of final dissertation.
 
+\subsection{Data Characteristics}
+
+Data is a major part of all visualisation, which along with user experience play an important role as "driving factor" with respect to the choice and attributes of the visualization method \cite{Laramee}. In this chapter, the data relevant to this project is analysed, including the type, size, format and characteristics of data. Also, a description of data preprocessing will be discussed. 
+
+The data sets used in this project come from a collection of 57 different German translations of \emph{Othello}, which is contributed by Dr. Tom Cheesman, from College of Arts and Humanities at Swansea university, working on a project in \cite{Tom2012}. To develop analytic tools and probe the translations in this corpus, the team digitalized 32 translation versions, with the formats being normalized, texts being segmented, speech by speech and line by line. The content of these 32 texts correspond to Act1, Scene 3 of the English version of \emph{Othello} (1604) play as base text. Based on this corpus, we are given 15 text files of German translation versions by Dr. Tom Cheesman for this project. And together with the base text in English, these 16 text sets are read and processed when implementing the project.All these files are encoded as UTF-8 when converting from .docx format to .txt format. The number of words in each document are different according to the genres of text data (327 words at maximum, and 214 words at minimum). Figure \label{dataExample} is an screen shot of the text data used in the project.
+
+Text file is commonly used to store plain texts data. It is a simple text file format which can be worked with many programming language, including Java. Choosing .txt file as the data set is owing to following reasons:
+
+\begin{itemize}
+	\item \textbf{} The aim of this project focuses on word processing, which require computers to read text literally, without applying complicated data processing techniques.
+	\item \textbf{} Since the text data sets in the corpus are stored in .docx format which is difficult to read directly by Java, it is easier and safer to convert the .docx format into .txt format.
+	\item \textbf{} There exists methods in Java.io, a Java API, used to read .txt data directly from files.
+	\item \textbf{} Apart from the basic and simple information (year and author) of each version, there is no need to obtain more information from the text. Additionally, because the data set in each version is not large, the computer can calculate the essential features of the data, in a short time, every time the program is ran. 
+\end{itemize}
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=13cm, height=9cm]{Figs/Data-example}\\[1ex]
+	\caption{The text in the .txt file. All data has been segmented and cleaned}
+	\label{fig:dataExample}
+\end{figure}
+
 \subsection{Feature Specification}
 This project is aimed at developing an interactive visualisation for a group of different text documents. The result of this visualisation should assist users in identifying and exploring the variations between these translation versions. The software has following features:
 \begin{itemize}
@@ -29,15 +50,14 @@ This project is aimed at developing an interactive visualisation for a group of 
 \subsection{Technology Choices}
 According to the project specification and required features presented previously, the demonstration of technology choices are made in following chapter.
 \subsubsection{Programming language}
-For the implementation of the software in this project, Java programming language is selected to develop the software. Java is known that it is an object-oriented language and class-based \cite{Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad; Buckley, 2014}. It is also simple enough to understand fast. With years of upgrading and improvement, it has been growing into a mature programming language. This also means using Java to develop software will have less mistakes and bugs when programming. There are also active communities on the internet, in which lots of people share useful ideas and resources of Java. In addition, due to the limitation of background which is not Computer Science, the author is more familiar with Java programming language. 
-Another important technology used for data visualization is some Java library online. For example, KUMO provides powerful API to visualize Word Cloud in Java. 
+For the implementation of the software in this project, Java programming language is selected to develop the software. Java is known that it is an object-oriented language and class-based \cite{Gosling2014}. It is also simple enough to understand fast. With years of upgrading and improvement, it has been growing into a mature programming language. This also means using Java to develop software will have less mistakes and bugs when programming. There are also active communities on the internet, in which lots of people share useful ideas and resources of Java. In addition, due to the limitation of background which is not Computer Science, the author is more familiar with Java programming language.  
 
 \subsubsection{Java Library}
 
 \paragraph{Java Swing Library}
 \paragraph[]{} The Java Swing Library is the tool we used in this project to generate GUI of the software. This is a free, cross-platform resource which is appropriate for using Java in implementing this project.
 
-\paragraph{StanfordNLP Library}
+\paragraph{Stanford NLP Library}
 \paragraph[]{} The StanfordNLP Library is attempted during we generate the lemma for English version text. This is a free and open source for Natural Language Processing. However, because this library has not provided German lemmatisation function, we adopted other solutions in this project.
 
 \subsubsection{Other Techiniques}

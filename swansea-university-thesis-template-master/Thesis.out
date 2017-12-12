@@ -4,20 +4,20 @@
 \BOOKMARK [1][-]{section.2}{Background Research}{}% 4
 \BOOKMARK [2][-]{subsection.2.1}{Literature Review}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.2}{Previous Systems}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.3}{Data Characteristics}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Project Specification}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Feature Specification}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.2}{Technology Choices}{section.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Programming language}{subsection.3.2}% 11
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Java Library}{subsection.3.2}% 12
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Other Techiniques}{subsection.3.2}% 13
+\BOOKMARK [1][-]{section.3}{Project Specification}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Data Characteristics}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Feature Specification}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Technology Choices}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Programming language}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Java Library}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Other Techiniques}{subsection.3.3}% 13
 \BOOKMARK [1][-]{section.4}{Project Plan and Time Management}{}% 14
 \BOOKMARK [2][-]{subsection.4.1}{Development Approach}{section.4}% 15
 \BOOKMARK [2][-]{subsection.4.2}{Project Timetable}{section.4}% 16
 \BOOKMARK [2][-]{subsection.4.3}{Risk Analysis}{section.4}% 17
 \BOOKMARK [1][-]{section.5}{Project Design}{}% 18
 \BOOKMARK [2][-]{subsection.5.1}{Data Reading}{section.5}% 19
-\BOOKMARK [2][-]{subsection.5.2}{Visualisation generation}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.2}{Tasks to Support Visualisation Mantra}{section.5}% 20
 \BOOKMARK [2][-]{subsection.5.3}{GUI}{section.5}% 21
 \BOOKMARK [1][-]{section.6}{Implementation}{}% 22
 \BOOKMARK [2][-]{subsection.6.1}{Data Processing}{section.6}% 23
@@ -40,7 +40,7 @@
 \BOOKMARK [3][-]{subsubsection.7.2.2}{Session 2}{subsection.7.2}% 40
 \BOOKMARK [1][-]{section.8}{Conclusion}{}% 41
 \BOOKMARK [1][-]{section.9}{Future Work}{}% 42
-\BOOKMARK [1][-]{section*.40}{References}{}% 43
-\BOOKMARK [1][-]{section*.41}{Appendices}{}% 44
+\BOOKMARK [1][-]{section*.56}{References}{}% 43
+\BOOKMARK [1][-]{section*.57}{Appendices}{}% 44
 \BOOKMARK [1][-]{Appendix.a.A}{Minutes of Meeting }{}% 45
 \BOOKMARK [1][-]{Appendix.a.B}{JavaDoc of Project }{}% 46

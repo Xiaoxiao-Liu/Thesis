@@ -8,12 +8,8 @@ In this section, a literature review is firstly introduced to present the most r
 \subsection{Literature Review}
 This section introduced principles and techniques for data preprocessing and text data visualization.
 
-Text Visualisation Browser \cite{Kucher2014} is an online tool providing the most comprehensive summary of published text visualization \cite{Cao2016a}. According to Text Visualisation Browser, from 1976 to 2017, there are 400 published text visualisation papers in total, in which 396 publications are aim to analyse text alignment. By searching "Word", there shows 20 publications, and "Translation" gets 16 results. Whereas when typing "Frequency" and "Weighting", each key word get 1 results. Also, key words such as "Machine learning, "Data Mining", "Natural Language Processing" got no publication collected. The results indicate that in text visualization domain, most researches focus on presenting alignment of texts. There are certain amounts of research focus on the topic such as "word analysis" and "translation", which is similar with this project. However, applying more specific techniques such as "Natural Language Processing" haven't been applied in text visualisation widely.
+Text Visualisation Browser \cite{Kucher2014} is an online tool providing the most comprehensive summary of published text visualization \cite{Cao2016}. According to Text Visualisation Browser, from 1976 to 2017, there are 400 published text visualisation papers in total, in which 396 publications are aim to analyse text alignment. By searching "Word", there shows 20 publications, and "Translation" gets 16 results. Whereas when typing "Frequency" and "Weighting", each key word get 1 results. Also, key words such as "Machine learning, "Data Mining", "Natural Language Processing" got no publication collected. The results indicate that in text visualization domain, most researches focus on presenting alignment of texts. There are certain amounts of research focus on the topic such as "word analysis" and "translation", which is similar with this project. However, applying more specific techniques such as "Natural Language Processing" haven't been applied in text visualisation widely.
 
-
-\subsection{Previous Systems}
-
-In this section, interactive visualization of previsous system are introduced. For each research, data set and visualization techniques will be presented. Also, closely related work will be discussed in this section. 
 
 \paragraph{Interactive Exploration of Versions across Multiple Documents}
 
@@ -27,27 +23,24 @@ In this section, interactive visualization of previsous system are introduced. F
 
 \paragraph[]{}
 
+\paragraph{Design Rules for Visualizing Text Variant Graphs}
 
-\subsection{Data Characteristics}
+\paragraph[]{}
 
-Data is a major part of all visualisation, which along with user experience play an important role as "driving factor" with respect to the choice and attributes of the visualization method \cite{Laramee}. In this chapter, the data relevant to this project is analysed, including the type, size, format and characteristics of data. Also, a description of data preprocessing will be discussed. 
+\paragraph{ShakerVis: Visual Analysis of Segment Variation of German Translations of Shakespeare’s \emph{Othello}}
 
-The data sets used in this project come from a collection of 57 different German translations of \emph{Othello}, which is contributed by Dr. Tom Cheesman, from College of Arts and Humanities at Swansea university, working on a project in \cite{Tom2012}. To develop analytic tools and probe the translations in this corpus, the team digitalized 32 translation versions, with the formats being normalized, texts being segmented, speech by speech and line by line. The content of these 32 texts correspond to Act1, Scene 3 of the English version of \emph{Othello} (1604) play as base text. Based on this corpus, we are given 15 text files of German translation versions by Dr. Tom Cheesman for this project. And together with the base text in English, these 16 text sets are read and processed when implementing the project.All these files are encoded as UTF-8 when converting from .docx format to .txt format. The number of words in each document are different according to the genres of text data (327 words at maximum, and 214 words at minimum). Figure \label{dataExample} is an screen shot of the text data used in the project.
+\paragraph[]{}
 
-Text file is commonly used to store plain texts data. It is a simple text file format which can be worked with many programming language, including Java. Choosing .txt file as the data set is owing to following reasons:
+\paragraph{Visualizations Translation Variation of Shakespeare's Othello: A Survey of Text Visualisation and Analysis Tools}
 
-\begin{itemize}
-	\item \textbf{} The aim of this project focuses on word processing, which require computers to read text literally, without applying complicated data processing techniques.
-	\item \textbf{} Since the text data sets in the corpus are stored in .docx format which is difficult to read directly by Java, it is easier and safer to convert the .docx format into .txt format.
-	\item \textbf{} There exists methods in Java.io, a Java API, used to read .txt data directly from files.
-	\item \textbf{} Apart from the basic and simple information (year and author) of each version, there is no need to obtain more information from the text. Additionally, because the data set in each version is not large, the computer can calculate the essential features of the data, in a short time, every time the program is ran. 
-\end{itemize}
-\begin{figure}[h]
-	\centering	
-	\includegraphics[width=13cm, height=9cm]{Figs/Data-example}\\[1ex]
-	\caption{The text in the .txt file. All data has been segmented and cleaned}
-	\label{fig:dataExample}
-\end{figure}
+\paragraph[]{}
+
+\subsection{Previous Systems}
+
+In this section, interactive visualization of previsous system are introduced. For each research, data set and visualization techniques will be presented. Also, closely related work will be discussed in this section. 
+
+
+
 
 
 
