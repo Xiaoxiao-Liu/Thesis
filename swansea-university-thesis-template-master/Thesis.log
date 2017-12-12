@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  12 DEC 2017 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  12 DEC 2017 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1446,7 +1446,7 @@ LaTeX Warning: Citation `Tom2012a' on page 2 undefined on input line 22.
 
 
 ]
-<Figs/Data-example.png, id=411, 535.2497pt x 385.44pt>
+<Figs/Data-example.png, id=413, 535.2497pt x 385.44pt>
 File: Figs/Data-example.png Graphic file (type png)
 <use Figs/Data-example.png>
 Package pdftex.def Info: Figs/Data-example.png  used on input line 23. on input
@@ -1470,7 +1470,7 @@ LaTeX Warning: Citation `Adenowo2013' on page 11 undefined on input line 11.
 
 LaTeX Warning: Reference `waterfall' on page 11 undefined on input line 11.
 
-<Figs/Waterfall-Model.png, id=446, 325.96782pt x 288.3272pt>
+<Figs/Waterfall-Model.png, id=448, 325.96782pt x 288.3272pt>
 File: Figs/Waterfall-Model.png Graphic file (type png)
 <use Figs/Waterfall-Model.png>
 Package pdftex.def Info: Figs/Waterfall-Model.png  used on input line 15. on in
@@ -1480,7 +1480,7 @@ e 15.
 
 LaTeX Warning: Citation `Adenowo2013' on page 11 undefined on input line 16.
 
-<Figs/Waterfull-Agile.png, id=447, 392.21532pt x 250.68657pt>
+<Figs/Waterfull-Agile.png, id=449, 392.21532pt x 250.68657pt>
 File: Figs/Waterfull-Agile.png Graphic file (type png)
 <use Figs/Waterfull-Agile.png>
 Package pdftex.def Info: Figs/Waterfull-Agile.png  used on input line 24. on in
@@ -1506,7 +1506,7 @@ s been already used, duplicate ignored
 l.36 	\item \textbf
                    {1. }Requirements Specification; <./Figs/Waterfall-Model.png
 >]
-<Figs/Gantter-Chart.png, id=453, 666.99188pt x 340.27126pt>
+<Figs/Gantter-Chart.png, id=455, 666.99188pt x 340.27126pt>
 File: Figs/Gantter-Chart.png Graphic file (type png)
 <use Figs/Gantter-Chart.png>
 Package pdftex.def Info: Figs/Gantter-Chart.png  used on input line 57. on inpu
@@ -1525,7 +1525,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 l.67 F
       igure \label{riskAnalysis} mapping the analysis of these risks:\. <./Figs
 /Waterfull-Agile.png>]
-<Figs/Risk-Analysis.png, id=458, 380.17032pt x 400.49625pt>
+<Figs/Risk-Analysis.png, id=460, 380.17032pt x 400.49625pt>
 File: Figs/Risk-Analysis.png Graphic file (type png)
 <use Figs/Risk-Analysis.png>
 Package pdftex.def Info: Figs/Risk-Analysis.png  used on input line 77. on inpu
@@ -1568,7 +1568,7 @@ LaTeX Warning: Citation `javadoc java.io' on page 19 undefined on input line 11
 
 LaTeX Warning: Citation `javadoc7' on page 19 undefined on input line 11.
 
-<Figs/condordanceVis.png, id=506, 210.03468pt x 458.46281pt>
+<Figs/condordanceVis.png, id=508, 210.03468pt x 458.46281pt>
 File: Figs/condordanceVis.png Graphic file (type png)
 <use Figs/condordanceVis.png>
 Package pdftex.def Info: Figs/condordanceVis.png  used on input line 20. on inp
@@ -1607,7 +1607,7 @@ m/m/it/12 scaleValue$ [][][]
  []
 
 [21]
-<Figs/Parallel-Vis.png, id=531, 593.96906pt x 466.74374pt>
+<Figs/Parallel-Vis.png, id=533, 593.96906pt x 466.74374pt>
 File: Figs/Parallel-Vis.png Graphic file (type png)
 <use Figs/Parallel-Vis.png>
 Package pdftex.def Info: Figs/Parallel-Vis.png  used on input line 72. on input
@@ -1621,7 +1621,7 @@ Package pdftex.def Info: Requested size: 369.89745pt x 227.6239pt on input line
                                                   \fi \fi 
 l.79 
       <./Figs/Parallel-Vis.png>]
-<Figs/JSliders.png, id=540, 176.91093pt x 48.18pt>
+<Figs/JSliders.png, id=542, 176.91093pt x 48.18pt>
 File: Figs/JSliders.png Graphic file (type png)
 <use Figs/JSliders.png>
 Package pdftex.def Info: Figs/JSliders.png  used on input line 89. on input lin
@@ -1635,21 +1635,21 @@ Package pdftex.def Info: Requested size: 256.07965pt x 85.35794pt on input line
                                                   \fi \fi 
 l.103 
        <./Figs/JSliders.png>]
-<Figs/Zoom-In.png, id=552, 838.63312pt x 527.72156pt>
+<Figs/Zoom-In.png, id=554, 838.63312pt x 527.72156pt>
 File: Figs/Zoom-In.png Graphic file (type png)
 <use Figs/Zoom-In.png>
 Package pdftex.def Info: Figs/Zoom-In.png  used on input line 106. on input lin
 e 106.
 Package pdftex.def Info: Requested size: 256.07065pt x 85.35513pt on input line
  106.
-<Figs/Zoom-Out.png, id=553, 835.62187pt x 525.46312pt>
+<Figs/Zoom-Out.png, id=555, 835.62187pt x 525.46312pt>
 File: Figs/Zoom-Out.png Graphic file (type png)
 <use Figs/Zoom-Out.png>
 Package pdftex.def Info: Figs/Zoom-Out.png  used on input line 113. on input li
 ne 113.
 Package pdftex.def Info: Requested size: 256.08197pt x 85.35066pt on input line
  113.
-<Figs/Text-On-Off.png, id=555, 1025.33063pt x 543.53062pt>
+<Figs/Text-On-Off.png, id=557, 1025.33063pt x 543.53062pt>
 File: Figs/Text-On-Off.png Graphic file (type png)
 <use Figs/Text-On-Off.png>
 Package pdftex.def Info: Figs/Text-On-Off.png  used on input line 126. on input
@@ -1664,7 +1664,7 @@ Overfull \hbox (42.39278pt too wide) in paragraph at lines 126--126
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/VersionChoosePanel.png, id=557, 196.48407pt x 315.42844pt>
+<Figs/VersionChoosePanel.png, id=559, 196.48407pt x 315.42844pt>
 File: Figs/VersionChoosePanel.png Graphic file (type png)
 <use Figs/VersionChoosePanel.png>
 Package pdftex.def Info: Figs/VersionChoosePanel.png  used on input line 137. o
@@ -1695,7 +1695,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 l.148 	\item \textbf
                     {} Repaint the concordance visualisation. The Concordanc...
  <./Figs/Text-On-Off.png>]
-<Figs/Version-Selecting-Demo.png, id=570, 1028.34187pt x 546.54187pt>
+<Figs/Version-Selecting-Demo.png, id=572, 1028.34187pt x 546.54187pt>
 File: Figs/Version-Selecting-Demo.png Graphic file (type png)
 <use Figs/Version-Selecting-Demo.png>
 Package pdftex.def Info: Figs/Version-Selecting-Demo.png  used on input line 15
@@ -1717,7 +1717,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
                                                   \fi \fi 
 l.164 
        <./Figs/VersionChoosePanel.png>]
-<Figs/Region-Divide.png, id=579, 601.4972pt x 447.92343pt>
+<Figs/Region-Divide.png, id=581, 601.4972pt x 447.92343pt>
 File: Figs/Region-Divide.png Graphic file (type png)
 <use Figs/Region-Divide.png>
 Package pdftex.def Info: Figs/Region-Divide.png  used on input line 171. on inp
@@ -1736,7 +1736,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 l.178 	\item \textbf
                     {} Overwritten the colour values of all lines to make su...
  <./Figs/Version-Selecting-Demo.png>]
-<Figs/Highlight-Terms.png, id=586, 660.21657pt x 511.9125pt>
+<Figs/Highlight-Terms.png, id=588, 660.21657pt x 511.9125pt>
 File: Figs/Highlight-Terms.png Graphic file (type png)
 <use Figs/Highlight-Terms.png>
 Package pdftex.def Info: Figs/Highlight-Terms.png  used on input line 186. on i
@@ -1755,7 +1755,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 l.196 	\item \textbf
                     {} Instantiate JLabel objects as the components represen...
  <./Figs/Region-Divide.png>]
-<Figs/Color-Mapping.png, id=593, 100.12407pt x 529.98pt>
+<Figs/Color-Mapping.png, id=595, 100.12407pt x 529.98pt>
 File: Figs/Color-Mapping.png Graphic file (type png)
 <use Figs/Color-Mapping.png>
 Package pdftex.def Info: Figs/Color-Mapping.png  used on input line 204. on inp
@@ -1774,7 +1774,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 l.213 A
        s a result, by clicking one colour block in colour legend, all items ...
  <./Figs/Highlight-Terms.png>]
-<Figs/Colour-Legend-Interation.png, id=600, 1028.34187pt x 546.54187pt>
+<Figs/Colour-Legend-Interation.png, id=602, 1028.34187pt x 546.54187pt>
 File: Figs/Colour-Legend-Interation.png Graphic file (type png)
 <use Figs/Colour-Legend-Interation.png>
 Package pdftex.def Info: Figs/Colour-Legend-Interation.png  used on input line 
@@ -1785,7 +1785,7 @@ e 216.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/TreeTaggerInterface.png, id=602, 594.72188pt x 418.56375pt>
+<Figs/TreeTaggerInterface.png, id=604, 594.72188pt x 418.56375pt>
 File: Figs/TreeTaggerInterface.png Graphic file (type png)
 <use Figs/TreeTaggerInterface.png>
 Package pdftex.def Info: Figs/TreeTaggerInterface.png  used on input line 238. 
@@ -1800,7 +1800,7 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 244.
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [30] [31]
-<Figs/LemmaView.png, id=617, 1027.58907pt x 544.28343pt>
+<Figs/LemmaView.png, id=619, 1027.58907pt x 544.28343pt>
 File: Figs/LemmaView.png Graphic file (type png)
 <use Figs/LemmaView.png>
 Package pdftex.def Info: Figs/LemmaView.png  used on input line 275. on input l
@@ -1821,7 +1821,7 @@ LaTeX Warning: Citation `Asking Mohammad about the equation referance' on page
 
 LaTeX Warning: Reference `Tf-Idf' on page 32 undefined on input line 288.
 
-<Figs/Tf-Idf.png, id=620, 1028.34187pt x 545.78906pt>
+<Figs/Tf-Idf.png, id=622, 1028.34187pt x 545.78906pt>
 File: Figs/Tf-Idf.png Graphic file (type png)
 <use Figs/Tf-Idf.png>
 Package pdftex.def Info: Figs/Tf-Idf.png  used on input line 297. on input line
@@ -1831,7 +1831,7 @@ e 297.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/Lemma-TfIdf.png, id=621, 1028.34187pt x 546.54187pt>
+<Figs/Lemma-TfIdf.png, id=623, 1028.34187pt x 546.54187pt>
 File: Figs/Lemma-TfIdf.png Graphic file (type png)
 <use Figs/Lemma-TfIdf.png>
 Package pdftex.def Info: Figs/Lemma-TfIdf.png  used on input line 303. on input
@@ -1891,7 +1891,7 @@ l.103 \include{Chapter06/Implementation}
 
 
 ]
-<Figs/Fassung.png, id=669, 1028.34187pt x 547.2947pt>
+<Figs/Fassung.png, id=671, 1028.34187pt x 547.2947pt>
 File: Figs/Fassung.png Graphic file (type png)
 <use Figs/Fassung.png>
 Package pdftex.def Info: Figs/Fassung.png  used on input line 25. on input line
@@ -1905,14 +1905,14 @@ e 25.
                                                   \fi \fi 
 l.33 
       <./Figs/Fassung.png>]
-<Figs/You-In-Frequency.png, id=678, 596.2275pt x 366.61969pt>
+<Figs/You-In-Frequency.png, id=680, 596.2275pt x 366.61969pt>
 File: Figs/You-In-Frequency.png Graphic file (type png)
 <use Figs/You-In-Frequency.png>
 Package pdftex.def Info: Figs/You-In-Frequency.png  used on input line 36. on i
 nput line 36.
 Package pdftex.def Info: Requested size: 455.24828pt x 341.45625pt on input lin
 e 36.
-<Figs/You-In-Lemma.png, id=680, 595.47469pt x 433.62pt>
+<Figs/You-In-Lemma.png, id=682, 595.47469pt x 433.62pt>
 File: Figs/You-In-Lemma.png Graphic file (type png)
 <use Figs/You-In-Lemma.png>
 Package pdftex.def Info: Figs/You-In-Lemma.png  used on input line 42. on input
@@ -1923,7 +1923,7 @@ Package pdftex.def Info: Requested size: 455.24588pt x 341.4511pt on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/Freq-Lemma-Comparison.png, id=682, 401.24907pt x 813.79031pt>
+<Figs/Freq-Lemma-Comparison.png, id=684, 401.24907pt x 813.79031pt>
 File: Figs/Freq-Lemma-Comparison.png Graphic file (type png)
 <use Figs/Freq-Lemma-Comparison.png>
 Package pdftex.def Info: Figs/Freq-Lemma-Comparison.png  used on input line 51.
@@ -1947,41 +1947,60 @@ plicate ignored
                                                   \fi \fi 
 l.61 	\item \textbf
                    {Lemma Visualisation vs Lemma and Tf-Idf Visualisation}\\ <.
-/Figs/You-In-Lemma.png>]) [43] [44pdfTeX warning (ext4): destination with the s
-ame identifier (name{figure.25}) has been already used, duplicate ignored
+/Figs/You-In-Lemma.png>] [43]
+<Figs/Marking-Feedback.png, id=709, 608.2725pt x 479.54156pt>
+File: Figs/Marking-Feedback.png Graphic file (type png)
+<use Figs/Marking-Feedback.png>
+Package pdftex.def Info: Figs/Marking-Feedback.png  used on input line 81. on i
+nput line 81.
+Package pdftex.def Info: Requested size: 455.25655pt x 341.43544pt on input lin
+e 81.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [44] [45pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.104 \include{Chapter07/Evaluation}
                                      <./Figs/Freq-Lemma-Comparison.png>]
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.104 \include{Chapter07/Evaluation}
+                                     <./Figs/Marking-Feedback.png>]
 \openout2 = `Chapter08/FutureWork.aux'.
 
 
-(./Chapter08/FutureWork.tex) [45
+(./Chapter08/FutureWork.tex) [47
 
 
 ]
 \openout2 = `Chapter09/Conclusion.aux'.
 
- (./Chapter09/Conclusion.tex) [46
+ (./Chapter09/Conclusion.tex) [48
 
 
 ]
-(./Thesis.bbl [47
+(./Thesis.bbl [49
 
 
-]) [48] [49
+]) [50] [51
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
 
- (./Appendix1/appendix1.tex) [50
+ (./Appendix1/appendix1.tex) [52
 
 ]
 \openout2 = `Appendix2/appendix2.aux'.
 
 
-(./Appendix2/appendix2.tex) [51
+(./Appendix2/appendix2.tex) [53
 
 
 ] 
@@ -2015,10 +2034,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 25474 strings out of 492985
- 460919 string characters out of 6136283
- 690482 words of memory out of 5000000
- 28200 multiletter control sequences out of 15000+600000
+ 25483 strings out of 492985
+ 461095 string characters out of 6136283
+ 690507 words of memory out of 5000000
+ 28205 multiletter control sequences out of 15000+600000
  12669 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,9n,73p,1988b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2031,10 +2050,10 @@ cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017
 /texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Thesis.pdf (62 pages, 1044960 bytes).
+Output written on Thesis.pdf (64 pages, 1057582 bytes).
 PDF statistics:
- 820 PDF objects out of 1000 (max. 8388607)
- 690 compressed objects within 7 object streams
- 206 named destinations out of 1000 (max. 500000)
- 511 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 833 PDF objects out of 1000 (max. 8388607)
+ 699 compressed objects within 7 object streams
+ 209 named destinations out of 1000 (max. 500000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
 
