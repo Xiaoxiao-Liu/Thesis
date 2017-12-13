@@ -32,27 +32,27 @@ White space in argument---line 44 of file Chapter06/Implementation.aux
  :                  Mohammad about the equation referance}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter07/Evaluation.aux
-A level-1 auxiliary file: Chapter08/FutureWork.aux
-A level-1 auxiliary file: Chapter09/Conclusion.aux
+A level-1 auxiliary file: Chapter08/Conclusion.aux
+A level-1 auxiliary file: Chapter09/FutureWork.aux
 The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-Repeated entry---line 124 of file References/TransVisReferences.bib
- : @misc{Tom2012
- :              ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 293 of file References/TransVisReferences.bib
+I was expecting a `,' or a `}'---line 30 of file References/TransVisReferences.bib
  : @misc{Agile 
  :             vs Waterfall,
 I'm skipping whatever remains of this entry
-Repeated entry---line 367 of file References/TransVisReferences.bib
- : @misc{Laramee
- :              ,
+Repeated entry---line 311 of file References/TransVisReferences.bib
+ : @article{Laramee
+ :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 502 of file References/TransVisReferences.bib
- : @article{Larameea
- :                  ,
+Repeated entry---line 553 of file References/TransVisReferences.bib
+ : @misc{Larameea
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 573 of file References/TransVisReferences.bib
+ : @misc{Tom2012
+ :              ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Adenowo2013"
 Warning--I didn't find a database entry for "Tom2012a"
@@ -65,51 +65,51 @@ Warning--empty publisher in Cao2016
 Warning--empty journal in Geng2011
 Warning--empty journal in Jong2008
 Warning--there's a number but no volume in Kucher2014
-Warning--empty year in Larameea
 Warning--empty year in Laramee
-Warning--empty journal in Laramee
+Warning--empty year in Larameea
+Warning--empty journal in Larameea
 Warning--empty year in Liu
 Warning--empty note in Liu
 Warning--empty publisher in Ward2015
-You've used 16 entries,
+You've used 17 entries,
             1935 wiz_defined-function locations,
-            581 strings with 6209 characters,
-and the built_in function-call counts, 5591 in all, are:
-= -- 546
-> -- 208
-< -- 12
-+ -- 69
-- -- 68
-* -- 435
-:= -- 981
-add.period$ -- 41
-call.type$ -- 16
-change.case$ -- 113
-chr.to.int$ -- 15
-cite$ -- 31
-duplicate$ -- 235
-empty$ -- 384
-format.name$ -- 85
-if$ -- 1089
+            586 strings with 6413 characters,
+and the built_in function-call counts, 6077 in all, are:
+= -- 595
+> -- 236
+< -- 13
++ -- 79
+- -- 78
+* -- 475
+:= -- 1064
+add.period$ -- 44
+call.type$ -- 17
+change.case$ -- 123
+chr.to.int$ -- 16
+cite$ -- 32
+duplicate$ -- 251
+empty$ -- 409
+format.name$ -- 96
+if$ -- 1185
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 13
-newline$ -- 76
-num.names$ -- 45
-pop$ -- 117
+newline$ -- 81
+num.names$ -- 48
+pop$ -- 126
 preamble$ -- 1
-purify$ -- 114
+purify$ -- 124
 quote$ -- 0
-skip$ -- 184
+skip$ -- 198
 stack$ -- 0
-substring$ -- 334
-swap$ -- 36
-text.length$ -- 4
+substring$ -- 365
+swap$ -- 41
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
+type$ -- 100
 warning$ -- 14
-while$ -- 46
+while$ -- 51
 width$ -- 0
-write$ -- 183
+write$ -- 195
 (There were 9 error messages)
