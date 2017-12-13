@@ -15,7 +15,7 @@ Text Visualisation Browser \cite{Kucher2014} is an online tool providing the mos
 
 \paragraph[]{}In the work of \emph{Interactive Exploration of Versions across Multiple Documents}, \cite{Jong2008} provide an interactive visualization tool, MultiVersioner, to address the issues of comparing several versions of texts. The MultiVersioner enables users to search for items such as words, phrases and lines, along with the analysis of the frequency patterns of these items. In addition, methods such as colour-coded highlighting and overview are also rendered in this tool. Figure \ref{fig:multiVersioner} serves as an example of overview for many versions and documents in this software. In the overview, terms are denoted by blocks. If user mouses over a single block, a tooltip with the relevant sentence will be popped up.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=13cm, height=8cm]{Figs/MultiVersioner}\\[1ex]
 	\caption{Overview of many versions and documents in MultiVersioner (\cite{Jong2008})}
@@ -36,7 +36,7 @@ The work of MultiVersioner allows users to compare multiple documents. Meanwhile
 	
 Figure \ref{fig:mesoReading} is an interpretation of this project. The screen shot in \cite{Stefan2017} displays different views of the distant reading, the meso reading, the close reading, and full-line matches. In part one, distant reading results of high similarity on words are displayed in the form of parallel lines. In addition, diagonal lines represents several repetitions. In part two, meso reading results are shown in the verse line 'Qui me dist que li ange sont'. In part three, a close reading feature is explored to show false positive alignment while part four are the matches for numerous full-line text.
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering	
 		\includegraphics[width=13cm, height=8cm]{Figs/Meso-Reading}\\[1ex]
 		\caption{a demonstration of a result from visual analytics system (\cite{Stefan2017})}
@@ -51,9 +51,9 @@ However, this tool is more suitable for French context.
 \paragraph{Visualizations Translation Variation of Shakespeare's \emph{Othello}: A Survey of Text Visualisation and Analysis Tools}
 \paragraph[]{} In their work \emph{Visualizations Translation Variation of Shakespeare's Othello: A Survey of Text Visualisation and Analysis Tools}, \cite{Geng2011} developed a visualisation system which can be used to view and analyse variations between translation and based text. The data of this project is a collection of German translations of Shakespeare's \emph{Othello}. In this project, several techniques are applied to get an interactive visualisation system. These techiniques include parallel coordinate, Tree map, and DOI-tree. The tools they developed provides features that enables users to brush words so that these words can be displayed in  a parallel tag cloud. Figure \ref{fig:tagCloud} is a screen shot which shows the outcome of applying the TagCrowd feature into one of Othello translation version. In this view, the stop words are identified and removed manually from the origianl text.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
-	\includegraphics[width=13cm, height=8cm]{Figs/Tagcloud}\\[1ex]
+	\includegraphics[scale=1]{Figs/Tagcloud}\\[1ex]
 	\caption{A TagCrow (\cite{TagCrowd}) visualisation of a passage from \emph{Othello}. }
 	\label{fig:tagCloud}
 \end{figure} 
@@ -63,12 +63,9 @@ However, this tool is more suitable for French context.
 
 \begin{itemize}
 	\item \textbf{Parallel Coordinate View} provides outcomes by using Eddy value. The description of Eddy value can be seen in Previous System chapter.
-	\item \textbf{Scatter Plot View} 
-	\item \textbf{}
-	\item \textbf{}
-	\item \textbf{}
-	\item \textbf{}
-	
+	\item \textbf{Scatter Plot View} presents an average similrity value for each translation across multiple segments.
+	\item \textbf{Term-document Frequency Heat Map} renders a way to analyise differences between pairs of versions in details, including a measurement of character-string similarities.
+
 \end{itemize}
 
 \subsection{Previous Systems}
@@ -82,7 +79,7 @@ There are three types of data visualization in this project: Time-Map, Alignment
 
 Figure \ref{fig:timeMap} provides a screen shot of Time Map, which shows the location of the authors and the year of translation versions published. From this view, we can tell that some particular places such as Berlin and Dresden
 
-\begin{figure}[h] 
+\begin{figure}[H] 
 	\centering	
 	\includegraphics[width=16cm, height=14cm]{Figs/Time-Map}\\[1ex]
 	\caption{Time-Map provides an interactive overview of the corpus meta data (\cite{Cheesman2012})}
@@ -94,7 +91,7 @@ Figure \ref{fig:timeMap} provides a screen shot of Time Map, which shows the loc
 
 Figure \ref{fig:alignmentMap} exhibits a structure visualization which compares the segments of the texts between base text and translation versions. By comparing these texts, one can tell the general difference and variation between the base text and translations. For example, if one paragraph of several translations is longer than that of the base text, it is possible that particular expression of German is more complex or detailed than the English. 
 
-\begin{figure}[h] 
+\begin{figure}[H] 
 	\centering	
 	\includegraphics[width=16cm, height=14cm]{Figs/Alignment-Map}\\[1ex]
 	\caption{Alignment Maps provides an comparative visualiztion of segments (\cite{Cheesman2012})}
@@ -106,7 +103,7 @@ Figure \ref{fig:alignmentMap} exhibits a structure visualization which compares 
 
 Figure \ref{fig:parallelView} shows a straightforward view between base text and selected translations. In this visualization, segments are more explicit to find.
 
-\begin{figure}[h] 
+\begin{figure}[H] 
 	\centering	
 	\includegraphics[width=16cm, height=14cm]{Figs/Parallel-View}\\[1ex]
 	\caption{Parallel View provides an explicit view between the base text and selected version (\cite{Cheesman2012})}
@@ -118,7 +115,7 @@ Figure \ref{fig:parallelView} shows a straightforward view between base text and
 
 Figure \ref{fig:eddyVivView} shows Eddy and Viv view, which provides more information of the translation comparison. From the sort bar, we can tell that there are four types can be visualized. Eddy value shows the variation of words used in segment. Relatively, Viv value provides the changes or rivalries for some segments in translation. If we choose version name, segment length or reference date as the order of sorting, there will be other information of translation variations. Also, there are backtranslation based on machine translation provided, which is another powerful function for comparing the text data.
 
-\begin{figure}[h] 
+\begin{figure}[H] 
 	\centering	
 	\includegraphics[width=16cm, height=14cm]{Figs/Eddy-Viv-View}\\[1ex]
 	\caption{Eddy and Vis view enable researchers to understand more details of vocabulary (\cite{Cheesman2012})}

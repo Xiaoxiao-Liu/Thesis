@@ -15,7 +15,7 @@ The main class that is responsible for reading the original data file is the Dat
 \subsection{Generating Concordances}
 
 Concordances are the most basic visualisation in this project. They are designed to display the information of terms, and to help in comparing the terms between different translation versions.As shown in the Figure \ref{fig:condorVis}, the concordance visualisation involves several parts:
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=9cm, height=15cm]{Figs/condordanceVis}\\[1ex]
 	\caption{The Screen shot of one concordance in the visualisation}
@@ -67,7 +67,7 @@ The process in generating the concordance visualization goes through the followi
 
 Following the generation of concordance visualization, a parallel view of all concordances is created. As shown in Figure \ref{fig:parallelConcor}, all versions of concordances are represented on the panel. During this stage, lines will be drawn to connect same terms. The comparison stage is done in concordancePanel class. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=13cm, height=8cm]{Figs/Parallel-Vis}\\[1ex]
 	\caption{Parallel view of concordances}
@@ -84,7 +84,7 @@ Zooming in and out is a basic feature in the software which designed to provide 
 To implement these features, several steps as followed are gone through:
 \begin{itemize}
 	\item \textbf{} Generate the JSlider objects. This is carried out in the TranslationVisualization class. Figure \ref{fig:jSliders} displays the JSlider applied in the software.
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering	
 		\includegraphics[width=9cm, height=3cm]{Figs/JSliders}\\[1ex]
 		\caption{ Sliders applied to zoom in and out the graphic and panel}
@@ -101,14 +101,14 @@ At the first phase, scale() method in Graphics2D class is invoked. By applying t
 
 At the second phase, scale values attained from JSlider objects are passed to DataReader class and applied in relevant formulas to calculate variables such as points, widths and heights of rectangles. See Equation \eqref{rectWidth}, \eqref{PointX}, and \eqref{PointY}. As shown in \ref{fig:jSliders}, 100 is set as the initial value for the slider, so that the visualisation shown when the visualisation generated at the first time is scaled as 100\%. Figure \ref{fig:zoomIn} and Figure \ref{fig:zoomOut} show the zooming results for the visualisation.
 
-	\begin{figure}[h]
+	\begin{figure}[H]
 	\centering	
 	\includegraphics[width=9cm, height=3cm]{Figs/Zoom-In}\\[1ex]
 	\caption{}
 	\label{fig:zoomIn}
 	\end{figure}
 
-	\begin{figure}[h]
+	\begin{figure}[H]
 	\centering	
 	\includegraphics[width=9cm, height=3cm]{Figs/Zoom-Out}\\[1ex]
 	\caption{}
@@ -121,7 +121,7 @@ When the scale values becoming smaller, the strings overlap. Hence a new desire 
 
 To implement this feature, a JButton is generated on the panel firstly. Also, "Text On" is set as default label displayed on the button. Secondly, event listener is added to the button. When button is clicked, the label "Text On" on the button will be switched to "Text Off" label. In the meantime, a boolean value which set "true" as default will change to "false", then being given to ConcordancePanel class. In the third step, a boolean value preset when drawing strings of terms will be switched equals to the boolean value passed in. if it is "true", then draw the strings, if it is "false" then not invoke the drawString() method. At last, repaint the graphic. Figure \ref{fig:textOnOff} is a screen shot when we turn off the text.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=18cm, height=12cm]{Figs/Text-On-Off}\\[1ex]
 	\caption{}
@@ -132,7 +132,7 @@ To implement this feature, a JButton is generated on the panel firstly. Also, "T
 
 To render an user option feature for selecting several concordances displaying on the panel, a new class called VersionChoosenPanel is created. By interacting with this feature, not only can the user select which concordance to display in the visualization, but also the order of concordance displayed can be arranged. Figure
 \ref{fig:versionChoosPanel} reveals the menu of version list can be selected. 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=6cm, height=10cm]{Figs/VersionChoosePanel}\\[1ex]
 	\caption{The index of version selection}
@@ -151,7 +151,7 @@ The generation of version selection feature goes through the following steps:
 
 Figure \ref{fig:versionChoosDemo}is a screen shot of selecting several versions of concordances to show on the visualisation. Further more, concordances are reordered on the visualisation, where the base text which supposed to be shown as the first version on the left, now being moved to the last one.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=18cm, height=10cm]{Figs/Version-Selecting-Demo}\\[1ex]
 	\caption{The screen shot of version selecting feature}
@@ -166,7 +166,7 @@ This features are achieved by put into effect following phases:
 \begin{itemize}
 	\item \textbf{} Obtain clicking point through getPoint() method in MouseEvent class.
 	\item \textbf{} Calculate which item region the point belongs to. In this process, the regions of concordance and item are divided as illustrated in Figure \ref{fig:regionDivide}. As the value of each region can be achieved during data reading phase, the point passed from mouseClikcked() method can be used to identify which region the point belongs. Further more, the Item object of this block is singled out and returned.
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering	
 		\includegraphics[width=6cm, height=10cm]{Figs/Region-Divide}\\[1ex]
 		\caption{}
@@ -181,7 +181,7 @@ This features are achieved by put into effect following phases:
 
 As a result, by clicking one single rectangle in the panel, the rectangle is highlighted and rounded by line while the colour of other rectangles become transparent. In the mean time, lines connecting same terms become highlighted by setting other lines transparent. See Figure \ref{fig:highlightView}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=16cm, height=9cm]{Figs/Highlight-Terms}\\[1ex]
 	\caption{}
@@ -199,7 +199,7 @@ Colour represents the occurrences of terms in each concordance. To demonstrate a
 \end{itemize}
 
 The demo of Colour Mapping is shown in Figure \ref{fig:colourMapping}.
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=4cm, height=15cm]{Figs/Color-Mapping}\\[1ex]
 	\caption{}
@@ -211,7 +211,7 @@ The demo of Colour Mapping is shown in Figure \ref{fig:colourMapping}.
 Apart from displaying data, colour mapping can be served as interactive visualisation. In this project, we add an feature so that user can interact with the colour legend. If the user click a label of colour in the colour legend, all blocks of that colour in the concordance view will be highlighted. This function is performed by identifying all items possessing same frequency value. As illustrated in the Design chapter, an index of frequency values is generated in DataReader class. After data reading phase, we can access this list of frequency values through accessor method. By iterating all values in the list, the items are identified and returned to ConcordancePanel class. Then the list of Version objects are overwritten and the panel is repainted.
 
 As a result, by clicking one colour block in colour legend, all items sharing same frequency, or colour, are highlighted using same methods of highlighting described in Interaction and Selection of Terms chapter. Figure \ref{fig:interactiveColourMapping} serves as a demo to illustrate this feature.
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=16cm, height=12cm]{Figs/Colour-Legend-Interation}\\[1ex]
 	\caption{}
@@ -233,7 +233,7 @@ For this project, an inevitable dilemma is the limited resources of German lemma
 
 As introduced in Technology Choices chapter, the TreeTagger is a tool for annotating text data and lemma information. Figure \ref{fig:treeTaggerUI} shows the Interface of TreeTagger. During applying this tool in the lemmatizing task of the project, we found this tool has following advantages:
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=16cm, height=12cm]{Figs/TreeTaggerInterface}\\[1ex]
 	\caption{}
@@ -270,7 +270,7 @@ There are several phases of using DeReWo to generate lemma visualisation:
 
 Figure \ref{fig:lemmaView} shows the outcome of the lemma visualisation. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=16cm, height=12cm]{Figs/LemmaView}\\[1ex]
 	\caption{}
@@ -292,13 +292,13 @@ The Tf-Idf visualisation generation process goes through the following steps:
 
 There are two visualisation generated using Tf-Idf value: one is to visualise data using Tf-Idf value and original words, as shown in Figure \ref{fig:tfIdfView}; the other is to visualise using Tf-Idf value together with lemma data which is displayed in Figure \ref{fig:tfIdfLemma}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=16cm, height=12cm]{Figs/Tf-Idf}\\[1ex]
 	\caption{}
 	\label{fig:tfIdfView}
 \end{figure} 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering	
 	\includegraphics[width=16cm, height=12cm]{Figs/Lemma-TfIdf}\\[1ex]
 	\caption{}

@@ -5,7 +5,7 @@ A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-White space in argument---line 36 of file Thesis.aux
+White space in argument---line 38 of file Thesis.aux
  : \citation{Agile
  :                 vs Waterfall}
 I'm skipping whatever remains of this command
@@ -38,26 +38,28 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-I was expecting a `,' or a `}'---line 37 of file References/TransVisReferences.bib
+I was expecting a `,' or a `}'---line 35 of file References/TransVisReferences.bib
  : @misc{Agile 
  :             vs Waterfall,
 I'm skipping whatever remains of this entry
-Repeated entry---line 311 of file References/TransVisReferences.bib
+Repeated entry---line 316 of file References/TransVisReferences.bib
  : @article{Laramee
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 553 of file References/TransVisReferences.bib
+Repeated entry---line 558 of file References/TransVisReferences.bib
  : @misc{Larameea
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 573 of file References/TransVisReferences.bib
+Repeated entry---line 578 of file References/TransVisReferences.bib
  : @misc{Tom2012
  :              ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Adenowo2013"
 Warning--I didn't find a database entry for "Tom2012a"
 Warning--I didn't find a database entry for "javadoc7"
+Warning--to sort, need author or key in TagCrowd
 Warning--to sort, need author or key in Jbum
+Warning--empty year in TagCrowd
 Warning--empty year in Jbum
 Warning--empty journal in Alrehiely2014
 Warning--there's a number but no volume in Alrehiely2014
@@ -71,45 +73,45 @@ Warning--empty journal in Larameea
 Warning--empty year in Liu
 Warning--empty note in Liu
 Warning--empty publisher in Ward2015
-You've used 18 entries,
+You've used 19 entries,
             1935 wiz_defined-function locations,
-            592 strings with 6563 characters,
-and the built_in function-call counts, 6590 in all, are:
-= -- 647
-> -- 259
+            595 strings with 6643 characters,
+and the built_in function-call counts, 6576 in all, are:
+= -- 645
+> -- 249
 < -- 14
-+ -- 87
-- -- 86
-* -- 515
-:= -- 1147
-add.period$ -- 47
-call.type$ -- 18
-change.case$ -- 132
-chr.to.int$ -- 17
-cite$ -- 33
-duplicate$ -- 272
-empty$ -- 441
-format.name$ -- 105
-if$ -- 1291
++ -- 83
+- -- 82
+* -- 511
+:= -- 1150
+add.period$ -- 48
+call.type$ -- 19
+change.case$ -- 135
+chr.to.int$ -- 18
+cite$ -- 37
+duplicate$ -- 274
+empty$ -- 447
+format.name$ -- 103
+if$ -- 1282
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 14
-newline$ -- 86
+newline$ -- 89
 num.names$ -- 51
-pop$ -- 135
+pop$ -- 139
 preamble$ -- 1
-purify$ -- 133
+purify$ -- 136
 quote$ -- 0
-skip$ -- 217
+skip$ -- 215
 stack$ -- 0
-substring$ -- 401
-swap$ -- 49
-text.length$ -- 6
+substring$ -- 390
+swap$ -- 42
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 106
-warning$ -- 14
-while$ -- 56
+type$ -- 112
+warning$ -- 16
+while$ -- 53
 width$ -- 0
-write$ -- 208
+write$ -- 214
 (There were 9 error messages)

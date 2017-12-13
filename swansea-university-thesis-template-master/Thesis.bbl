@@ -1,5 +1,8 @@
 \begin{thebibliography}{}
 
+\bibitem[Tag, ]{TagCrowd}
+{TagCrowd – create a word cloud from any text}.
+
 \bibitem[Jbu, ]{Jbum}
 {Tutorial: Making annoying rainbows and other color cycles in Javascript}.
 
@@ -40,12 +43,6 @@ Hotho, A., N{\"{u}}rnberger, A., and Paa{\ss}, G. (2005).
 \newblock {\em LDV Forum - GLDV Journal for Computational Linguistics and
   Language Technology}, 20:19--62.
 
-\bibitem[J{\"{a}}nicke et~al., 2014]{Janicke2014}
-J{\"{a}}nicke, S., Ge{\ss}ner, A., B{\"{u}}chler, M., and Scheuermann, G.
-  (2014).
-\newblock {Visualizations for Text Re-use}.
-\newblock {\em Ivapp 2014}, pages 59--70.
-
 \bibitem[Jong et~al., 2008]{Jong2008}
 Jong, C.-h., Rajkumar, P., and Siddiquie, B. (2008).
 \newblock {Documents}.
@@ -77,6 +74,11 @@ Laramee, R.~S. (2011).
 \bibitem[Liu, ]{Liu}
 Liu, X.
 \newblock {Interactive Visualization of Shakespeare ' s Othello}.
+
+\bibitem[Stefan and Wrisley, 2017]{Stefan2017}
+Stefan, J. and Wrisley, D.~J. (2017).
+\newblock {Interactive Visual Alignment of Medieval Text Versions}.
+\newblock {\em IEEE Visual Analytics Science and Technology (VAST)}.
 
 \bibitem[Tom et~al., 2012]{Tom2012}
 Tom, C., Kevin, F., and Stephan, T. (2012).
