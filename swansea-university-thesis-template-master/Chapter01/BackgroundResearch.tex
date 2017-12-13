@@ -13,27 +13,63 @@ Text Visualisation Browser \cite{Kucher2014} is an online tool providing the mos
 
 \paragraph{Interactive Exploration of Versions across Multiple Documents}
 
-\paragraph[]{}Work of \cite{Jong2008} provide a interactive visualization tool, MultiVersioner, to address the issues of comparing several versions of texts.
+\paragraph[]{}In the work of \emph{Interactive Exploration of Versions across Multiple Documents}, \cite{Jong2008} provide an interactive visualization tool, MultiVersioner, to address the issues of comparing several versions of texts. The MultiVersioner enables users to search for items such as words, phrases and lines, along with the analysis of the frequency patterns of these items. In addition, methods such as colour-coded highlighting and overview are also rendered in this tool. Figure \ref{fig:multiVersioner} serves as an example of overview for many versions and documents in this software. In the overview, terms are denoted by blocks. If user mouses over a single block, a tooltip with the relevant sentence will be popped up.
 
-\paragraph{Visualizations for Text Re-use}
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=13cm, height=8cm]{Figs/MultiVersioner}\\[1ex]
+	\caption{Overview of many versions and documents in MultiVersioner (\cite{Jong2008})}
+	\label{fig:multiVersioner}
+\end{figure} 
 
-\paragraph[]{}
+The work of MultiVersioner allows users to compare multiple documents. Meanwhile, it provides a helpful feature to search for entities such as words and lines. Moreover, it can be served as a tool to analyse the frequency patterns of the words. However, there are only limited features provided in this software. Some helpful functions such as alignments between versions, or version turning on and off need to be explored.
 
 \paragraph{Interactive Visual Alignment of Medieval Text Versions}
-
 \paragraph[]{}
 
-\paragraph{Design Rules for Visualizing Text Variant Graphs}
+\cite{Stefan2017} discussed a novel methods to compare text versions in the work \emph{Interactive Visual Alignment of Medieval Text Versions}. They provide a visual analytics system which enables computationally align complex textual differences such as orally inflected text. The data they deal with is a group of medieval poetries with complex text forms. Their works includes three basic visualisations:
 
-\paragraph[]{}
+\begin{itemize}
+	\item \textbf{A visualisation of text alignment} This is a visualisation in which highly unstable text versions are identified and aligned. This feature is accomplished applying parameter-driven approach. In addition, a visual analytics procss is rendered which accept tweaking parameters for iterative improvement of the alignment.
+	\item \textbf{Multi-level alignment visualisation} In this view, various visualisations are presented which enables users to analyse texts alignments on different hierarchy levels.
+	\item \textbf{Meso Reading} This is a visualisation to interpret texts in parallel. Meanwhile the connections are shown among text versions. This feature is considered as an novel feature which provides an intermediate perspective to display complex variance in texts.
+	
+Figure \ref{fig:mesoReading} is an interpretation of this project. The screen shot in \cite{Stefan2017} displays different views of the distant reading, the meso reading, the close reading, and full-line matches. In part one, distant reading results of high similarity on words are displayed in the form of parallel lines. In addition, diagonal lines represents several repetitions. In part two, meso reading results are shown in the verse line 'Qui me dist que li ange sont'. In part three, a close reading feature is explored to show false positive alignment while part four are the matches for numerous full-line text.
+	
+	\begin{figure}[h]
+		\centering	
+		\includegraphics[width=13cm, height=8cm]{Figs/Meso-Reading}\\[1ex]
+		\caption{a demonstration of a result from visual analytics system (\cite{Stefan2017})}
+		\label{fig:mesoReading}
+	\end{figure} 
+
+	
+\end{itemize}
+
+However, this tool is more suitable for French context.
+
+\paragraph{Visualizations Translation Variation of Shakespeare's \emph{Othello}: A Survey of Text Visualisation and Analysis Tools}
+\paragraph[]{} In their work \emph{Visualizations Translation Variation of Shakespeare's Othello: A Survey of Text Visualisation and Analysis Tools}, \cite{Geng2011} developed a visualisation system which can be used to view and analyse variations between translation and based text. The data of this project is a collection of German translations of Shakespeare's \emph{Othello}. In this project, several techniques are applied to get an interactive visualisation system. These techiniques include parallel coordinate, Tree map, and DOI-tree. The tools they developed provides features that enables users to brush words so that these words can be displayed in  a parallel tag cloud. Figure \ref{fig:tagCloud} is a screen shot which shows the outcome of applying the TagCrowd feature into one of Othello translation version. In this view, the stop words are identified and removed manually from the origianl text.
+
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=13cm, height=8cm]{Figs/Tagcloud}\\[1ex]
+	\caption{A TagCrow (\cite{TagCrowd}) visualisation of a passage from \emph{Othello}. }
+	\label{fig:tagCloud}
+\end{figure} 
 
 \paragraph{ShakerVis: Visual Analysis of Segment Variation of German Translations of Shakespeare’s \emph{Othello}}
+\paragraph[]{} ShakerVis \cite{Geng2015} is a special visualisation tool which is designed to provide an interactive visualisation system to display version variations. In this system, \cite{Geng2015} applies following visualisation techiniques:
 
-\paragraph[]{}
-
-\paragraph{Visualizations Translation Variation of Shakespeare's Othello: A Survey of Text Visualisation and Analysis Tools}
-
-\paragraph[]{}
+\begin{itemize}
+	\item \textbf{Parallel Coordinate View} provides outcomes by using Eddy value. The description of Eddy value can be seen in Previous System chapter.
+	\item \textbf{Scatter Plot View} 
+	\item \textbf{}
+	\item \textbf{}
+	\item \textbf{}
+	\item \textbf{}
+	
+\end{itemize}
 
 \subsection{Previous Systems}
 

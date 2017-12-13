@@ -5,7 +5,7 @@ A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-White space in argument---line 31 of file Thesis.aux
+White space in argument---line 36 of file Thesis.aux
  : \citation{Agile
  :                 vs Waterfall}
 I'm skipping whatever remains of this command
@@ -38,7 +38,7 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-I was expecting a `,' or a `}'---line 30 of file References/TransVisReferences.bib
+I was expecting a `,' or a `}'---line 37 of file References/TransVisReferences.bib
  : @misc{Agile 
  :             vs Waterfall,
 I'm skipping whatever remains of this entry
@@ -71,45 +71,45 @@ Warning--empty journal in Larameea
 Warning--empty year in Liu
 Warning--empty note in Liu
 Warning--empty publisher in Ward2015
-You've used 17 entries,
+You've used 18 entries,
             1935 wiz_defined-function locations,
-            586 strings with 6413 characters,
-and the built_in function-call counts, 6077 in all, are:
-= -- 595
-> -- 236
-< -- 13
-+ -- 79
-- -- 78
-* -- 475
-:= -- 1064
-add.period$ -- 44
-call.type$ -- 17
-change.case$ -- 123
-chr.to.int$ -- 16
-cite$ -- 32
-duplicate$ -- 251
-empty$ -- 409
-format.name$ -- 96
-if$ -- 1185
+            592 strings with 6563 characters,
+and the built_in function-call counts, 6590 in all, are:
+= -- 647
+> -- 259
+< -- 14
++ -- 87
+- -- 86
+* -- 515
+:= -- 1147
+add.period$ -- 47
+call.type$ -- 18
+change.case$ -- 132
+chr.to.int$ -- 17
+cite$ -- 33
+duplicate$ -- 272
+empty$ -- 441
+format.name$ -- 105
+if$ -- 1291
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 81
-num.names$ -- 48
-pop$ -- 126
+missing$ -- 14
+newline$ -- 86
+num.names$ -- 51
+pop$ -- 135
 preamble$ -- 1
-purify$ -- 124
+purify$ -- 133
 quote$ -- 0
-skip$ -- 198
+skip$ -- 217
 stack$ -- 0
-substring$ -- 365
-swap$ -- 41
-text.length$ -- 5
+substring$ -- 401
+swap$ -- 49
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
+type$ -- 106
 warning$ -- 14
-while$ -- 51
+while$ -- 56
 width$ -- 0
-write$ -- 195
+write$ -- 208
 (There were 9 error messages)
