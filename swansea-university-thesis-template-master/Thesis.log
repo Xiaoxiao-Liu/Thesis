@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  13 DEC 2017 02:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  13 DEC 2017 02:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,7 +1231,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 (./Chapter01/BackgroundResearch.aux) (./Chapter02/ProjectSpecification.aux)
 (./Chapter03/ProjectPlan.aux) (./Chapter04/Design.aux)
 (./Chapter06/Implementation.aux) (./Chapter07/Evaluation.aux)
-(./Chapter08/Conclusion.aux) (./Chapter09/FutureWord.aux)
+(./Chapter08/Conclusion.aux) (./Chapter09/FutureWork.aux)
 (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `Thesis.aux'.
 
@@ -1980,9 +1980,9 @@ l.104 \include{Chapter07/Evaluation}
 
 
 ]) [48]
-\openout2 = `Chapter09/FutureWord.aux'.
+\openout2 = `Chapter09/FutureWork.aux'.
 
- (./Chapter09/FutureWord.tex) [49
+ (./Chapter09/FutureWork.tex) [49
 
 
 ]
@@ -2018,7 +2018,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 (./Chapter02/ProjectSpecification.aux) (./Chapter03/ProjectPlan.aux)
 (./Chapter04/Design.aux) (./Chapter06/Implementation.aux)
 (./Chapter07/Evaluation.aux) (./Chapter08/Conclusion.aux)
-(./Chapter09/FutureWord.aux) (./Appendix1/appendix1.aux)
+(./Chapter09/FutureWork.aux) (./Appendix1/appendix1.aux)
 (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
