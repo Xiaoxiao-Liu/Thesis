@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  12 DEC 2017 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  13 DEC 2017 00:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,7 +1231,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 (./Chapter01/BackgroundResearch.aux) (./Chapter02/ProjectSpecification.aux)
 (./Chapter03/ProjectPlan.aux) (./Chapter04/Design.aux)
 (./Chapter06/Implementation.aux) (./Chapter07/Evaluation.aux)
-(./Chapter08/FutureWork.aux) (./Chapter09/Conclusion.aux)
+(./Chapter08/Conclusion.aux) (./Chapter09/FutureWord.aux)
 (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `Thesis.aux'.
 
@@ -1973,34 +1973,34 @@ l.104 \include{Chapter07/Evaluation}
                                                   \fi \fi 
 l.104 \include{Chapter07/Evaluation}
                                      <./Figs/Marking-Feedback.png>]
-\openout2 = `Chapter08/FutureWork.aux'.
+\openout2 = `Chapter08/Conclusion.aux'.
 
 
-(./Chapter08/FutureWork.tex) [47
+(./Chapter08/Conclusion.tex [47
+
+
+]) [48]
+\openout2 = `Chapter09/FutureWord.aux'.
+
+ (./Chapter09/FutureWord.tex) [49
 
 
 ]
-\openout2 = `Chapter09/Conclusion.aux'.
-
- (./Chapter09/Conclusion.tex) [48
+(./Thesis.bbl [50
 
 
-]
-(./Thesis.bbl [49
-
-
-]) [50] [51
+]) [51] [52
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
 
- (./Appendix1/appendix1.tex) [52
+ (./Appendix1/appendix1.tex) [53
 
 ]
 \openout2 = `Appendix2/appendix2.aux'.
 
 
-(./Appendix2/appendix2.tex) [53
+(./Appendix2/appendix2.tex) [54
 
 
 ] 
@@ -2017,8 +2017,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 (./Chapter00/introduction.aux) (./Chapter01/BackgroundResearch.aux)
 (./Chapter02/ProjectSpecification.aux) (./Chapter03/ProjectPlan.aux)
 (./Chapter04/Design.aux) (./Chapter06/Implementation.aux)
-(./Chapter07/Evaluation.aux) (./Chapter08/FutureWork.aux)
-(./Chapter09/Conclusion.aux) (./Appendix1/appendix1.aux)
+(./Chapter07/Evaluation.aux) (./Chapter08/Conclusion.aux)
+(./Chapter09/FutureWord.aux) (./Appendix1/appendix1.aux)
 (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
@@ -2034,9 +2034,9 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 25483 strings out of 492985
- 461095 string characters out of 6136283
- 690507 words of memory out of 5000000
+ 25484 strings out of 492985
+ 461102 string characters out of 6136283
+ 690505 words of memory out of 5000000
  28205 multiletter control sequences out of 15000+600000
  12669 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2050,10 +2050,10 @@ cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017
 /texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Thesis.pdf (64 pages, 1057582 bytes).
+Output written on Thesis.pdf (65 pages, 1060978 bytes).
 PDF statistics:
- 833 PDF objects out of 1000 (max. 8388607)
- 699 compressed objects within 7 object streams
- 209 named destinations out of 1000 (max. 500000)
+ 839 PDF objects out of 1000 (max. 8388607)
+ 703 compressed objects within 8 object streams
+ 210 named destinations out of 1000 (max. 500000)
  516 words of extra memory for PDF output out of 10000 (max. 10000000)
 
