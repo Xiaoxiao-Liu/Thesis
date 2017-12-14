@@ -1,33 +1,40 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Overview of many versions and documents in MultiVersioner (\cite {Jong2008})}}{5}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces a demonstration of a result from visual analytics system (\cite {Stefan2017})}}{6}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces A TagCrow (\cite {TagCrowd}) visualisation of a passage from \emph {Othello}. }}{7}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Time-Map provides an interactive overview of the corpus meta data (\cite {Cheesman2012})}}{9}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Alignment Maps provides an comparative visualiztion of segments (\cite {Cheesman2012})}}{10}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Parallel View provides an explicit view between the base text and selected version (\cite {Cheesman2012})}}{11}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Eddy and Vis view enable researchers to understand more details of vocabulary (\cite {Cheesman2012})}}{12}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces The text in the .txt file. All data has been segmented and cleaned}}{14}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces The 5 phases of Waterfall Model ( \cite {Adenowo2013})}}{18}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Comparison between Waterfall methodology and Agile methodology (\cite {Agile vs Waterfall})}}{19}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Gantt chart for project timeline }}{20}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Risk Analysis Table }}{22}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces The Screen shot of one concordance in the visualisation}}{28}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Parallel view of concordances}}{30}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Sliders applied to zoom in and out the graphic and panel}}{31}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces }}{32}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces }}{32}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces }}{33}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces The index of version selection}}{34}{figure.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces The screen shot of version selecting feature}}{35}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces }}{36}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces }}{37}{figure.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces }}{38}{figure.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces }}{39}{figure.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces }}{41}{figure.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces }}{43}{figure.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces }}{44}{figure.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces }}{45}{figure.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces }}{47}{figure.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces }}{48}{figure.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces }}{49}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces }}{50}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces }}{53}{figure.33}
+\contentsline {figure}{\numberline {1}{\ignorespaces An overview of many versions and documents in MultiVersioner (\cite {Jong2008}).}}{5}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces (1) distant reading (2) meso reading (3) close reading (4) full-line matches (\cite {Stefan2017}).}}{6}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces The TagCrow (\cite {TagCrowd}) visualisation of a passage from \emph {Othello}.}}{7}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces A demo screen shot for Time-Map (\cite {Cheesman2012}).}}{9}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces A screen shot of the demo of Alignment Maps (\cite {Cheesman2012}).}}{10}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces A screen shot for the demo of Parallel View (\cite {Cheesman2012}).}}{11}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces A screen shot of Eddy and Vis view (\cite {Cheesman2012}).}}{12}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces A screenshot of text data used in this project.}}{14}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces A screenshot for the user interface of GitKraken.}}{17}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Five phases of the waterfall Module ( \cite {Adenowo2013}).}}{19}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces A comparison between Waterfall methodology and Agile methodology ( \cite {AgileVsWaterfall}).}}{20}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Gantt chart for project timeline }}{22}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces A screen shot of Risk Analysis Table (\cite {Liu}). }}{24}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces DataReader Class Diagram. }}{26}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Item Class Diagram. }}{27}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Version Class Diagram. }}{28}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Tf-IdfCalculator Class Diagram. }}{29}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces LemmaProcess Class Diagram. }}{30}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces TranslationVisualisation Class Diagram. }}{31}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces ConcordancePanel Class Diagram. }}{33}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces ColorLegendPanel Class Diagram. }}{34}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces The VersionChoosePanel Class Diagram. }}{35}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces The Screen shot of one concordance in the visualisation}}{37}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Parallel view of concordances.}}{39}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces The screen shot of the JSliders.}}{40}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Results of toggling off text.}}{41}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Version selection menu.}}{42}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces The screen shot of version selection feature.}}{43}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces A visualisation of highlighting certain word in the concordance.}}{44}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces A screen shot of colour mapping.}}{45}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces A screen shot of highlighting items sharing same number of frequency.}}{46}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces The User Interface of the TreeTagger.}}{48}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces A screen shot of Lemma view.}}{50}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces A result of Tf-Idf visualisation.}}{51}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Lemma and Tf-Idf Visualisation.}}{52}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces The word 'fassung' is ranked high Tf-Idf value in one version}}{54}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces After clicking the block of English 'you' in base text, all German translations in other concordances are highlighted, such as 'dir', 'du', 'sie' , 'euch', and 'euch'.}}{55}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces After clicking the block of English 'you' in base text, only one German word is highlighted.}}{55}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces After combining the inflected form of words, the frequencies are incremented.}}{56}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces After combining the inflected form of words, the frequencies are incremented.}}{58}{figure.40}

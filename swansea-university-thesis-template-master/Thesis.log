@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  13 DEC 2017 06:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  14 DEC 2017 06:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,7 +570,8 @@ Now handling font encoding PD1 ...
 (d:/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4374.
+Package hyperref Info: Option `linktocpage' set `false' on input line 4374.
 Package hyperref Info: Hyper figures OFF on input line 4498.
 Package hyperref Info: Link nesting OFF on input line 4503.
 Package hyperref Info: Hyper index ON on input line 4506.
@@ -588,7 +589,7 @@ Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
 Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring OFF on input line 6378.
 Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
@@ -702,6 +703,14 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen152
 \l_MT_above_shortintertext_sep=\dimen153
 \l_MT_below_shortintertext_sep=\dimen154
+)
+(d:/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(d:/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 (d:/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -1198,7 +1207,7 @@ Package: glossary-tree 2017/11/14 v4.35 (NLCT)
 \glo@main@file=\write8
 \openout8 = `Thesis.glo'.
 
-Package glossaries Info: Writing glossary file Thesis.glo on input line 40.
+Package glossaries Info: Writing glossary file Thesis.glo on input line 42.
 
 (d:/texlive/2017/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -1225,33 +1234,33 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \@input{Title/Title.aux}
 \openout2 = `Title/Title.aux'.
 
-(./Title/Title.tex) (./Thesis.aux (./Dedication/dedication.aux)
-(./Declaration/declaration.aux) (./Acknowledgement/acknowledgement.aux)
-(./Abstract/abstract.aux) (./Chapter00/introduction.aux)
-(./Chapter01/BackgroundResearch.aux) (./Chapter02/ProjectSpecification.aux)
-(./Chapter03/ProjectPlan.aux) (./Chapter04/Design.aux)
-(./Chapter06/Implementation.aux) (./Chapter07/Evaluation.aux)
-(./Chapter08/Conclusion.aux) (./Chapter09/FutureWork.aux)
-(./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
+(./Title/Title.tex) (./Thesis.aux (./Declaration/declaration.aux)
+(./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
+(./Chapter00/introduction.aux) (./Chapter01/BackgroundResearch.aux)
+(./Chapter02/ProjectSpecification.aux) (./Chapter03/ProjectPlan.aux)
+(./Chapter04/Design.aux) (./Chapter06/Implementation.aux)
+(./Chapter07/Evaluation.aux) (./Chapter08/Conclusion.aux)
+(./Chapter09/FutureWork.aux) (./Appendix1/appendix1.aux)
+(./Appendix2/appendix2.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 64.
+(lastpage)             ! on input line 68.
 
 (d:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1284,12 +1293,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count268
-Package ragged2e Info: ABD: executing \RaggedRight on input line 64.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 68.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 64.
+LaTeX Info: Redefining \selectfont on input line 68.
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring OFF on input line 68.
 
 (d:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1299,9 +1308,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count269
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write9
@@ -1345,13 +1354,13 @@ LaTeX Info: Redefining \nameref on input line 64.
 <Figs/SwanseaUniversity.png, id=191, 572.1375pt x 361.35pt>
 File: Figs/SwanseaUniversity.png Graphic file (type png)
 <use Figs/SwanseaUniversity.png>
-Package pdftex.def Info: Figs/SwanseaUniversity.png  used on input line 72. on 
-input line 72.
+Package pdftex.def Info: Figs/SwanseaUniversity.png  used on input line 76. on 
+input line 76.
 Package pdftex.def Info: Requested size: 184.9429pt x 116.80327pt on input line
- 72.
+ 76.
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 72.
+(Font)              using `OT1/cmr/bx/n' instead on input line 76.
 
 [1
 
@@ -1364,58 +1373,45 @@ niversity.png>]pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \end{titlepage}
+l.78 \end{titlepage}
                      [2] [1]
-\openout2 = `Dedication/dedication.aux'.
-
- (./Dedication/dedication.tex) [2
-
-]
 \openout2 = `Declaration/declaration.aux'.
 
-
-(./Declaration/declaration.tex) [3
-
+ (./Declaration/declaration.tex) [2
 
 ]
 \openout2 = `Acknowledgement/acknowledgement.aux'.
 
- (./Acknowledgement/acknowledgement.tex)
-[4
+
+(./Acknowledgement/acknowledgement.tex) [3
 
 
 ]
 \openout2 = `Abstract/abstract.aux'.
 
- (./Abstract/abstract.tex) [5
+ (./Abstract/abstract.tex) [4
 
 
-] (./Thesis.toc [6
+]
+(./Thesis.toc [5
 
 ])
 \tf@toc=\write10
 \openout10 = `Thesis.toc'.
 
- [7] (./Thesis.lof
-
-LaTeX Warning: Citation `Adenowo2013' on page VIII undefined on input line 9.
-
-
-LaTeX Warning: Citation `Agile vs Waterfall' on page VIII undefined on input li
-ne 10.
-
-[8])
+ [6] (./Thesis.lof [7])
 \tf@lof=\write11
 \openout11 = `Thesis.lof'.
 
- [9] (./Thesis.lot)
+ [8] (./Thesis.lot)
 \tf@lot=\write12
 \openout12 = `Thesis.lot'.
 
- [10]
+ [9]
 \openout2 = `Chapter00/introduction.aux'.
 
- (./Chapter00/introduction.tex [1
+
+(./Chapter00/introduction.tex [1
 
 
 ]
@@ -1426,21 +1422,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
-
-
-LaTeX Warning: Citation `Tom2012a' on page 2 undefined on input line 22.
-
-[2]) [3]
+ [2]) [3]
 \openout2 = `Chapter01/BackgroundResearch.aux'.
 
- (./Chapter01/BackgroundResearch.tex
-<Figs/MultiVersioner.png, id=419, 515.67656pt x 383.18156pt>
+
+(./Chapter01/BackgroundResearch.tex
+<Figs/MultiVersioner.png, id=437, 515.67656pt x 383.18156pt>
 File: Figs/MultiVersioner.png Graphic file (type png)
 <use Figs/MultiVersioner.png>
-Package pdftex.def Info: Figs/MultiVersioner.png  used on input line 20. on inp
-ut line 20.
-Package pdftex.def Info: Requested size: 369.89409pt x 227.62457pt on input lin
-e 20.
+Package pdftex.def Info: Figs/MultiVersioner.png  used on input line 21. on inp
+ut line 21.
+Package pdftex.def Info: Requested size: 464.10461pt x 344.86021pt on input lin
+e 21.
  [4
 
 
@@ -1451,593 +1444,707 @@ e 20.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.35 	\item \textbf
-                   {Meso Reading} This is a visualisation to interpret texts...
+                   {Multi-level alignment visualisation} In this view, vario...
  <./Figs/MultiVersioner.png>]
-<Figs/Meso-Reading.png, id=442, 959.08313pt x 316.93407pt>
+<Figs/Meso-Reading.png, id=460, 959.08313pt x 316.93407pt>
 File: Figs/Meso-Reading.png Graphic file (type png)
 <use Figs/Meso-Reading.png>
-Package pdftex.def Info: Figs/Meso-Reading.png  used on input line 41. on input
- line 41.
-Package pdftex.def Info: Requested size: 369.88475pt x 227.62653pt on input lin
-e 41.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+Package pdftex.def Info: Figs/Meso-Reading.png  used on input line 42. on input
+ line 42.
+Package pdftex.def Info: Requested size: 479.54039pt x 158.46664pt on input lin
+e 42.
+
+Overfull \hbox (9.7854pt too wide) in paragraph at lines 42--42
+ [][] 
+ []
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.53 
-      <./Figs/Meso-Reading.png>]
-<Figs/Tagcloud.png, id=456, 381.67593pt x 269.50688pt>
+l.53 \paragraph
+               []{} In their work \emph{Visualizations Translation Variation...
+ <./Figs/Meso-Reading.png>]
+<Figs/Tagcloud.png, id=471, 381.67593pt x 269.50688pt>
 File: Figs/Tagcloud.png Graphic file (type png)
 <use Figs/Tagcloud.png>
-Package pdftex.def Info: Figs/Tagcloud.png  used on input line 56. on input lin
-e 56.
+Package pdftex.def Info: Figs/Tagcloud.png  used on input line 57. on input lin
+e 57.
 Package pdftex.def Info: Requested size: 381.675pt x 269.50621pt on input line 
-56.
+57.
  [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 	\item \textbf
-                   {Scatter Plot View} presents an average similrity value f...
- <./Figs/Tagcloud.png>]
-<Figs/Time-Map.png, id=473, 532.99126pt x 360.59718pt>
+l.64 
+      <./Figs/Tagcloud.png>]
+<Figs/Time-Map.png, id=487, 532.99126pt x 360.59718pt>
 File: Figs/Time-Map.png Graphic file (type png)
 <use Figs/Time-Map.png>
-Package pdftex.def Info: Figs/Time-Map.png  used on input line 84. on input lin
-e 84.
-Package pdftex.def Info: Requested size: 455.25682pt x 398.33632pt on input lin
-e 84.
+Package pdftex.def Info: Figs/Time-Map.png  used on input line 85. on input lin
+e 85.
+Package pdftex.def Info: Requested size: 373.09134pt x 252.4163pt on input line
+ 85.
  [8]
-<Figs/Alignment-Map.png, id=484, 660.21657pt x 450.18187pt>
+<Figs/Alignment-Map.png, id=500, 660.21657pt x 450.18187pt>
 File: Figs/Alignment-Map.png Graphic file (type png)
 <use Figs/Alignment-Map.png>
-Package pdftex.def Info: Figs/Alignment-Map.png  used on input line 96. on inpu
-t line 96.
-Package pdftex.def Info: Requested size: 455.25777pt x 398.35942pt on input lin
-e 96.
+Package pdftex.def Info: Figs/Alignment-Map.png  used on input line 97. on inpu
+t line 97.
+Package pdftex.def Info: Requested size: 462.14844pt x 315.12515pt on input lin
+e 97.
  [9pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.100 
+l.101 
        <./Figs/Time-Map.png>]
-<Figs/Parallel-View.png, id=495, 760.34062pt x 338.01282pt>
+<Figs/Parallel-View.png, id=509, 760.34062pt x 338.01282pt>
 File: Figs/Parallel-View.png Graphic file (type png)
 <use Figs/Parallel-View.png>
-Package pdftex.def Info: Figs/Parallel-View.png  used on input line 108. on inp
-ut line 108.
-Package pdftex.def Info: Requested size: 455.25653pt x 398.35136pt on input lin
-e 108.
+Package pdftex.def Info: Figs/Parallel-View.png  used on input line 109. on inp
+ut line 109.
+Package pdftex.def Info: Requested size: 456.20789pt x 202.80925pt on input lin
+e 109.
  [10pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.112 
+l.113 
        <./Figs/Alignment-Map.png>]
-<Figs/Eddy-Viv-View.png, id=506, 631.60968pt x 375.65344pt>
+<Figs/Eddy-Viv-View.png, id=518, 631.60968pt x 375.65344pt>
 File: Figs/Eddy-Viv-View.png Graphic file (type png)
 <use Figs/Eddy-Viv-View.png>
-Package pdftex.def Info: Figs/Eddy-Viv-View.png  used on input line 120. on inp
-ut line 120.
-Package pdftex.def Info: Requested size: 455.25014pt x 398.3627pt on input line
- 120.
+Package pdftex.def Info: Figs/Eddy-Viv-View.png  used on input line 121. on inp
+ut line 121.
+Package pdftex.def Info: Requested size: 378.96873pt x 225.3938pt on input line
+ 121.
  [11pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.124 
+l.125 
        <./Figs/Parallel-View.png>]) [12pdfTeX warning (ext4): destination with 
 the same identifier (name{figure.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 \include{Chapter01/BackgroundResearch}
-                                            <./Figs/Eddy-Viv-View.png>]
+l.103 \include{Chapter01/BackgroundResearch}
+                                             <./Figs/Eddy-Viv-View.png>]
 \openout2 = `Chapter02/ProjectSpecification.aux'.
 
 
-(./Chapter02/ProjectSpecification.tex [13
-
-
-
-]
-<Figs/Data-example.png, id=528, 535.2497pt x 385.44pt>
+(./Chapter02/ProjectSpecification.tex
+<Figs/Data-example.png, id=533, 535.2497pt x 385.44pt>
 File: Figs/Data-example.png Graphic file (type png)
 <use Figs/Data-example.png>
-Package pdftex.def Info: Figs/Data-example.png  used on input line 23. on input
- line 23.
-Package pdftex.def Info: Requested size: 369.90256pt x 256.07324pt on input lin
-e 23.
- [14pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.37 	\item \textbf
-                   {} Provide a visualisation with scroll bars. <./Figs/Data-ex
-ample.png>] [15] [16]) [17]
-\openout2 = `Chapter03/ProjectPlan.aux'.
-
- (./Chapter03/ProjectPlan.tex
-
-LaTeX Warning: Citation `Adenowo2013' on page 18 undefined on input line 11.
-
-
-LaTeX Warning: Reference `waterfall' on page 18 undefined on input line 11.
-
-<Figs/Waterfall-Model.png, id=562, 325.96782pt x 288.3272pt>
-File: Figs/Waterfall-Model.png Graphic file (type png)
-<use Figs/Waterfall-Model.png>
-Package pdftex.def Info: Figs/Waterfall-Model.png  used on input line 15. on in
-put line 15.
-Package pdftex.def Info: Requested size: 170.72282pt x 170.72308pt on input lin
-e 15.
-
-LaTeX Warning: Citation `Adenowo2013' on page 18 undefined on input line 16.
-
-<Figs/Waterfull-Agile.png, id=563, 392.21532pt x 250.68657pt>
-File: Figs/Waterfull-Agile.png Graphic file (type png)
-<use Figs/Waterfull-Agile.png>
-Package pdftex.def Info: Figs/Waterfull-Agile.png  used on input line 24. on in
-put line 24.
-Package pdftex.def Info: Requested size: 170.72pt x 170.72472pt on input line 2
-4.
-
-LaTeX Warning: Citation `Agile vs Waterfall' on page 18 undefined on input line
- 25.
-
-[18
+Package pdftex.def Info: Figs/Data-example.png  used on input line 14. on input
+ line 14.
+Package pdftex.def Info: Requested size: 428.20033pt x 308.35242pt on input lin
+e 14.
+ [13
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
-s been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.28 
-      <./Figs/Waterfall-Model.png>] [19pdfTeX warning (ext4): destination with 
-the same identifier (name{figure.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.54 
-      <./Figs/Waterfull-Agile.png>]
-<Figs/Gantter-Chart.png, id=574, 666.99188pt x 340.27126pt>
-File: Figs/Gantter-Chart.png Graphic file (type png)
-<use Figs/Gantter-Chart.png>
-Package pdftex.def Info: Figs/Gantter-Chart.png  used on input line 57. on inpu
-t line 57.
-Package pdftex.def Info: Requested size: 455.25829pt x 398.35979pt on input lin
-e 57.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.74 
-      <./Figs/Gantter-Chart.png>]
-<Figs/Risk-Analysis.png, id=580, 380.17032pt x 400.49625pt>
-File: Figs/Risk-Analysis.png Graphic file (type png)
-<use Figs/Risk-Analysis.png>
-Package pdftex.def Info: Figs/Risk-Analysis.png  used on input line 77. on inpu
-t line 77.
-Package pdftex.def Info: Requested size: 426.80301pt x 512.2179pt on input line
- 77.
- [21]) [22pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.12}) has been already used, duplicate ignored
+l.30 \begin{itemize}
+                     <./Figs/Data-example.png>] [15] [16]
+<Figs/GitKraken.png, id=564, 1028.34187pt x 546.54187pt>
+File: Figs/GitKraken.png Graphic file (type png)
+<use Figs/GitKraken.png>
+Package pdftex.def Info: Figs/GitKraken.png  used on input line 73. on input li
+ne 73.
+Package pdftex.def Info: Requested size: 411.32947pt x 218.61287pt on input lin
+e 73.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 \include{Chapter03/ProjectPlan}
+l.84 \paragraph
+               {Notepad++} <./Figs/GitKraken.png>]) [18]
+\openout2 = `Chapter03/ProjectPlan.aux'.
+
+
+(./Chapter03/ProjectPlan.tex
+<Figs/Waterfall-Model.png, id=586, 325.96782pt x 288.3272pt>
+File: Figs/Waterfall-Model.png Graphic file (type png)
+<use Figs/Waterfall-Model.png>
+Package pdftex.def Info: Figs/Waterfall-Model.png  used on input line 14. on in
+put line 14.
+Package pdftex.def Info: Requested size: 325.96701pt x 288.32648pt on input lin
+e 14.
+<Figs/Waterfull-Agile.png, id=588, 392.21532pt x 250.68657pt>
+File: Figs/Waterfull-Agile.png Graphic file (type png)
+<use Figs/Waterfull-Agile.png>
+Package pdftex.def Info: Figs/Waterfull-Agile.png  used on input line 23. on in
+put line 23.
+Package pdftex.def Info: Requested size: 392.21436pt x 250.68594pt on input lin
+e 23.
+ [19
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+      <./Figs/Waterfall-Model.png>] [20pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.50 \end{itemize}
+                   <./Figs/Waterfull-Agile.png>] [21]
+<Figs/Gantter-Chart.png, id=607, 666.99188pt x 340.27126pt>
+File: Figs/Gantter-Chart.png Graphic file (type png)
+<use Figs/Gantter-Chart.png>
+Package pdftex.def Info: Figs/Gantter-Chart.png  used on input line 56. on inpu
+t line 56.
+Package pdftex.def Info: Requested size: 666.99025pt x 340.27042pt on input lin
+e 56.
+
+Overfull \hbox (16.56026pt too wide) in paragraph at lines 56--56
+ [][] 
+ []
+
+[22
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 \end{landscape}
+                     <./Figs/Gantter-Chart.png>]
+<Figs/Risk-Analysis.png, id=614, 380.17032pt x 400.49625pt>
+File: Figs/Risk-Analysis.png Graphic file (type png)
+<use Figs/Risk-Analysis.png>
+Package pdftex.def Info: Figs/Risk-Analysis.png  used on input line 73. on inpu
+t line 73.
+Package pdftex.def Info: Requested size: 304.13666pt x 320.39743pt on input lin
+e 73.
+ [23
+
+]) [24pdfTeX warning (ext4): destination with the same identifier (name{figure.
+13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.105 \include{Chapter03/ProjectPlan}
                                       <./Figs/Risk-Analysis.png>]
 \openout2 = `Chapter04/Design.aux'.
 
 
-(./Chapter04/Design.tex [23
+(./Chapter04/Design.tex
+<Figs/DataReader.png, id=625, 358.33875pt x 478.78876pt>
+File: Figs/DataReader.png Graphic file (type png)
+<use Figs/DataReader.png>
+Package pdftex.def Info: Figs/DataReader.png  used on input line 23. on input l
+ine 23.
+Package pdftex.def Info: Requested size: 322.50189pt x 430.9059pt on input line
+ 23.
+ [25
 
 
 
-] [24] [25]) [26]
+]
+<Figs/Item.png, id=633, 202.50656pt x 503.63156pt>
+File: Figs/Item.png Graphic file (type png)
+<use Figs/Item.png>
+Package pdftex.def Info: Figs/Item.png  used on input line 38. on input line 38
+.
+Package pdftex.def Info: Requested size: 162.00545pt x 402.90579pt on input lin
+e 38.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.41 \end{figure}
+                  <./Figs/DataReader.png>]
+<Figs/Version.png, id=642, 184.43906pt x 423.83344pt>
+File: Figs/Version.png Graphic file (type png)
+<use Figs/Version.png>
+Package pdftex.def Info: Figs/Version.png  used on input line 50. on input line
+ 50.
+Package pdftex.def Info: Requested size: 165.9936pt x 381.44655pt on input line
+ 50.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 
+      <./Figs/Item.png>]
+<Figs/Tf-IdfCalculator.png, id=651, 317.68687pt x 290.58563pt>
+File: Figs/Tf-IdfCalculator.png Graphic file (type png)
+<use Figs/Tf-IdfCalculator.png>
+Package pdftex.def Info: Figs/Tf-IdfCalculator.png  used on input line 68. on i
+nput line 68.
+Package pdftex.def Info: Requested size: 285.91553pt x 261.52464pt on input lin
+e 68.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.72 
+      <./Figs/Version.png>]
+<Figs/LemmaProcess.png, id=660, 233.37187pt x 246.9225pt>
+File: Figs/LemmaProcess.png Graphic file (type png)
+<use Figs/LemmaProcess.png>
+Package pdftex.def Info: Figs/LemmaProcess.png  used on input line 86. on input
+ line 86.
+Package pdftex.def Info: Requested size: 210.03273pt x 222.22818pt on input lin
+e 86.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.90 
+      <./Figs/Tf-IdfCalculator.png>]
+<Figs/TranslationVisualisation.png, id=669, 351.56343pt x 499.8675pt>
+File: Figs/TranslationVisualisation.png Graphic file (type png)
+<use Figs/TranslationVisualisation.png>
+Package pdftex.def Info: Figs/TranslationVisualisation.png  used on input line 
+104. on input line 104.
+Package pdftex.def Info: Requested size: 316.40414pt x 449.87659pt on input lin
+e 104.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.18
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.108 
+       <./Figs/LemmaProcess.png>] [31pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 \begin{itemize}
+                      <./Figs/TranslationVisualisation.png>]
+<Figs/ConcordancePanel-Class.png, id=685, 191.21437pt x 510.40688pt>
+File: Figs/ConcordancePanel-Class.png Graphic file (type png)
+<use Figs/ConcordancePanel-Class.png>
+Package pdftex.def Info: Figs/ConcordancePanel-Class.png  used on input line 12
+7. on input line 127.
+Package pdftex.def Info: Requested size: 152.9717pt x 408.32605pt on input line
+ 127.
+ [32]
+<Figs/Colour-Legend-Class.png, id=692, 322.95656pt x 189.70876pt>
+File: Figs/Colour-Legend-Class.png Graphic file (type png)
+<use Figs/Colour-Legend-Class.png>
+Package pdftex.def Info: Figs/Colour-Legend-Class.png  used on input line 138. 
+on input line 138.
+Package pdftex.def Info: Requested size: 322.95576pt x 189.70828pt on input lin
+e 138.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.20
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.142 
+       <./Figs/ConcordancePanel-Class.png>]
+<Figs/VersionChoose-Class.png, id=701, 338.76563pt x 364.36125pt>
+File: Figs/VersionChoose-Class.png Graphic file (type png)
+<use Figs/VersionChoose-Class.png>
+Package pdftex.def Info: Figs/VersionChoose-Class.png  used on input line 158. 
+on input line 158.
+Package pdftex.def Info: Requested size: 271.01285pt x 291.48938pt on input lin
+e 158.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.21
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.162 
+       <./Figs/Colour-Legend-Class.png>]) [35pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.22}) has been already used, duplicate ig
+nored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.106 \include{Chapter04/Design}
+                                 <./Figs/VersionChoose-Class.png>]
 \openout2 = `Chapter06/Implementation.aux'.
 
- (./Chapter06/Implementation.tex
 
-LaTeX Warning: Citation `Bob's coding convention' on page 27 undefined on input
+(./Chapter06/Implementation.tex
+
+LaTeX Warning: Citation `Bob's coding convention' on page 36 undefined on input
  line 9.
 
 
-LaTeX Warning: Citation `javadoc java.io' on page 27 undefined on input line 11
+LaTeX Warning: Citation `javadoc java.io' on page 36 undefined on input line 11
 .
 
 
-LaTeX Warning: Citation `javadoc7' on page 27 undefined on input line 11.
+LaTeX Warning: Citation `javadoc7' on page 36 undefined on input line 11.
 
-<Figs/condordanceVis.png, id=627, 210.03468pt x 458.46281pt>
+<Figs/condordanceVis.png, id=715, 210.03468pt x 458.46281pt>
 File: Figs/condordanceVis.png Graphic file (type png)
 <use Figs/condordanceVis.png>
 Package pdftex.def Info: Figs/condordanceVis.png  used on input line 20. on inp
 ut line 20.
 Package pdftex.def Info: Requested size: 256.07527pt x 426.81372pt on input lin
 e 20.
-[27
+[36
 
 
 
-] [28pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+] [37pdfTeX warning (ext4): destination with the same identifier (name{figure.2
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.29 \end{itemize}
                    <./Figs/condordanceVis.png>]
-Underfull \hbox (badness 10000) detected at line 39
- []$[]  \OML/cmm/m/it/12 rectWidth \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 wordFrequ
-ency \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 unit \OMS/cmsy/m/n/12 ^^C \OML/cmm/m
-/it/12 scaleValue$ [][][]  
+Overfull \hbox (9.26pt too wide) detected at line 59
+ []$[]  \OML/cmm/m/it/12 color \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Math:sin\OT1/
+cmr/m/n/12 (\OML/cmm/m/it/12 colorFrequency \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/
+12 wordFrequency \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 phase\OT1/cmr/m/n/12 ) \OMS
+/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 amplitude \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 
+center$ []  
  []
 
-
-Underfull \hbox (badness 10000) detected at line 47
- []$[]  \OML/cmm/m/it/12 point:x \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 versionNumb
-er \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 versionDistance \OMS/cmsy/m/n/12 ^^C \
-OML/cmm/m/it/12 scaleValue$ [][][]  
- []
-
-
-Underfull \hbox (badness 10000) detected at line 51
- []$[]  \OML/cmm/m/it/12 point:y \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 lineNumber 
-\OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 lineDistance \OMS/cmsy/m/n/12 ^^C \OML/cm
-m/m/it/12 scaleValue$ [][][]  
- []
-
-[29]
-<Figs/Parallel-Vis.png, id=651, 593.96906pt x 466.74374pt>
+[38]
+<Figs/Parallel-Vis.png, id=741, 593.96906pt x 466.74374pt>
 File: Figs/Parallel-Vis.png Graphic file (type png)
 <use Figs/Parallel-Vis.png>
 Package pdftex.def Info: Figs/Parallel-Vis.png  used on input line 72. on input
  line 72.
-Package pdftex.def Info: Requested size: 369.89745pt x 227.6239pt on input line
+Package pdftex.def Info: Requested size: 356.38419pt x 280.0484pt on input line
  72.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.24
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.79 
       <./Figs/Parallel-Vis.png>]
-<Figs/JSliders.png, id=660, 176.91093pt x 48.18pt>
+<Figs/JSliders.png, id=750, 176.91093pt x 48.18pt>
 File: Figs/JSliders.png Graphic file (type png)
 <use Figs/JSliders.png>
 Package pdftex.def Info: Figs/JSliders.png  used on input line 89. on input lin
 e 89.
-Package pdftex.def Info: Requested size: 256.07965pt x 85.35794pt on input line
+Package pdftex.def Info: Requested size: 176.91049pt x 48.17986pt on input line
  89.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.25
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.103 
-       <./Figs/JSliders.png>]
-<Figs/Zoom-In.png, id=673, 838.63312pt x 527.72156pt>
-File: Figs/Zoom-In.png Graphic file (type png)
-<use Figs/Zoom-In.png>
-Package pdftex.def Info: Figs/Zoom-In.png  used on input line 106. on input lin
-e 106.
-Package pdftex.def Info: Requested size: 256.07065pt x 85.35513pt on input line
- 106.
-<Figs/Zoom-Out.png, id=674, 835.62187pt x 525.46312pt>
-File: Figs/Zoom-Out.png Graphic file (type png)
-<use Figs/Zoom-Out.png>
-Package pdftex.def Info: Figs/Zoom-Out.png  used on input line 113. on input li
-ne 113.
-Package pdftex.def Info: Requested size: 256.08197pt x 85.35066pt on input line
- 113.
-<Figs/Text-On-Off.png, id=676, 1025.33063pt x 543.53062pt>
+l.103 \subsection
+                 {Text Labels Toggling} <./Figs/JSliders.png>]
+<Figs/Text-On-Off.png, id=761, 1025.33063pt x 543.53062pt>
 File: Figs/Text-On-Off.png Graphic file (type png)
 <use Figs/Text-On-Off.png>
-Package pdftex.def Info: Figs/Text-On-Off.png  used on input line 126. on input
- line 126.
-Package pdftex.def Info: Requested size: 512.14777pt x 341.44745pt on input lin
-e 126.
+Package pdftex.def Info: Figs/Text-On-Off.png  used on input line 109. on input
+ line 109.
+Package pdftex.def Info: Requested size: 512.66406pt x 271.76463pt on input lin
+e 109.
 
-Overfull \hbox (42.39278pt too wide) in paragraph at lines 126--126
+Overfull \hbox (42.90907pt too wide) in paragraph at lines 109--109
  [][] 
  []
 
-[32pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.130 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-17}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.130 
-       <./Figs/Zoom-In.png> <./Figs/Zoom-Out.png>]
-<Figs/VersionChoosePanel.png, id=684, 196.48407pt x 315.42844pt>
+<Figs/VersionChoosePanel.png, id=763, 196.48407pt x 315.42844pt>
 File: Figs/VersionChoosePanel.png Graphic file (type png)
 <use Figs/VersionChoosePanel.png>
-Package pdftex.def Info: Figs/VersionChoosePanel.png  used on input line 137. o
-n input line 137.
-Package pdftex.def Info: Requested size: 170.72688pt x 284.54234pt on input lin
-e 137.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.18
-}) has been already used, duplicate ignored
+Package pdftex.def Info: Figs/VersionChoosePanel.png  used on input line 120. o
+n input line 120.
+Package pdftex.def Info: Requested size: 98.24179pt x 157.71382pt on input line
+ 120.
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.141 
-       <./Figs/Text-On-Off.png>] [34pdfTeX warning (ext4): destination with the
- same identifier (name{figure.19}) has been already used, duplicate ignored
+l.123 \end{figure}
+                   <./Figs/Text-On-Off.png>]
+Overfull \hbox (6.56786pt too wide) in paragraph at lines 131--132
+[] \OT1/cmr/m/n/12 Re-draw the con-cor-dance vi-su-al-iza-tion by in-vok-ing Co
+n-cor-dan-cePanel's re-pain() method. 
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.153 
-       <./Figs/VersionChoosePanel.png>]
-<Figs/Version-Selecting-Demo.png, id=696, 1028.34187pt x 546.54187pt>
+<Figs/Version-Selecting-Demo.png, id=770, 1028.34187pt x 546.54187pt>
 File: Figs/Version-Selecting-Demo.png Graphic file (type png)
 <use Figs/Version-Selecting-Demo.png>
-Package pdftex.def Info: Figs/Version-Selecting-Demo.png  used on input line 15
-6. on input line 156.
-Package pdftex.def Info: Requested size: 512.16121pt x 284.52864pt on input lin
-e 156.
+Package pdftex.def Info: Figs/Version-Selecting-Demo.png  used on input line 13
+9. on input line 139.
+Package pdftex.def Info: Requested size: 514.16968pt x 273.27026pt on input lin
+e 139.
 
-Overfull \hbox (42.40622pt too wide) in paragraph at lines 156--156
+Overfull \hbox (44.41469pt too wide) in paragraph at lines 139--139
  [][] 
  []
 
-<Figs/Region-Divide.png, id=698, 601.4972pt x 447.92343pt>
-File: Figs/Region-Divide.png Graphic file (type png)
-<use Figs/Region-Divide.png>
-Package pdftex.def Info: Figs/Region-Divide.png  used on input line 171. on inp
-ut line 171.
-Package pdftex.def Info: Requested size: 170.71259pt x 284.53757pt on input lin
-e 171.
-[35pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.27}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.174 	\end{figure}
-                    <./Figs/Version-Selecting-Demo.png>]
-<Figs/Highlight-Terms.png, id=705, 660.21657pt x 511.9125pt>
-File: Figs/Highlight-Terms.png Graphic file (type png)
-<use Figs/Highlight-Terms.png>
-Package pdftex.def Info: Figs/Highlight-Terms.png  used on input line 186. on i
-nput line 186.
-Package pdftex.def Info: Requested size: 455.25777pt x 256.07278pt on input lin
-e 186.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.21
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.189 \end{figure}
-                   <./Figs/Region-Divide.png>]
-<Figs/Color-Mapping.png, id=712, 100.12407pt x 529.98pt>
-File: Figs/Color-Mapping.png Graphic file (type png)
-<use Figs/Color-Mapping.png>
-Package pdftex.def Info: Figs/Color-Mapping.png  used on input line 204. on inp
-ut line 204.
-Package pdftex.def Info: Requested size: 113.81718pt x 426.79877pt on input lin
-e 204.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.22
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.208 
-       <./Figs/Highlight-Terms.png>] [38pdfTeX warning (ext4): destination with
- the same identifier (name{figure.23}) has been already used, duplicate ignored
-
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.212 
-       <./Figs/Color-Mapping.png>]
-<Figs/Colour-Legend-Interation.png, id=726, 1028.34187pt x 546.54187pt>
-File: Figs/Colour-Legend-Interation.png Graphic file (type png)
-<use Figs/Colour-Legend-Interation.png>
-Package pdftex.def Info: Figs/Colour-Legend-Interation.png  used on input line 
-216. on input line 216.
-Package pdftex.def Info: Requested size: 455.24918pt x 341.43771pt on input lin
-e 216.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.24
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.227 	\item \textbf
-                    {} Store all the lemmas being found and generate a new l...
- <./Figs/Colour-Legend-Interation.png>]
-<Figs/TreeTaggerInterface.png, id=733, 594.72188pt x 418.56375pt>
-File: Figs/TreeTaggerInterface.png Graphic file (type png)
-<use Figs/TreeTaggerInterface.png>
-Package pdftex.def Info: Figs/TreeTaggerInterface.png  used on input line 238. 
-on input line 238.
-Package pdftex.def Info: Requested size: 455.24208pt x 341.42981pt on input lin
-e 238.
- [40]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 244.
-
-
-(d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [41pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.254 \end{itemize}
-                    <./Figs/TreeTaggerInterface.png>]
-<Figs/LemmaView.png, id=748, 1027.58907pt x 544.28343pt>
-File: Figs/LemmaView.png Graphic file (type png)
-<use Figs/LemmaView.png>
-Package pdftex.def Info: Figs/LemmaView.png  used on input line 275. on input l
-ine 275.
-Package pdftex.def Info: Requested size: 455.24518pt x 341.43037pt on input lin
-e 275.
- [42]
-
-LaTeX Warning: Reference `Tf-Idf' on page 43 undefined on input line 282.
-
-
-LaTeX Warning: Citation `Asking Mohammad about the equation referance' on page 
-43 undefined on input line 282.
-
-
-LaTeX Warning: Reference `Tf-Idf' on page 43 undefined on input line 288.
-
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.290 \item \textbf
-                   {} Visulise according to new results. <./Figs/LemmaView.png>
-]
-<Figs/Tf-Idf.png, id=762, 1028.34187pt x 545.78906pt>
-File: Figs/Tf-Idf.png Graphic file (type png)
-<use Figs/Tf-Idf.png>
-Package pdftex.def Info: Figs/Tf-Idf.png  used on input line 297. on input line
- 297.
-Package pdftex.def Info: Requested size: 455.24918pt x 341.43378pt on input lin
-e 297.
-<Figs/Lemma-TfIdf.png, id=763, 1028.34187pt x 546.54187pt>
-File: Figs/Lemma-TfIdf.png Graphic file (type png)
-<use Figs/Lemma-TfIdf.png>
-Package pdftex.def Info: Figs/Lemma-TfIdf.png  used on input line 303. on input
- line 303.
-Package pdftex.def Info: Requested size: 455.24918pt x 341.43771pt on input lin
-e 303.
- [44pdfTeX warning (ext4): destination with the same identifier (name{figure.27
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.307 
-       <./Figs/Tf-Idf.png>]) [45pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.28}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.103 \include{Chapter06/Implementation}
-                                         <./Figs/Lemma-TfIdf.png>]
-\openout2 = `Chapter07/Evaluation.aux'.
-
-
-(./Chapter07/Evaluation.tex [46
-
-
-
-]
-<Figs/Fassung.png, id=785, 1028.34187pt x 547.2947pt>
-File: Figs/Fassung.png Graphic file (type png)
-<use Figs/Fassung.png>
-Package pdftex.def Info: Figs/Fassung.png  used on input line 25. on input line
- 25.
-Package pdftex.def Info: Requested size: 411.32947pt x 218.91399pt on input lin
-e 25.
-<Figs/You-In-Frequency.png, id=787, 596.2275pt x 366.61969pt>
-File: Figs/You-In-Frequency.png Graphic file (type png)
-<use Figs/You-In-Frequency.png>
-Package pdftex.def Info: Figs/You-In-Frequency.png  used on input line 36. on i
-nput line 36.
-Package pdftex.def Info: Requested size: 455.24828pt x 341.45625pt on input lin
-e 36.
-<Figs/You-In-Lemma.png, id=789, 595.47469pt x 433.62pt>
-File: Figs/You-In-Lemma.png Graphic file (type png)
-<use Figs/You-In-Lemma.png>
-Package pdftex.def Info: Figs/You-In-Lemma.png  used on input line 42. on input
- line 42.
-Package pdftex.def Info: Requested size: 455.24588pt x 341.4511pt on input line
- 42.
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.29
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.45 \end{figure}
-                  <./Figs/Fassung.png>] [48pdfTeX warning (ext4): destination w
-ith the same identifier (name{figure.30}) has been already used, duplicate igno
+l.143 
+       <./Figs/VersionChoosePanel.png>] [43pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.28}) has been already used, duplicate igno
 red
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 
-      <./Figs/You-In-Frequency.png>]
-<Figs/Freq-Lemma-Comparison.png, id=803, 401.24907pt x 813.79031pt>
-File: Figs/Freq-Lemma-Comparison.png Graphic file (type png)
-<use Figs/Freq-Lemma-Comparison.png>
-Package pdftex.def Info: Figs/Freq-Lemma-Comparison.png  used on input line 51.
- on input line 51.
-Package pdftex.def Info: Requested size: 227.62453pt x 540.6174pt on input line
- 51.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.31
+l.154 	\item \textbf
+                    {} Make other blocks transparent by setting the transpar...
+ <./Figs/Version-Selecting-Demo.png>]
+<Figs/Highlight-Terms.png, id=782, 660.21657pt x 511.9125pt>
+File: Figs/Highlight-Terms.png Graphic file (type png)
+<use Figs/Highlight-Terms.png>
+Package pdftex.def Info: Figs/Highlight-Terms.png  used on input line 163. on i
+nput line 163.
+Package pdftex.def Info: Requested size: 396.133pt x 307.14987pt on input line 
+163.
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.29
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.55 
-      <./Figs/You-In-Lemma.png>] [50pdfTeX warning (ext4): destination with the
- same identifier (name{figure.32}) has been already used, duplicate ignored
+l.171 \begin{itemize}
+                      <./Figs/Highlight-Terms.png>]
+<Figs/Color-Mapping.png, id=790, 100.12407pt x 529.98pt>
+File: Figs/Color-Mapping.png Graphic file (type png)
+<use Figs/Color-Mapping.png>
+Package pdftex.def Info: Figs/Color-Mapping.png  used on input line 181. on inp
+ut line 181.
+Package pdftex.def Info: Requested size: 50.0619pt x 264.98933pt on input line 
+181.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.30
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.58 \begin{itemize}
-                     <./Figs/Freq-Lemma-Comparison.png>] [51]
-<Figs/Marking-Feedback.png, id=828, 608.2725pt x 479.54156pt>
+l.189 
+       <./Figs/Color-Mapping.png>]
+<Figs/Colour-Legend-Interation.png, id=797, 1028.34187pt x 546.54187pt>
+File: Figs/Colour-Legend-Interation.png Graphic file (type png)
+<use Figs/Colour-Legend-Interation.png>
+Package pdftex.def Info: Figs/Colour-Legend-Interation.png  used on input line 
+193. on input line 193.
+Package pdftex.def Info: Requested size: 514.16968pt x 273.27026pt on input lin
+e 193.
+
+Overfull \hbox (44.41469pt too wide) in paragraph at lines 193--193
+ [][] 
+ []
+
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.31}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.201 \begin{itemize}
+                      <./Figs/Colour-Legend-Interation.png>]
+<Figs/TreeTaggerInterface.png, id=804, 594.72188pt x 418.56375pt>
+File: Figs/TreeTaggerInterface.png Graphic file (type png)
+<use Figs/TreeTaggerInterface.png>
+Package pdftex.def Info: Figs/TreeTaggerInterface.png  used on input line 215. 
+on input line 215.
+Package pdftex.def Info: Requested size: 356.83588pt x 251.14018pt on input lin
+e 215.
+ [47]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 221.
+
+
+(d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [48pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.238 
+       <./Figs/TreeTaggerInterface.png>]
+<Figs/LemmaView.png, id=819, 1027.58907pt x 544.28343pt>
+File: Figs/LemmaView.png Graphic file (type png)
+<use Figs/LemmaView.png>
+Package pdftex.def Info: Figs/LemmaView.png  used on input line 252. on input l
+ine 252.
+Package pdftex.def Info: Requested size: 616.5582pt x 326.57257pt on input line
+ 252.
+
+Overfull \hbox (146.8032pt too wide) in paragraph at lines 252--252
+ [][] 
+ []
+
+[49]
+
+LaTeX Warning: Reference `Tf-Idf' on page 50 undefined on input line 265.
+
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.33}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.268 \end{itemize}
+                    <./Figs/LemmaView.png>]
+<Figs/Tf-Idf.png, id=836, 1028.34187pt x 545.78906pt>
+File: Figs/Tf-Idf.png Graphic file (type png)
+<use Figs/Tf-Idf.png>
+Package pdftex.def Info: Figs/Tf-Idf.png  used on input line 274. on input line
+ 274.
+Package pdftex.def Info: Requested size: 514.16968pt x 272.89386pt on input lin
+e 274.
+
+Overfull \hbox (44.41469pt too wide) in paragraph at lines 274--274
+ [][] 
+ []
+
+<Figs/Lemma-TfIdf.png, id=837, 1028.34187pt x 546.54187pt>
+File: Figs/Lemma-TfIdf.png Graphic file (type png)
+<use Figs/Lemma-TfIdf.png>
+Package pdftex.def Info: Figs/Lemma-TfIdf.png  used on input line 280. on input
+ line 280.
+Package pdftex.def Info: Requested size: 514.16968pt x 273.27026pt on input lin
+e 280.
+
+Overfull \hbox (44.41469pt too wide) in paragraph at lines 280--280
+ [][] 
+ []
+
+[51pdfTeX warning (ext4): destination with the same identifier (name{figure.34}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.284 
+       <./Figs/Tf-Idf.png>]) [52pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.35}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.107 \include{Chapter06/Implementation}
+                                         <./Figs/Lemma-TfIdf.png>]
+\openout2 = `Chapter07/Evaluation.aux'.
+
+
+(./Chapter07/Evaluation.tex [53
+
+
+
+]
+<Figs/Fassung.png, id=860, 1028.34187pt x 547.2947pt>
+File: Figs/Fassung.png Graphic file (type png)
+<use Figs/Fassung.png>
+Package pdftex.def Info: Figs/Fassung.png  used on input line 27. on input line
+ 27.
+Package pdftex.def Info: Requested size: 514.16968pt x 273.64667pt on input lin
+e 27.
+
+Overfull \hbox (44.41469pt too wide) in paragraph at lines 27--27
+ [][] 
+ []
+
+<Figs/You-In-Frequency.png, id=862, 596.2275pt x 366.61969pt>
+File: Figs/You-In-Frequency.png Graphic file (type png)
+<use Figs/You-In-Frequency.png>
+Package pdftex.def Info: Figs/You-In-Frequency.png  used on input line 37. on i
+nput line 37.
+Package pdftex.def Info: Requested size: 298.11302pt x 183.30939pt on input lin
+e 37.
+[54pdfTeX warning (ext4): destination with the same identifier (name{figure.36}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.41 
+      <./Figs/Fassung.png>]
+<Figs/You-In-Lemma.png, id=870, 595.47469pt x 433.62pt>
+File: Figs/You-In-Lemma.png Graphic file (type png)
+<use Figs/You-In-Lemma.png>
+Package pdftex.def Info: Figs/You-In-Lemma.png  used on input line 45. on input
+ line 45.
+Package pdftex.def Info: Requested size: 297.7366pt x 216.80946pt on input line
+ 45.
+<Figs/Freq-Lemma-Comparison.png, id=872, 401.24907pt x 813.79031pt>
+File: Figs/Freq-Lemma-Comparison.png Graphic file (type png)
+<use Figs/Freq-Lemma-Comparison.png>
+Package pdftex.def Info: Figs/Freq-Lemma-Comparison.png  used on input line 54.
+ on input line 54.
+Package pdftex.def Info: Requested size: 160.49678pt x 325.51036pt on input lin
+e 54.
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.37
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58 
+      <./Figs/You-In-Frequency.png> <./Figs/You-In-Lemma.png>] [56pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.39}) has been alrea
+dy used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 	\item \textbf
+                   {Lemma Visualisation vs Lemma and Tf-Idf Visualisation}\\ <.
+/Figs/Freq-Lemma-Comparison.png>] [57]
+<Figs/Marking-Feedback.png, id=897, 608.2725pt x 479.54156pt>
 File: Figs/Marking-Feedback.png Graphic file (type png)
 <use Figs/Marking-Feedback.png>
-Package pdftex.def Info: Figs/Marking-Feedback.png  used on input line 81. on i
-nput line 81.
-Package pdftex.def Info: Requested size: 455.25655pt x 341.43544pt on input lin
-e 81.
- [52]) [53pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.33}) has been already used, duplicate ignored
+Package pdftex.def Info: Figs/Marking-Feedback.png  used on input line 85. on i
+nput line 85.
+Package pdftex.def Info: Requested size: 304.13551pt x 239.77019pt on input lin
+e 85.
+) [58pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.104 \include{Chapter07/Evaluation}
+l.108 \include{Chapter07/Evaluation}
                                      <./Figs/Marking-Feedback.png>]
 \openout2 = `Chapter08/Conclusion.aux'.
 
 
-(./Chapter08/Conclusion.tex [54
+(./Chapter08/Conclusion.tex [59
 
 
-]) [55]
+]) [60]
 \openout2 = `Chapter09/FutureWork.aux'.
 
- (./Chapter09/FutureWork.tex) [56
+ (./Chapter09/FutureWork.tex) [61
 
 
 ]
-(./Thesis.bbl [57
+(./Thesis.bbl [62
 
 
-]) [58] [59
+]) [63] [64
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
 
- (./Appendix1/appendix1.tex) [60
+ (./Appendix1/appendix1.tex) [65
 
 ]
 \openout2 = `Appendix2/appendix2.aux'.
 
 
-(./Appendix2/appendix2.tex) [61
+(./Appendix2/appendix2.tex) [66
 
 
 ] 
@@ -2047,9 +2154,9 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
-(./Thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
+(./Thesis.aux (./Declaration/declaration.aux)
 (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
 (./Chapter00/introduction.aux) (./Chapter01/BackgroundResearch.aux)
 (./Chapter02/ProjectSpecification.aux) (./Chapter03/ProjectPlan.aux)
@@ -2057,10 +2164,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 (./Chapter07/Evaluation.aux) (./Chapter08/Conclusion.aux)
 (./Chapter09/FutureWork.aux) (./Appendix1/appendix1.aux)
 (./Appendix2/appendix2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 125D4EE58BF9044F9C419B2CEB517302;2943.
+(rerunfilecheck)             Checksum: 66BDC9322D447D1AB9751FC6052C5AC7;2941.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2068,16 +2175,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 25552 strings out of 492985
- 462290 string characters out of 6136283
- 693395 words of memory out of 5000000
- 28244 multiletter control sequences out of 15000+600000
- 12669 words of font info for 45 fonts, out of 8000000 for 9000
+ 25616 strings out of 492985
+ 463712 string characters out of 6136283
+ 695275 words of memory out of 5000000
+ 28286 multiletter control sequences out of 15000+600000
+ 13015 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,9n,73p,1988b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,9n,73p,1973b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2017/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmbxti10.pfb><d:/texlive/2017/texmf-dist/fonts/typ
@@ -2085,12 +2192,13 @@ e1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017
-/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Thesis.pdf (73 pages, 2737012 bytes).
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on Thesis.pdf (77 pages, 2892488 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 801 compressed objects within 9 object streams
- 232 named destinations out of 1000 (max. 500000)
- 551 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1032 PDF objects out of 1200 (max. 8388607)
+ 856 compressed objects within 9 object streams
+ 248 named destinations out of 1000 (max. 500000)
+ 586 words of extra memory for PDF output out of 10000 (max. 10000000)
 
