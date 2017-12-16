@@ -2,18 +2,14 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: Declaration/declaration.aux
-A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Chapter00/introduction.aux
 A level-1 auxiliary file: Chapter01/BackgroundResearch.aux
 A level-1 auxiliary file: Chapter02/ProjectSpecification.aux
 A level-1 auxiliary file: Chapter03/ProjectPlan.aux
 A level-1 auxiliary file: Chapter04/Design.aux
 A level-1 auxiliary file: Chapter06/Implementation.aux
-White space in argument---line 3 of file Chapter06/Implementation.aux
- : \citation{Bob's
- :                 coding convention}
-I'm skipping whatever remains of this command
 White space in argument---line 4 of file Chapter06/Implementation.aux
  : \citation{javadoc
  :                   java.io}
@@ -25,17 +21,17 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-Repeated entry---line 375 of file References/TransVisReferences.bib
- : @article{Laramee
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 465 of file References/TransVisReferences.bib
- : @misc{Larameea
- :               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 588 of file References/TransVisReferences.bib
+Repeated entry---line 258 of file References/TransVisReferences.bib
  : @misc{Tom2012
  :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 266 of file References/TransVisReferences.bib
+ : @misc{Laramee
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 357 of file References/TransVisReferences.bib
+ : @misc{Larameea
+ :               ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "javadoc7"
 Warning--to sort, need author or key in TagCrowd
@@ -54,52 +50,55 @@ Warning--empty publisher in Cao2016
 Warning--empty journal in Geng2011
 Warning--empty journal in Jong2008
 Warning--there's a number but no volume in Kucher2014
-Warning--empty year in Laramee
 Warning--empty year in Larameea
 Warning--empty journal in Larameea
+Warning--empty year in Laramee
+Warning--empty journal in Laramee
+Warning--empty journal in Laramee2013
+Warning--empty journal in Laramee2010
 Warning--empty year in Liu
 Warning--empty note in Liu
 Warning--there's a number but no volume in Manning2009
 Warning--empty publisher in Ward2015
-You've used 24 entries,
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            615 strings with 7148 characters,
-and the built_in function-call counts, 7948 in all, are:
-= -- 787
-> -- 280
-< -- 15
-+ -- 93
-- -- 92
-* -- 626
-:= -- 1373
-add.period$ -- 57
-call.type$ -- 24
-change.case$ -- 165
-chr.to.int$ -- 23
-cite$ -- 52
-duplicate$ -- 332
-empty$ -- 558
-format.name$ -- 117
-if$ -- 1551
+            623 strings with 7297 characters,
+and the built_in function-call counts, 8739 in all, are:
+= -- 866
+> -- 294
+< -- 19
++ -- 97
+- -- 96
+* -- 678
+:= -- 1499
+add.period$ -- 63
+call.type$ -- 26
+change.case$ -- 177
+chr.to.int$ -- 25
+cite$ -- 57
+duplicate$ -- 373
+empty$ -- 622
+format.name$ -- 123
+if$ -- 1717
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 108
-num.names$ -- 57
-pop$ -- 171
+missing$ -- 19
+newline$ -- 118
+num.names$ -- 63
+pop$ -- 188
 preamble$ -- 1
-purify$ -- 166
+purify$ -- 178
 quote$ -- 0
-skip$ -- 252
+skip$ -- 288
 stack$ -- 0
-substring$ -- 494
-swap$ -- 44
-text.length$ -- 5
+substring$ -- 553
+swap$ -- 54
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 142
-warning$ -- 23
-while$ -- 61
+type$ -- 154
+warning$ -- 26
+while$ -- 71
 width$ -- 0
-write$ -- 261
-(There were 5 error messages)
+write$ -- 285
+(There were 4 error messages)

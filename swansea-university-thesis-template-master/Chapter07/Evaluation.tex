@@ -6,16 +6,16 @@ In this section, we provide the description of the performance of the project, a
 
 \subsection{Results}
 
-\paragraph{Frequency Visualisation}
+\paragraph{High Frequency View}
 \paragraph[]{}
-The Frequency Visualisation is the basic feature and the primary task in this project. In this visualisation, we provided a parallel view of concordances to display the most frequent words in each version of the translation. As shown in \ref{fig:highlightView}, the colour of blocks differs from each other and the width of blocks represents ranges from the longest to the shortest. A highlight feature allows user to see same terms in each concordance.
+The High Frequency View is the basic feature and the primary task in this project. In this visualisation, we provided a parallel view of concordances to display the most frequent words in each version of the translation. As shown in \ref{fig:highlightView}, the colour of blocks differs from each other and the width of blocks represents ranges from the longest to the shortest. A highlight feature allows user to see same terms in each concordance.
 
 
 However, from the results in the frequency visualisation, we can tell that the most frequent words in each version are the noise, and stop words such as 'ich' which means 'I' in English, or 'und' which means 'and' in English. These kinds of words are little help in translation comparison.
 
 
-\paragraph{Tf-Idf Visualisation}
-\paragraph[]{}The Tf-Idf Visualisation is another feature provided in this project. Based on features in Frequency Visualisation, the Tf-Idf Visualisation displays the most important words in the concordance. Therefore, the results of this visualisation are quite different compared to the Frequency Visualisation. In Figure \ref{fig:tfIdfView}, 27, terms in each concordance changed significantly. As illustrated in the Tf-Idf visualisation implementation section, if a word is listed on the top of a concordance, it means this word may appear many times in this version of the translation, while appearing not so frequently in the other concordance. For example, in Figure \ref{fig:fassung}, we see the word 'fassung' meaning 'composure' (in the 1941 version of the translation written by Schwarz) appears to have a high Tf-Idf value. When selecting 'fassung', it appears that no other blocks are highlighted, which means this word is not used by other authors. There are several guesses for this result:
+\paragraph{Tf-Idf View}
+\paragraph[]{}The Tf-Idf View is another feature provided in this project. Based on features in High Freuency View, the Tf-Idf View displays the most important words in the concordance. Therefore, the results of this visualisation are quite different compared to the High Freuency View. In Figure \ref{fig:tfIdfView}, 27, terms in each concordance changed significantly. As illustrated in the Tf-Idf visualisation implementation section, if a word is listed on the top of a concordance, it means this word may appear many times in this version of the translation, while appearing not so frequently in the other concordance. For example, in Figure \ref{fig:fassung}, we see the word 'fassung' meaning 'composure' (in the 1941 version of the translation written by Schwarz) appears to have a high Tf-Idf value. When selecting 'fassung', it appears that no other blocks are highlighted, which means this word is not used by other authors. There are several guesses for this result:
 \begin{itemize} 	
 	\item \textbf{} The word 'fassung' is used multiple times in this translation version. So this is used to translate certain word or express specific meaning. (In this text, it is used to translate 'patience' or express 'the state of being calm and in control of oneself')
 	\item \textbf{} This word does not appear in other versions, and we can assume that special trans- lation techniques were adopted, such as reformulation, adaptation, or compensation. 
@@ -29,8 +29,8 @@ However, from the results in the frequency visualisation, we can tell that the m
 	\label{fig:fassung}
 \end{figure} 
 
-\paragraph{Lemma Visualisation}
-\paragraph[]{}Lemma Visualisation is generated after applying a lemma corpus to process our data. After lemmatisation, words are supposed to change into the original form, namely, the dictionary form (See Implementation chapter for relevant explanation). This feature is designed to combine the same words with different inflected forms. For example, the English word 'you' can be translated into 'dir', 'du', 'sie' and 'euch' in German. Figure \ref{fig:youInFreq} is the result after we select 'you' in the base text concordance. However, in Lemma Visualisation, only 'ihr' is highlighted.
+\paragraph{Lemmatised View}
+\paragraph[]{}Lemmatised View is generated after applying a lemma corpus to process our data. After lemmatisation, words are supposed to change into the original form, namely, the dictionary form (See Implementation chapter for relevant explanation). This feature is designed to combine the same words with different inflected forms. For example, the English word 'you' can be translated into 'dir', 'du', 'sie' and 'euch' in German. Figure \ref{fig:youInFreq} is the result after we select 'you' in the base text concordance. However, in Lemmatised View, only 'ihr' is highlighted.
  
 \begin{figure}[H]
 	\centering	
@@ -56,12 +56,12 @@ As a result of lemmatisation, the length of column is shorter in the lemma view 
 	\label{fig:freqLemmaComp}
 \end{figure} 
 
-\paragraph{Lemma and Tf-Idf Visualisation}
-\paragraph[]{} The last view we rendered is the Lemma and Tf-Idf Visualisation. In this view, both the techniques of lemmatisation and Tf-Idf are utilized to display a parallel translation comparison in the software. From this visualisation, not only can we see the dictionary words, but the stop words are filtered. To prove the advantages of these results, two comparisons is necessary:
+\paragraph{Lemmatised Tf-Idf View}
+\paragraph[]{} The last view we rendered is the Lemmatised Tf-Idf View. In this view, both the techniques of lemmatisation and Tf-Idf are utilized to display a parallel translation comparison in the software. From this visualisation, not only can we see the dictionary words, but the stop words are filtered. To prove the advantages of these results, two comparisons is necessary:
 \begin{itemize} 	
-	\item \textbf{Tf-Idf Visualisation vs Lemma and Tf-Idf Visualisation}\\
+	\item \textbf{Tf-Idf View vs Lemmatised Tf-Idf View}\\
     The German word 'wen', meaning 'whom' in English, which bears little content information but merely performs grammar function. In Tf-Idf visualisation of Figure \ref{fig:tfIdfView}, the word 'wen' ranked on the top of second version from the left which is written by Baudissin ed Wenig in 1832 \cite{Hotho2005}. However, in Figure28, which applied both lemmatisation techiniques and Tf-Idf algorithm, this word disappears. This can be caused by the virtue that the word is combined with the dictionary word of 'wen', which has low Tf-Idf value.
-	\item \textbf{Lemma Visualisation vs Lemma and Tf-Idf Visualisation}\\
+	\item \textbf{Lemmatised View vs Lemmatised Tf-Idf View}\\
 If we only apply lemmatisation in the visualisation, stop words are still present. In Figure \ref{fig:lemmaView}, words such as 'die'('the' in English), 'ich'('I' in English), and 'und'('and' in English) are all considered as stop words \cite{Hotho2005}, which contribute little in translation studies. In the Lemma and Tf-Idf view, these words have disappeared because they are ranked to the bottom. 
 \end{itemize}
 
@@ -71,7 +71,7 @@ A domain expert, Dr. Tom Cheesman from the College of Art and Humanities at Swan
 
 \subsubsection{Session 1}
 
-At this stage, Frequency Visualisation was finished, along with features such as turning the visualisation on and off, scaling the frame, version selection, and colour legend were implemented. Dr. Tom Cheesman expressed his interest by leaning his body to watch closer to 
+At this stage, High Freuency View was finished, along with features such as turning the visualisation on and off, scaling the frame, version selection, and colour legend were implemented. Dr. Tom Cheesman expressed his interest by leaning his body to watch closer to 
 the laptop. He asked some questions such as "What do the numbers beside colour legend represent?", "What are the connections?". He also requested that only the base text and three other German translations were shown so that he could understand the alignments. In the feed back, words like 'interesting', 'useful' and 'good' were used a lot. Meanwhile, other suggestions were mentioned and discussed, such as filtering stop words and seeing the most important words, together with showing the lemma of the words to decrease inflected words.
 
 \subsubsection{Session 2}

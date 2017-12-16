@@ -1,46 +1,45 @@
-\BOOKMARK [1][-]{section*.2}{List of Figures}{}% 1
-\BOOKMARK [1][-]{section*.3}{List of Tables}{}% 2
-\BOOKMARK [1][-]{section.1}{Introduction and Motivation}{}% 3
-\BOOKMARK [1][-]{section.2}{Background Research}{}% 4
-\BOOKMARK [2][-]{subsection.2.1}{Literature Review}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.2}{Previous Systems}{section.2}% 6
-\BOOKMARK [1][-]{section.3}{Project Specification}{}% 7
-\BOOKMARK [2][-]{subsection.3.1}{Data Characteristics}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.2}{Feature Specification}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.3}{Technology Choices}{section.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Programming language}{subsection.3.3}% 11
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Java Library}{subsection.3.3}% 12
-\BOOKMARK [3][-]{subsubsection.3.3.3}{Other Techniques}{subsection.3.3}% 13
-\BOOKMARK [1][-]{section.4}{Project Plan and Time Management}{}% 14
-\BOOKMARK [2][-]{subsection.4.1}{Development Approach}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.2}{Project Timetable}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.3}{Risk Analysis}{section.4}% 17
-\BOOKMARK [1][-]{section.5}{Project Design}{}% 18
-\BOOKMARK [2][-]{subsection.5.1}{Data Reading}{section.5}% 19
-\BOOKMARK [2][-]{subsection.5.2}{Tasks to Support Visualisation Mantra}{section.5}% 20
-\BOOKMARK [2][-]{subsection.5.3}{GUI}{section.5}% 21
-\BOOKMARK [1][-]{section.6}{Implementation}{}% 22
-\BOOKMARK [2][-]{subsection.6.1}{Data Processing}{section.6}% 23
-\BOOKMARK [2][-]{subsection.6.2}{Generating Concordances}{section.6}% 24
-\BOOKMARK [2][-]{subsection.6.3}{Parallel View of Concordances}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.4}{Zooming}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.5}{Text Labels Toggling}{section.6}% 27
-\BOOKMARK [2][-]{subsection.6.6}{Adding, Subtracting, Selecting Items}{section.6}% 28
-\BOOKMARK [2][-]{subsection.6.7}{Interaction and Selection of Terms}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.8}{Colour Mapping}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.9}{Interactive Colour Legend}{section.6}% 31
-\BOOKMARK [2][-]{subsection.6.10}{Lemmatisation}{section.6}% 32
-\BOOKMARK [3][-]{subsubsection.6.10.1}{TreeTagger}{subsection.6.10}% 33
-\BOOKMARK [3][-]{subsubsection.6.10.2}{DeReWo}{subsection.6.10}% 34
-\BOOKMARK [2][-]{subsection.6.11}{Tf-Idf}{section.6}% 35
-\BOOKMARK [1][-]{section.7}{Evaluation}{}% 36
-\BOOKMARK [2][-]{subsection.7.1}{Results}{section.7}% 37
-\BOOKMARK [2][-]{subsection.7.2}{Domain Expert Feedback}{section.7}% 38
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Session 1}{subsection.7.2}% 39
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Session 2}{subsection.7.2}% 40
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 41
-\BOOKMARK [1][-]{section.9}{Future Work}{}% 42
-\BOOKMARK [1][-]{section*.60}{References}{}% 43
-\BOOKMARK [1][-]{section*.61}{Appendices}{}% 44
-\BOOKMARK [1][-]{Appendix.a.A}{Minutes of Meeting }{}% 45
-\BOOKMARK [1][-]{Appendix.a.B}{JavaDoc of Project }{}% 46
+\BOOKMARK [1][-]{section*.5}{List of Figures}{}% 1
+\BOOKMARK [1][-]{section.1}{Introduction and Motivation}{}% 2
+\BOOKMARK [1][-]{section.2}{Background Research}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Literature Review}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Previous Systems}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Project Specification}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Data Characteristics}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Feature Specification}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Technology Choices}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Programming language}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Java Library}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Other Techniques}{subsection.3.3}% 12
+\BOOKMARK [1][-]{section.4}{Project Plan and Time Management}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Development Approach}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Project Timetable}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Risk Analysis}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Project Design}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Data Reading}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Tasks to Support Visualisation Mantra}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{GUI}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Implementation}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Data Processing}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Generating Concordances}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{Parallel View of Concordances}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.4}{Zooming}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.5}{Text Label Toggling}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.6}{Adding, Subtracting, Selecting Items}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.7}{Interaction and Selection of Terms}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.8}{Colour Mapping}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.9}{Interactive Colour Legend}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.10}{Lemmatisation}{section.6}% 31
+\BOOKMARK [3][-]{subsubsection.6.10.1}{TreeTagger}{subsection.6.10}% 32
+\BOOKMARK [3][-]{subsubsection.6.10.2}{DeReWo}{subsection.6.10}% 33
+\BOOKMARK [2][-]{subsection.6.11}{Tf-Idf}{section.6}% 34
+\BOOKMARK [1][-]{section.7}{Evaluation}{}% 35
+\BOOKMARK [2][-]{subsection.7.1}{Results}{section.7}% 36
+\BOOKMARK [2][-]{subsection.7.2}{Domain Expert Feedback}{section.7}% 37
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Session 1}{subsection.7.2}% 38
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Session 2}{subsection.7.2}% 39
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 40
+\BOOKMARK [1][-]{section.9}{Future Work}{}% 41
+\BOOKMARK [1][-]{section*.62}{References}{}% 42
+\BOOKMARK [1][-]{section*.63}{Appendices}{}% 43
+\BOOKMARK [1][-]{Appendix.a.A}{Minutes of Meeting }{}% 44
+\BOOKMARK [1][-]{Appendix.a.B}{Documentation }{}% 45

@@ -38,7 +38,7 @@
 \usepackage{todonotes}
 \usepackage{hyperref}
 \usepackage{glossaries}
-
+\usepackage[final]{pdfpages}
 \makeglossaries
 
 \usepackage[nottoc]{tocbibind} % add list of figure and tables and put them in content 
@@ -71,19 +71,17 @@
 % Page Title
 %------------------------------------------------------------------------------------
 \begin{titlepage}
-
 \maketitle
 \vfill
-\center \date{\normalsize December 2017} % Today's date or a custom date
+%\center \date{\normalsize December 2017} % Today's date or a custom date
 \end{titlepage}
 % -----------------------------------------------------------------------------------
 
-\pagenumbering{Roman} 
-\justify
-
+%\pagenumbering{Roman} 
+%\justify
 \include{Declaration/declaration}
-\include{Acknowledgement/acknowledgement}
 \include{Abstract/abstract}
+\include{Acknowledgement/acknowledgement}
 
 %------------------------------------------------------------------------------------
 % Table of content
@@ -92,8 +90,8 @@
 \pagebreak
 \listoffigures
 \pagebreak
-\listoftables
-\justify
+%\listoftables
+%\justify
 %------------------------------------------------------------------------------------
 % Document begin
 %------------------------------------------------------------------------------------
@@ -109,6 +107,7 @@
 \include{Chapter08/Conclusion}
 \include{Chapter09/FutureWork}
 
+
 %-----------------------------------------------------------------------------------------
 
 \clearpage
@@ -119,6 +118,7 @@
 \begin{appendices}
 \include{Appendix1/appendix1}
 \include{Appendix2/appendix2}
+
 
 \end{appendices}
 \end{document}

@@ -6,9 +6,9 @@ In this section we describe how the project is implemented in detail. The subsys
 
 \subsection{Data Processing}
 
-The main concept of data processing is to read text data from .txt files, calculate values need, and store them into Java Arraylist. At this stage, the greatest challenge is to keep the data being accessible and can be changed, as  the new data may be written over the old due to events in other class. Hence, after the original data is read and stored, it is retrieved and modified through  mutator methods \cite{Bob's coding convention}. In addtion to the flexibility, another difficulty at this stage is generating values for each term and store them appropriately. As discussed in the Project Features section, the aim of the software we designed is to present information about terms and provide an concordance view for each version. In this project, we calculate and sort frequencies of terms; compute colour values; computed locations of strings; instantiate Rectangle objects to represent data; create arrays to store translations.
+The main concept of data processing is to read text data from .txt files, calculate values need, and store them into Java Arraylist. At this stage, the greatest challenge is to keep the data being accessible and can be changed, as  the new data may be written over the old due to events in other class. Hence, after the original data is read and stored, it is retrieved and modified through  mutator methods \cite{Laramee2013}. In addtion to the flexibility, another difficulty at this stage is generating values for each term and store them appropriately. As discussed in the Project Features section, the aim of the software we designed is to present information about terms and provide an concordance view for each version. In this project, we calculate and sort frequencies of terms; compute colour values; computed locations of strings; instantiate Rectangle objects to represent data; create arrays to store translations.
 
-Java.io, which enables for system input and output through data streams \cite{javadoc java.io}, is used in this project. It serves as a data buffer and reader in this project. The FileReader class, which extends the InputStreamReader class, can be used to read character files which by default are assumed to be an appropriate size. Since the volume of data in each document is not large, we instantiate a FileReader (object) to access each text file. The other data reading class adopted is the BufferedReader class. It is used to read text data from a character-input stream, and buffer the data to provide efficient reading of strings, arrays and lines \cite{javadoc7}. Java.util is another package imported in the DataReader class. To store and access data, the ArrayList, Hashtable, and Map classes from this package are used. In addition, classes such as JsonObject, JsonReader, and JsonArray in Javax.json package are used to read data from a Json file.
+Java.io, which enables for system input and output through data streams, is used in this project. It serves as a data buffer and reader in this project. The FileReader class, which extends the InputStreamReader class, can be used to read character files which by default are assumed to be an appropriate size. Since the volume of data in each document is not large, we instantiate a FileReader (object) to access each text file. The other data reading class adopted is the BufferedReader class. It is used to read text data from a character-input stream, and buffer the data to provide efficient reading of strings, arrays and lines \cite{Gosling2014}. Java.util is another package imported in the DataReader class. To store and access data, the ArrayList, Hashtable, and Map classes from this package are used. In addition, classes such as JsonObject, JsonReader, and JsonArray in Javax.json package are used to read data from a Json file.
 
 The main class that is responsible for reading the original data file is the DataReader class. This class analyses .txt files and generates a list of Version objects to parse all information needed in the software. Each Version object stores information of the concordance. For a more detailed description of the Version class and Item class, please see the Design section.
 
@@ -100,7 +100,7 @@ During this process, the most difficult part is to recalculate all values of gra
 At the first phase, scale() method in Graphics2D class is invoked. By applying this method, computer will calculate and repaint all the graphics using scale parameters passed in. However, when the project prompting to the Term Selecting phase (See Interactive Selection of Terms section below), a problem of obtaining mouse clicking location appears. Hence, the second phase of scaling visualisation comes out.  
 
 At the second phase, scale values attained from JSlider objects are passed to DataReader class and applied in relevant formulas to calculate variables such as points, widths and heights of rectangles. See Equation \eqref{rectWidth}, \eqref{PointX}, and \eqref{PointY}. As shown in \ref{fig:jSliders}, 100 is set as the initial value for the slider, so that the visualisation shown when the visualisation generated at the first time is scaled as 100\%. 
-\subsection{Text Labels Toggling}
+\subsection{Text Label Toggling}
 
 As the scale values become smaller, the strings begin overlap. This inspires a new feature; toggling labels in the visualisation, enabling users to focus only on the rectangles and colours. Hence a new desire appearing: hide strings on the visualisation. So that users can focus on the rectangles and colours only. Next, an event listener is registered to the JButton. When the button is clicked, its label value is replaced by “Text Off”. Consequently, with the default state ‘true’ is toggled ‘false’, then passed to the ConcordancePanel class. In the third step, a boolean value preset when drawing strings of terms will be assigned the same truth value as the boolean passed in. If it is "true", then draw the strings, else if it is "false" then do not the drawString() method. Finally, we repaint the graphic. Figure \ref{fig:textOnOff} is a screen shot of concordance view with labels toggled off.
 
@@ -249,7 +249,7 @@ Figure \ref{fig:lemmaView} shows the outcome of the lemma visualisation.
 
 \begin{figure}[H]
 	\centering	
-	\includegraphics[scale=0.6]{Figs/LemmaView}\\[1ex]
+	\includegraphics[scale=0.45]{Figs/LemmaView}\\[1ex]
 	\caption{A screen shot of Lemma view.}
 	\label{fig:lemmaView}
 \end{figure} 
@@ -262,7 +262,7 @@ The Tf-Idf visualisation generation process goes through the following steps:
 
 \begin{itemize}
 \item \textbf{} Calculate term frequency value. This step is done in the data reading stage. The Tf value hence can be achieved from DataReader object.
-\item \textbf{} Calculate Idf value. As shown in Equation \ref{Tf-Idf},
+\item \textbf{} Calculate Idf value.  
 \item \textbf{} Replace the frequency with Tf-Idf value.
 \item \textbf{} Visualise according to the new results.
 \end{itemize} 
