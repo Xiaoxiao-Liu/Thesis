@@ -10,10 +10,6 @@ A level-1 auxiliary file: Chapter02/ProjectSpecification.aux
 A level-1 auxiliary file: Chapter03/ProjectPlan.aux
 A level-1 auxiliary file: Chapter04/Design.aux
 A level-1 auxiliary file: Chapter06/Implementation.aux
-White space in argument---line 4 of file Chapter06/Implementation.aux
- : \citation{javadoc
- :                   java.io}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter07/Evaluation.aux
 A level-1 auxiliary file: Chapter08/Conclusion.aux
 A level-1 auxiliary file: Chapter09/FutureWork.aux
@@ -21,19 +17,22 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-Repeated entry---line 258 of file References/TransVisReferences.bib
+Repeated entry---line 99 of file References/TransVisReferences.bib
  : @misc{Tom2012
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 266 of file References/TransVisReferences.bib
- : @misc{Laramee
- :              ,
+Repeated entry---line 296 of file References/TransVisReferences.bib
+ : @article{Laramee
+ :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 357 of file References/TransVisReferences.bib
- : @misc{Larameea
- :               ,
+Repeated entry---line 366 of file References/TransVisReferences.bib
+ : @article{Laramee
+ :                 ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "javadoc7"
+Repeated entry---line 624 of file References/TransVisReferences.bib
+ : @article{Larameea
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in TagCrowd
 Warning--to sort, need author or key in AgileVsWaterfall
 Warning--to sort, need author or key in StanfordNLP
@@ -50,10 +49,8 @@ Warning--empty publisher in Cao2016
 Warning--empty journal in Geng2011
 Warning--empty journal in Jong2008
 Warning--there's a number but no volume in Kucher2014
-Warning--empty year in Larameea
-Warning--empty journal in Larameea
 Warning--empty year in Laramee
-Warning--empty journal in Laramee
+Warning--empty year in Larameea
 Warning--empty journal in Laramee2013
 Warning--empty journal in Laramee2010
 Warning--empty year in Liu
@@ -63,42 +60,42 @@ Warning--empty publisher in Ward2015
 You've used 26 entries,
             1935 wiz_defined-function locations,
             623 strings with 7297 characters,
-and the built_in function-call counts, 8739 in all, are:
-= -- 866
+and the built_in function-call counts, 8561 in all, are:
+= -- 850
 > -- 294
-< -- 19
+< -- 18
 + -- 97
 - -- 96
-* -- 678
-:= -- 1499
-add.period$ -- 63
+* -- 665
+:= -- 1481
+add.period$ -- 62
 call.type$ -- 26
 change.case$ -- 177
 chr.to.int$ -- 25
-cite$ -- 57
-duplicate$ -- 373
-empty$ -- 622
+cite$ -- 55
+duplicate$ -- 361
+empty$ -- 602
 format.name$ -- 123
-if$ -- 1717
+if$ -- 1673
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 118
+missing$ -- 17
+newline$ -- 117
 num.names$ -- 63
-pop$ -- 188
+pop$ -- 182
 preamble$ -- 1
 purify$ -- 178
 quote$ -- 0
-skip$ -- 288
+skip$ -- 278
 stack$ -- 0
-substring$ -- 553
-swap$ -- 54
-text.length$ -- 7
+substring$ -- 534
+swap$ -- 49
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 154
-warning$ -- 26
-while$ -- 71
+warning$ -- 24
+while$ -- 68
 width$ -- 0
-write$ -- 285
+write$ -- 283
 (There were 4 error messages)

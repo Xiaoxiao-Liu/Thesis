@@ -1,0 +1,99 @@
+\headcommand {\beamer@sectionpages {1}{8}}
+\headcommand {\beamer@subsectionpages {1}{8}}
+\headcommand {\sectionentry {1}{\translate {List of Figures}}{9}{\translate {List of Figures}}{0}}
+\headcommand {\beamer@sectionpages {9}{0}}
+\headcommand {\beamer@subsectionpages {9}{0}}
+\headcommand {\sectionentry {2}{Introduction and Motivation}{1}{Introduction and Motivation}{0}}
+\headcommand {\beamer@sectionpages {1}{11}}
+\headcommand {\beamer@subsectionpages {1}{11}}
+\headcommand {\sectionentry {3}{Background Research}{12}{Background Research}{0}}
+\headcommand {\beamer@subsectionpages {12}{11}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{12}{Literature Review}}
+\headcommand {\beamer@subsectionpages {12}{23}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{24}{Previous Systems}}
+\headcommand {\beamer@sectionpages {12}{34}}
+\headcommand {\beamer@subsectionpages {24}{34}}
+\headcommand {\sectionentry {4}{Project Specification}{35}{Project Specification}{0}}
+\headcommand {\beamer@subsectionpages {35}{34}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{35}{Data Characteristics}}
+\headcommand {\beamer@subsectionpages {35}{39}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{40}{Feature Specification}}
+\headcommand {\beamer@subsectionpages {40}{41}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{42}{Technology Choices}}
+\headcommand {\beamer@subsubsectionentry {0}{4}{3}{1}{42}{Programming language}}
+\headcommand {\beamer@subsubsectionentry {0}{4}{3}{2}{44}{Java Library}}
+\headcommand {\beamer@subsubsectionentry {0}{4}{3}{3}{44}{Other Techniques}}
+\headcommand {\beamer@sectionpages {35}{47}}
+\headcommand {\beamer@subsectionpages {42}{47}}
+\headcommand {\sectionentry {5}{Project Plan and Time Management}{48}{Project Plan and Time Management}{0}}
+\headcommand {\beamer@subsectionpages {48}{47}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{48}{Development Approach}}
+\headcommand {\beamer@subsectionpages {48}{51}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{52}{Project Timetable}}
+\headcommand {\beamer@subsectionpages {52}{57}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{58}{Risk Analysis}}
+\headcommand {\beamer@sectionpages {48}{61}}
+\headcommand {\beamer@subsectionpages {58}{61}}
+\headcommand {\sectionentry {6}{Project Design}{62}{Project Design}{0}}
+\headcommand {\beamer@subsectionpages {62}{61}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{62}{Data Reading}}
+\headcommand {\beamer@subsectionpages {62}{72}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{73}{Tasks to Support Visualisation Mantra}}
+\headcommand {\beamer@subsectionpages {73}{75}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{76}{GUI}}
+\headcommand {\beamer@sectionpages {62}{83}}
+\headcommand {\beamer@subsectionpages {76}{83}}
+\headcommand {\sectionentry {7}{Implementation}{84}{Implementation}{0}}
+\headcommand {\beamer@subsectionpages {84}{83}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{84}{Data Processing}}
+\headcommand {\beamer@subsectionpages {84}{86}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{87}{Generating Concordances}}
+\headcommand {\beamer@subsectionpages {87}{92}}
+\headcommand {\beamer@subsectionentry {0}{7}{3}{93}{Parallel View of Concordances}}
+\headcommand {\beamer@subsectionpages {93}{95}}
+\headcommand {\beamer@subsectionentry {0}{7}{4}{96}{Zooming}}
+\headcommand {\beamer@subsectionpages {96}{98}}
+\headcommand {\beamer@subsectionentry {0}{7}{5}{99}{Text Label Toggling}}
+\headcommand {\beamer@subsectionpages {99}{100}}
+\headcommand {\beamer@subsectionentry {0}{7}{6}{101}{Adding, Subtracting, Selecting Items}}
+\headcommand {\beamer@subsectionpages {101}{104}}
+\headcommand {\beamer@subsectionentry {0}{7}{7}{105}{Interaction and Selection of Terms}}
+\headcommand {\beamer@subsectionpages {105}{109}}
+\headcommand {\beamer@subsectionentry {0}{7}{8}{110}{Colour Mapping}}
+\headcommand {\beamer@subsectionpages {110}{112}}
+\headcommand {\beamer@subsectionentry {0}{7}{9}{113}{Interactive Colour Legend}}
+\headcommand {\beamer@subsectionpages {113}{114}}
+\headcommand {\beamer@subsectionentry {0}{7}{10}{115}{Lemmatisation}}
+\headcommand {\beamer@subsubsectionentry {0}{7}{10}{1}{117}{TreeTagger}}
+\headcommand {\beamer@subsubsectionentry {0}{7}{10}{2}{120}{DeReWo}}
+\headcommand {\beamer@subsectionpages {115}{122}}
+\headcommand {\beamer@subsectionentry {0}{7}{11}{123}{Tf-Idf}}
+\headcommand {\beamer@sectionpages {84}{127}}
+\headcommand {\beamer@subsectionpages {123}{127}}
+\headcommand {\sectionentry {8}{Evaluation}{128}{Evaluation}{0}}
+\headcommand {\beamer@subsectionpages {128}{127}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{128}{Results}}
+\headcommand {\beamer@subsectionpages {128}{139}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{140}{Domain Expert Feedback}}
+\headcommand {\beamer@subsubsectionentry {0}{8}{2}{1}{140}{Session 1}}
+\headcommand {\beamer@subsubsectionentry {0}{8}{2}{2}{141}{Session 2}}
+\headcommand {\beamer@sectionpages {128}{144}}
+\headcommand {\beamer@subsectionpages {140}{144}}
+\headcommand {\sectionentry {9}{Conclusion}{145}{Conclusion}{0}}
+\headcommand {\beamer@sectionpages {145}{148}}
+\headcommand {\beamer@subsectionpages {145}{148}}
+\headcommand {\sectionentry {10}{Future Work}{149}{Future Work}{0}}
+\headcommand {\beamer@sectionpages {149}{150}}
+\headcommand {\beamer@subsectionpages {149}{150}}
+\headcommand {\sectionentry {11}{\translate {Bibliography}}{151}{\translate {Bibliography}}{0}}
+\headcommand {\beamer@sectionpages {149}{158}}
+\headcommand {\beamer@subsectionpages {149}{158}}
+\headcommand {\sectionentry {1}{Minutes of Meeting }{159}{Minutes of Meeting }{0}}
+\headcommand {\beamer@sectionpages {159}{162}}
+\headcommand {\beamer@subsectionpages {159}{162}}
+\headcommand {\sectionentry {2}{Documentation }{163}{Documentation }{0}}
+\headcommand {\beamer@partpages {1}{180}}
+\headcommand {\beamer@subsectionpages {149}{180}}
+\headcommand {\beamer@sectionpages {149}{180}}
+\headcommand {\beamer@documentpages {180}}
+\headcommand {\def \inserttotalframenumber {0}}

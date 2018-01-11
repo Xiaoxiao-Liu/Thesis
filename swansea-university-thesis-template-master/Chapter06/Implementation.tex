@@ -54,9 +54,14 @@ The process in generating the concordance visualisation goes through the followi
 	Similarly, the lineNumber is order number of the term while lineDistance represents the distance between two terms. 
 	
 	\item \textbf{}Calculate the value of colour. According to \cite{Jbum}, we use the equation as shown in Equation \eqref{Red}: 	
+
+
+
 	\begin{multline}\label{Red}
-	color = Math.sin(colorFrequency*wordFrequency + phase) * amplitude + center
+	color = Math.sin(colorFrequency*wordFrequency + phase) *\\ amplitude + center
 	\end{multline}
+
+
 	Where colorFrequency is a constant that controls how fast the wave oscillates. The wordFrequency is  variable used to display different colour according to word frequency. The phase is applied to change the alignment of the green or blue sine waves. The amplitude controls how high (or low) the wave goes. The center controls the center position of the wave.
 	
 	\item \textbf{}Paint the strings, blocks, and colours by invoking drawing methods in Graphic class. 
@@ -106,7 +111,7 @@ As the scale values become smaller, the strings begin overlap. This inspires a n
 
 \begin{figure}[H]
 	\centering	
-	\includegraphics[scale=0.5]{Figs/Text-On-Off}\\[1ex]
+	\includegraphics[width=\textwidth]{Figs/Text-On-Off}\\[1ex]
 	\caption{Results of toggling off text.}
 	\label{fig:textOnOff}
 \end{figure} 
@@ -136,7 +141,7 @@ Figure \ref{fig:versionChoosDemo} shows the base text, which originally appears 
 
 \begin{figure}[H]
 	\centering	
-	\includegraphics[scale=0.5]{Figs/Version-Selecting-Demo}\\[1ex]
+	\includegraphics[width=\textwidth]{Figs/Version-Selecting-Demo}\\[1ex]
 	\caption{The screen shot of version selection feature.}
 	\label{fig:versionChoosDemo}
 \end{figure} 
@@ -190,7 +195,7 @@ Colour mapping is not reserved for just static visualizations, we can dynamicall
 As a result, by clicking one colour block in colour legend, all items sharing the same frequency, or colour, are highlighted using the same methods of highlighting described in Interaction and Selection of Terms chapter. Figure \ref{fig:interactiveColourMapping} serves as a demo to illustrate this feature.
 \begin{figure}[H]
 	\centering	
-	\includegraphics[scale=0.5]{Figs/Colour-Legend-Interation}\\[1ex]
+	\includegraphics[width=\textwidth]{Figs/Colour-Legend-Interation}\\[1ex]
 	\caption{A screen shot of highlighting items sharing same number of frequency.}
 	\label{fig:interactiveColourMapping}
 \end{figure} 
@@ -249,7 +254,7 @@ Figure \ref{fig:lemmaView} shows the outcome of the lemma visualisation.
 
 \begin{figure}[H]
 	\centering	
-	\includegraphics[scale=0.45]{Figs/LemmaView}\\[1ex]
+	\includegraphics[width=\textwidth]{Figs/LemmaView}\\[1ex]
 	\caption{A screen shot of Lemma view.}
 	\label{fig:lemmaView}
 \end{figure} 
@@ -271,13 +276,13 @@ There are two visualisations generated using Tf-Idf value: one is to visualise t
 
 \begin{figure}[H]
 	\centering	
-	\includegraphics[scale=0.5]{Figs/Tf-Idf}\\[1ex]
+	\includegraphics[width=\textwidth]{Figs/Tf-Idf}\\[1ex]
 	\caption{A result of Tf-Idf visualisation.}
 	\label{fig:tfIdfView}
 \end{figure} 
 \begin{figure}[H]
 	\centering	
-	\includegraphics[scale=0.5]{Figs/Lemma-TfIdf}\\[1ex]
+	\includegraphics[width=\textwidth]{Figs/Lemma-TfIdf}\\[1ex]
 	\caption{Lemma and Tf-Idf Visualisation.}
 	\label{fig:tfIdfLemma}
 \end{figure} 

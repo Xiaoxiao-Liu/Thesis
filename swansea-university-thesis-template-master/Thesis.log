@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  15 DEC 2017 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.18)  11 JAN 2018 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,10 +6,19 @@ entering extended mode
 (./Thesis.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
-(d:/texlive/2017/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(d:/texlive/2017/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(d:/texlive/2017/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(d:/texlive/2017/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(d:/texlive/2017/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
 )
 \c@part=\count79
 \c@section=\count80
@@ -21,7 +30,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
+\bibindent=\dimen103
 )
 (d:/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -347,16 +356,19 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count88
 \c@@ppsaveapp=\count89
 )
+(d:/texlive/2017/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+(d:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
 (d:/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (d:/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 (d:/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -371,8 +383,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (d:/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
 (d:/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
@@ -390,14 +402,14 @@ Package: cite 2015/02/27  v 5.5
 \lst@gtempboxa=\box26
 \lst@token=\toks17
 \lst@length=\count91
-\lst@currlwidth=\dimen105
+\lst@currlwidth=\dimen106
 \lst@column=\count92
 \lst@pos=\count93
-\lst@lostspace=\dimen106
-\lst@width=\dimen107
+\lst@lostspace=\dimen107
+\lst@width=\dimen108
 \lst@newlines=\count94
 \lst@lineno=\count95
-\lst@maxwidth=\dimen108
+\lst@maxwidth=\dimen109
 
 (d:/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
@@ -423,7 +435,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 (d:/texlive/2017/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks18
-\footnotemargin=\dimen109
+\footnotemargin=\dimen110
 \c@pp@next@reset=\count98
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
@@ -450,8 +462,8 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 \JustifyingParindent=\skip56
 )
 (d:/texlive/2017/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen110
-\WF@size=\dimen111
+\wrapoverhang=\dimen111
+\WF@size=\dimen112
 \c@WF@wrappedlines=\count99
 \WF@box=\box28
 \WF@everypar=\toks19
@@ -459,14 +471,14 @@ Package: wrapfig 2003/01/31  v 3.6
 )
 (d:/texlive/2017/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2016/04/28 v1.73 
-\dashlinedash=\dimen112
-\dashlinegap=\dimen113
+\dashlinedash=\dimen113
+\dashlinegap=\dimen114
 \adl@box=\box29
-\adl@height=\dimen114
-\adl@heightsave=\dimen115
-\adl@depth=\dimen116
-\adl@depthsave=\dimen117
-\adl@finaldepth=\dimen118
+\adl@height=\dimen115
+\adl@heightsave=\dimen116
+\adl@depth=\dimen117
+\adl@depthsave=\dimen118
+\adl@finaldepth=\dimen119
 \adl@columns=\count100
 \adl@ncol=\count101
 \adl@currentcolumn=\count102
@@ -478,27 +490,27 @@ Package: arydshln 2016/04/28 v1.73
 \adl@cla=\count108
 \adl@clb=\count109
 \adl@everyvbox=\toks20
-\adl@LTpagetotal=\dimen119
+\adl@LTpagetotal=\dimen120
 )
 (d:/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen120
-\lightrulewidth=\dimen121
-\cmidrulewidth=\dimen122
-\belowrulesep=\dimen123
-\belowbottomsep=\dimen124
-\aboverulesep=\dimen125
-\abovetopsep=\dimen126
-\cmidrulesep=\dimen127
-\cmidrulekern=\dimen128
-\defaultaddspace=\dimen129
+\heavyrulewidth=\dimen121
+\lightrulewidth=\dimen122
+\cmidrulewidth=\dimen123
+\belowrulesep=\dimen124
+\belowbottomsep=\dimen125
+\aboverulesep=\dimen126
+\abovetopsep=\dimen127
+\cmidrulesep=\dimen128
+\cmidrulekern=\dimen129
+\defaultaddspace=\dimen130
 \@cmidla=\count110
 \@cmidlb=\count111
-\@aboverulesep=\dimen130
-\@belowrulesep=\dimen131
+\@aboverulesep=\dimen131
+\@belowrulesep=\dimen132
 \@thisruleclass=\count112
 \@lastruleclass=\count113
-\@thisrulewidth=\dimen132
+\@thisrulewidth=\dimen133
 )
 (d:/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
@@ -556,7 +568,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (d:/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen133
+\@linkdim=\dimen134
 \Hy@linkcounter=\count114
 \Hy@pagecounter=\count115
 
@@ -581,10 +593,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count117
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen134
+\XeTeXLinkMargin=\dimen135
 \Fld@menulength=\count118
-\Field@Width=\dimen135
-\Fld@charsize=\dimen136
+\Field@Width=\dimen136
+\Fld@charsize=\dimen137
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -624,11 +636,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (d:/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen137
+\ex@=\dimen138
 ))
 (d:/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen138
+\pmbraise@=\dimen139
 )
 (d:/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -645,7 +657,7 @@ LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen139
+\big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count129
@@ -658,12 +670,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \column@=\count134
 \maxfields@=\count135
 \andhelp@=\toks23
-\eqnshift@=\dimen140
-\alignsep@=\dimen141
-\tagshift@=\dimen142
-\tagwidth@=\dimen143
-\totwidth@=\dimen144
-\lineht@=\dimen145
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
 \@envbody=\toks24
 \multlinegap=\skip59
 \multlinetaggap=\skip60
@@ -678,8 +690,8 @@ Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count136
 \calc@Bcount=\count137
-\calc@Adimen=\dimen146
-\calc@Bdimen=\dimen147
+\calc@Adimen=\dimen147
+\calc@Bdimen=\dimen148
 \calc@Askip=\skip61
 \calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
@@ -695,14 +707,14 @@ LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count139
-\l_MT_multwidth_dim=\dimen148
+\l_MT_multwidth_dim=\dimen149
 \origjot=\skip64
-\l_MT_shortvdotswithinadjustabove_dim=\dimen149
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen150
-\l_MT_above_intertext_sep=\dimen151
-\l_MT_below_intertext_sep=\dimen152
-\l_MT_above_shortintertext_sep=\dimen153
-\l_MT_below_shortintertext_sep=\dimen154
+\l_MT_shortvdotswithinadjustabove_dim=\dimen150
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen151
+\l_MT_above_intertext_sep=\dimen152
+\l_MT_below_intertext_sep=\dimen153
+\l_MT_above_shortintertext_sep=\dimen154
+\l_MT_below_shortintertext_sep=\dimen155
 )
 (d:/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -740,8 +752,8 @@ Package: tcolorbox 2017/09/14 version 4.11 text color boxes
 (d:/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen155
-\pgfutil@tempdimb=\dimen156
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
 
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (d:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -767,14 +779,14 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen157
-\pgf@y=\dimen158
-\pgf@xa=\dimen159
-\pgf@ya=\dimen160
-\pgf@xb=\dimen161
-\pgf@yb=\dimen162
-\pgf@xc=\dimen163
-\pgf@yc=\dimen164
+\pgf@x=\dimen158
+\pgf@y=\dimen159
+\pgf@xa=\dimen160
+\pgf@ya=\dimen161
+\pgf@xb=\dimen162
+\pgf@yb=\dimen163
+\pgf@xc=\dimen164
+\pgf@yc=\dimen165
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
 \c@pgf@counta=\count141
@@ -809,7 +821,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen165
+\pgfmath@dimen=\dimen166
 \pgfmath@count=\count147
 \pgfmath@box=\box33
 \pgfmath@toks=\toks33
@@ -838,32 +850,32 @@ etics.code.tex)))
 ))
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen166
-\pgf@picmaxx=\dimen167
-\pgf@picminy=\dimen168
-\pgf@picmaxy=\dimen169
-\pgf@pathminx=\dimen170
-\pgf@pathmaxx=\dimen171
-\pgf@pathminy=\dimen172
-\pgf@pathmaxy=\dimen173
-\pgf@xx=\dimen174
-\pgf@xy=\dimen175
-\pgf@yx=\dimen176
-\pgf@yy=\dimen177
-\pgf@zx=\dimen178
-\pgf@zy=\dimen179
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen180
-\pgf@path@lasty=\dimen181
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen182
-\pgf@shorten@start@additional=\dimen183
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
@@ -875,14 +887,14 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen184
+\pgflinewidth=\dimen185
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen185
-\pgf@pt@y=\dimen186
-\pgf@pt@temp=\dimen187
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -896,11 +908,11 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen188
+\pgfarrowsep=\dimen189
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen189
+\pgf@max=\dimen190
 \pgf@sys@shading@range@num=\count150
 )
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -930,8 +942,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (d:/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen190
-\pgf@nodesepend=\dimen191
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
 )
 (d:/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -1005,8 +1017,8 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (d:/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen192
-\pgffor@skip=\dimen193
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -1017,14 +1029,14 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count157
-\pgfplotmarksize=\dimen194
+\pgfplotmarksize=\dimen195
 )
-\tikz@lastx=\dimen195
-\tikz@lasty=\dimen196
-\tikz@lastxsaved=\dimen197
-\tikz@lastysaved=\dimen198
-\tikzleveldistance=\dimen199
-\tikzsiblingdistance=\dimen256
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
 \tikz@figbox=\box49
 \tikz@figbox@bg=\box50
 \tikz@tempbox=\box51
@@ -1163,7 +1175,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip70
 \LTpost=\skip71
 \LTchunksize=\count187
-\LTcapwidth=\dimen257
+\LTcapwidth=\dimen258
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
@@ -1183,20 +1195,20 @@ Package: glossary-super 2017/11/14 v4.35 (NLCT)
 (d:/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count192
-\ST@wd=\dimen258
+\ST@wd=\dimen259
 \ST@rightskip=\skip74
 \ST@leftskip=\skip75
 \ST@parfillskip=\skip76
-\ST@pageleft=\dimen259
-\ST@headht=\dimen260
-\ST@tailht=\dimen261
-\ST@pagesofar=\dimen262
-\ST@pboxht=\dimen263
-\ST@lineht=\dimen264
-\ST@stretchht=\dimen265
-\ST@prevht=\dimen266
-\ST@toadd=\dimen267
-\ST@dimen=\dimen268
+\ST@pageleft=\dimen260
+\ST@headht=\dimen261
+\ST@tailht=\dimen262
+\ST@pagesofar=\dimen263
+\ST@pboxht=\dimen264
+\ST@lineht=\dimen265
+\ST@stretchht=\dimen266
+\ST@prevht=\dimen267
+\ST@toadd=\dimen268
+\ST@dimen=\dimen269
 \ST@pbox=\box57
 ))
 (d:/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
@@ -1209,8 +1221,8 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 (d:/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
-\AM@pagewidth=\dimen269
-\AM@pageheight=\dimen270
+\AM@pagewidth=\dimen270
+\AM@pageheight=\dimen271
 
 (d:/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
@@ -1225,7 +1237,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \glo@main@file=\write8
 \openout8 = `Thesis.glo'.
 
-Package glossaries Info: Writing glossary file Thesis.glo on input line 42.
+Package glossaries Info: Writing glossary file Thesis.glo on input line 47.
 
 (d:/texlive/2017/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -1239,57 +1251,57 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count194
 \Gm@cntv=\count195
 \c@Gm@tempcnt=\count196
-\Gm@bindingoffset=\dimen271
-\Gm@wd@mp=\dimen272
-\Gm@odd@mp=\dimen273
-\Gm@even@mp=\dimen274
-\Gm@layoutwidth=\dimen275
-\Gm@layoutheight=\dimen276
-\Gm@layouthoffset=\dimen277
-\Gm@layoutvoffset=\dimen278
+\Gm@bindingoffset=\dimen272
+\Gm@wd@mp=\dimen273
+\Gm@odd@mp=\dimen274
+\Gm@even@mp=\dimen275
+\Gm@layoutwidth=\dimen276
+\Gm@layoutheight=\dimen277
+\Gm@layouthoffset=\dimen278
+\Gm@layoutvoffset=\dimen279
 \Gm@dimlist=\toks55
-)
-\@input{Title/Title.aux}
-\openout2 = `Title/Title.aux'.
-
-(./Title/Title.tex) (./Thesis.aux (./Declaration/declaration.aux)
-(./Abstract/abstract.aux) (./Acknowledgement/acknowledgement.aux)
-(./Chapter00/introduction.aux) (./Chapter01/BackgroundResearch.aux)
-(./Chapter02/ProjectSpecification.aux) (./Chapter03/ProjectPlan.aux)
-(./Chapter04/Design.aux) (./Chapter06/Implementation.aux)
-(./Chapter07/Evaluation.aux) (./Chapter08/Conclusion.aux)
-(./Chapter09/FutureWork.aux) (./Appendix1/appendix1.aux)
-(./Appendix2/appendix2.aux))
+) (./Thesis.aux
+(./Acknowledgement/acknowledgement.aux) (./Chapter00/introduction.aux)
+(./Chapter01/BackgroundResearch.aux) (./Chapter02/ProjectSpecification.aux)
+(./Chapter03/ProjectPlan.aux) (./Chapter04/Design.aux)
+(./Chapter06/Implementation.aux) (./Chapter07/Evaluation.aux)
+(./Chapter08/Conclusion.aux) (./Chapter09/FutureWork.aux)
+(./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 64.
+
+(d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 68.
+(lastpage)             ! on input line 64.
 
 (d:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count197
-\scratchdimen=\dimen279
+\scratchdimen=\dimen280
 \scratchbox=\box60
 \nofMPsegments=\count198
 \nofMParguments=\count199
 \everyMPshowfont=\toks56
 \MPscratchCnt=\count266
-\MPscratchDim=\dimen280
+\MPscratchDim=\dimen281
 \MPnumerator=\count267
 \makeMPintoPDFobject=\count268
 \everyMPtoPDFconversion=\toks57
@@ -1311,12 +1323,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count269
-Package ragged2e Info: ABD: executing \RaggedRight on input line 68.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 64.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 68.
+LaTeX Info: Redefining \selectfont on input line 64.
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 68.
+Package hyperref Info: Link coloring OFF on input line 64.
 
 (d:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1326,9 +1338,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count270
 )
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write9
@@ -1343,23 +1355,23 @@ LaTeX Info: Redefining \nameref on input line 68.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=469.75499pt
-* \textheight=650.43pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-32.52127pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=12.0pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=15.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1369,62 +1381,30 @@ LaTeX Info: Redefining \nameref on input line 68.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Figs/SwanseaUniversity.png, id=187, 572.1375pt x 361.35pt>
-File: Figs/SwanseaUniversity.png Graphic file (type png)
-<use Figs/SwanseaUniversity.png>
-Package pdftex.def Info: Figs/SwanseaUniversity.png  used on input line 75. on 
-input line 75.
-Package pdftex.def Info: Requested size: 184.9429pt x 116.80327pt on input line
- 75.
+\openout2 = `Acknowledgement/acknowledgement.aux'.
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 75.
-
-[1
+(./Acknowledgement/acknowledgement.tex
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 4.
+) [1
 
 \openout7 = `Thesis.ist'.
 
 
-
-{d:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figs/SwanseaU
-niversity.png>]
-\openout2 = `Declaration/declaration.aux'.
-
- (./Declaration/declaration.tex)pdfTeX warning (ext4): destination with the sam
-e identifier (name{page.}) has been already used, duplicate ignored
+{d:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 81.
+ (./Thesis.toc
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \include{Declaration/declaration}
-                                       [1
-
-]
-\openout2 = `Abstract/abstract.aux'.
-
- (./Abstract/abstract.tex)pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.83 \include{Abstract/abstract}
-                                 [2
-
-
-]
-\openout2 = `Acknowledgement/acknowledgement.aux'.
-
- (./Acknowledgement/acknowledgement.tex)pdfTeX warning (ext4): destination with
- the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.84 \include{Acknowledgement/acknowledgement}
-                                               [3
-
-
-] (./Thesis.tocpdfTeX warning (ext4): destination with the same identifier (nam
-e{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.79 ... {6.10}Lemmatisation}{47}{subsection.6.10}
-                                                   [4
+l.77 ...e {6.8}Colour Mapping}{49}{subsection.6.8}
+                                                   [2
 
 ])
 \tf@toc=\write10
@@ -1434,13 +1414,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \listoffigures
-                    [5] (./Thesis.lofpdfTeX warning (ext4): destination with th
-e same identifier (name{page.}) has been already used, duplicate ignored
+l.83 \listoffigures
+                    [3] (./Thesis.lof
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 3.
+
+Overfull \hbox (13.96007pt too wide) in paragraph at lines 5--5
+ [][] [][]\OT1/phv/m/n/14.4 A screen shot of the demo of Align-ment Maps ( [[]C
+heesman 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 ...erface of the TreeTagger.}}{48}{figure.32}
-                                                   [6])
+l.24 ...lel view of concordances.}}{43}{figure.24}
+                                                   [4])
 \tf@lof=\write11
 \openout11 = `Thesis.lof'.
 
@@ -1448,49 +1437,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \clearpage
-                [7]
+l.90 \clearpage
+                [5]
 \openout2 = `Chapter00/introduction.aux'.
 
- (./Chapter00/introduction.tex [1
+ (./Chapter00/introduction.tex
+Overfull \hbox (4.81505pt too wide) in paragraph at lines 7--8
+\OT1/phv/m/n/14.4 sense to un-der-stand it. Data vi-su-al-iza-tion, as a mech-a
+-nism us-ing graph- 
+ []
+
+[1
 
 
 ]
-Overfull \hbox (8.48729pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/n/12 than 60 times in Ger-man [[]Geng et al., 2011[]].The Col-lege o
-f Arts and Hu-man-i-ties at Swansea 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
-(d:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 18.
+ (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
- [2]) [3]
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+ [2] [3]) [4]
 \openout2 = `Chapter01/BackgroundResearch.aux'.
 
 
-(./Chapter01/BackgroundResearch.tex
-<Figs/MultiVersioner.png, id=415, 515.67656pt x 383.18156pt>
+(./Chapter01/BackgroundResearch.tex [5
+
+
+
+]
+<Figs/MultiVersioner.png, id=427, 515.67656pt x 383.18156pt>
 File: Figs/MultiVersioner.png Graphic file (type png)
 <use Figs/MultiVersioner.png>
 Package pdftex.def Info: Figs/MultiVersioner.png  used on input line 21. on inp
 ut line 21.
-Package pdftex.def Info: Requested size: 464.10461pt x 344.86021pt on input lin
+Package pdftex.def Info: Requested size: 455.24411pt x 338.28833pt on input lin
 e 21.
- [4
-
-
-
-] [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
-) has been already used, duplicate ignored
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.35 	\item \textbf
-                   {Multi-level alignment visualisation} In this view, vario...
- <./Figs/MultiVersioner.png>]
+l.29 \paragraph
+               []{} <./Figs/MultiVersioner.png>]
 <Figs/Meso-Reading.png, id=439, 959.08313pt x 316.93407pt>
 File: Figs/Meso-Reading.png Graphic file (type png)
 <use Figs/Meso-Reading.png>
@@ -1499,18 +1488,15 @@ Package pdftex.def Info: Figs/Meso-Reading.png  used on input line 42. on input
 Package pdftex.def Info: Requested size: 479.54039pt x 158.46664pt on input lin
 e 42.
 
-Overfull \hbox (9.7854pt too wide) in paragraph at lines 42--42
+Overfull \hbox (24.29628pt too wide) in paragraph at lines 42--42
  [][] 
  []
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.53 \paragraph
-               []{} In their work \emph{Visualizations Translation Variation...
- <./Figs/Meso-Reading.png>]
+[7]
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 53.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 53.
 <Figs/Tagcloud.png, id=450, 381.67593pt x 269.50688pt>
 File: Figs/Tagcloud.png Graphic file (type png)
 <use Figs/Tagcloud.png>
@@ -1518,130 +1504,138 @@ Package pdftex.def Info: Figs/Tagcloud.png  used on input line 57. on input lin
 e 57.
 Package pdftex.def Info: Requested size: 381.675pt x 269.50621pt on input line 
 57.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.64 
+l.61 
+      <./Figs/Meso-Reading.png>] [9pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.75 
       <./Figs/Tagcloud.png>]
-<Figs/Time-Map.png, id=466, 532.99126pt x 360.59718pt>
+<Figs/Time-Map.png, id=475, 532.99126pt x 360.59718pt>
 File: Figs/Time-Map.png Graphic file (type png)
 <use Figs/Time-Map.png>
 Package pdftex.def Info: Figs/Time-Map.png  used on input line 85. on input lin
 e 85.
 Package pdftex.def Info: Requested size: 373.09134pt x 252.4163pt on input line
  85.
- [8]
-<Figs/Alignment-Map.png, id=477, 660.21657pt x 450.18187pt>
+ [10]
+<Figs/Alignment-Map.png, id=485, 660.21657pt x 450.18187pt>
 File: Figs/Alignment-Map.png Graphic file (type png)
 <use Figs/Alignment-Map.png>
 Package pdftex.def Info: Figs/Alignment-Map.png  used on input line 97. on inpu
 t line 97.
 Package pdftex.def Info: Requested size: 462.14844pt x 315.12515pt on input lin
 e 97.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+
+Overfull \hbox (6.90433pt too wide) in paragraph at lines 97--97
+ [][] 
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.101 
        <./Figs/Time-Map.png>]
-<Figs/Parallel-View.png, id=486, 760.34062pt x 338.01282pt>
+<Figs/Parallel-View.png, id=495, 760.34062pt x 338.01282pt>
 File: Figs/Parallel-View.png Graphic file (type png)
 <use Figs/Parallel-View.png>
 Package pdftex.def Info: Figs/Parallel-View.png  used on input line 109. on inp
 ut line 109.
 Package pdftex.def Info: Requested size: 456.20789pt x 202.80925pt on input lin
 e 109.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
-) has been already used, duplicate ignored
+
+Overfull \hbox (0.96378pt too wide) in paragraph at lines 109--109
+ [][] 
+ []
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.113 
        <./Figs/Alignment-Map.png>]
-<Figs/Eddy-Viv-View.png, id=496, 631.60968pt x 375.65344pt>
+<Figs/Eddy-Viv-View.png, id=506, 631.60968pt x 375.65344pt>
 File: Figs/Eddy-Viv-View.png Graphic file (type png)
 <use Figs/Eddy-Viv-View.png>
 Package pdftex.def Info: Figs/Eddy-Viv-View.png  used on input line 121. on inp
 ut line 121.
 Package pdftex.def Info: Requested size: 378.96873pt x 225.3938pt on input line
  121.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.125 
-       <./Figs/Parallel-View.png>]) [12pdfTeX warning (ext4): destination with 
+       <./Figs/Parallel-View.png>]) [14pdfTeX warning (ext4): destination with 
 the same identifier (name{figure.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 \include{Chapter01/BackgroundResearch}
-                                             <./Figs/Eddy-Viv-View.png>]
+l.94 \include{Chapter01/BackgroundResearch}
+                                            <./Figs/Eddy-Viv-View.png>]
 \openout2 = `Chapter02/ProjectSpecification.aux'.
 
 
 (./Chapter02/ProjectSpecification.tex
-<Figs/Data-example.png, id=512, 535.2497pt x 385.44pt>
+<Figs/Data-example.png, id=525, 535.2497pt x 385.44pt>
 File: Figs/Data-example.png Graphic file (type png)
 <use Figs/Data-example.png>
 Package pdftex.def Info: Figs/Data-example.png  used on input line 14. on input
  line 14.
 Package pdftex.def Info: Requested size: 428.20033pt x 308.35242pt on input lin
 e 14.
- [13
+ [15
 
 
 
-] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+] [16pdfTeX warning (ext4): destination with the same identifier (name{figure.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.30 \begin{itemize}
-                     <./Figs/Data-example.png>]
-Overfull \hbox (9.96225pt too wide) in paragraph at lines 51--52
-\OT1/cmr/m/n/12 According to the project spec-i-fi-ca-tion and re-quired fea-tu
-res pre-sented pre-vi-ously, the demon- 
+l.25 \end{itemize}
+                   <./Figs/Data-example.png>] [17] [18]
+Overfull \hbox (3.12997pt too wide) in paragraph at lines 61--62
+ [][] \OT1/phv/m/n/14.4 The Stan-ford NLP Li-brary is at-tempted dur-ing we gen
+-er-ate the lemma 
  []
 
-[15] [16]
-<Figs/GitKraken.png, id=542, 1028.34187pt x 546.54187pt>
+<Figs/GitKraken.png, id=551, 1028.34187pt x 546.54187pt>
 File: Figs/GitKraken.png Graphic file (type png)
 <use Figs/GitKraken.png>
 Package pdftex.def Info: Figs/GitKraken.png  used on input line 73. on input li
 ne 73.
 Package pdftex.def Info: Requested size: 411.32947pt x 218.61287pt on input lin
 e 73.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
-) has been already used, duplicate ignored
+[19]) [20pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.84 \paragraph
-               {Notepad++} <./Figs/GitKraken.png>]) [18]
+l.95 \include{Chapter02/ProjectSpecification}
+                                              <./Figs/GitKraken.png>]
 \openout2 = `Chapter03/ProjectPlan.aux'.
 
 
 (./Chapter03/ProjectPlan.tex
-<Figs/Waterfall-Model.png, id=565, 325.96782pt x 288.3272pt>
+<Figs/Waterfall-Model.png, id=579, 325.96782pt x 288.3272pt>
 File: Figs/Waterfall-Model.png Graphic file (type png)
 <use Figs/Waterfall-Model.png>
 Package pdftex.def Info: Figs/Waterfall-Model.png  used on input line 14. on in
 put line 14.
 Package pdftex.def Info: Requested size: 325.96701pt x 288.32648pt on input lin
 e 14.
-<Figs/Waterfull-Agile.png, id=567, 392.21532pt x 250.68657pt>
-File: Figs/Waterfull-Agile.png Graphic file (type png)
-<use Figs/Waterfull-Agile.png>
-Package pdftex.def Info: Figs/Waterfull-Agile.png  used on input line 23. on in
-put line 23.
-Package pdftex.def Info: Requested size: 392.21436pt x 250.68594pt on input lin
-e 23.
- [19
+ [21
 
 
 
@@ -1650,27 +1644,36 @@ as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.27 
-      <./Figs/Waterfall-Model.png>] [20pdfTeX warning (ext4): destination with 
-the same identifier (name{figure.11}) has been already used, duplicate ignored
+l.20 
+      <./Figs/Waterfall-Model.png>]
+<Figs/Waterfull-Agile.png, id=587, 392.21532pt x 250.68657pt>
+File: Figs/Waterfull-Agile.png Graphic file (type png)
+<use Figs/Waterfull-Agile.png>
+Package pdftex.def Info: Figs/Waterfull-Agile.png  used on input line 23. on in
+put line 23.
+Package pdftex.def Info: Requested size: 392.21436pt x 250.68594pt on input lin
+e 23.
+
+Overfull \hbox (5.08887pt too wide) in paragraph at lines 28--29
+[]\OT1/phv/m/n/14.4 Unlike with the Wa-ter-fall method-ol-ogy which sep-a-rates
+ the whole project 
+ []
+
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.50 \end{itemize}
-                   <./Figs/Waterfull-Agile.png>] [21]
-<Figs/Gantter-Chart.png, id=584, 666.99188pt x 340.27126pt>
+l.45 	\item {
+             3. }Implementation; <./Figs/Waterfull-Agile.png>] [23]
+<Figs/Gantter-Chart.png, id=601, 666.99188pt x 340.27126pt>
 File: Figs/Gantter-Chart.png Graphic file (type png)
 <use Figs/Gantter-Chart.png>
 Package pdftex.def Info: Figs/Gantter-Chart.png  used on input line 56. on inpu
 t line 56.
 Package pdftex.def Info: Requested size: 666.99025pt x 340.27042pt on input lin
 e 56.
-
-Overfull \hbox (16.56026pt too wide) in paragraph at lines 56--56
- [][] 
- []
-
-[22
+ [24
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
@@ -1679,561 +1682,577 @@ as been already used, duplicate ignored
                                                   \fi \fi 
 l.61 \end{landscape}
                      <./Figs/Gantter-Chart.png>]
-<Figs/Risk-Analysis.png, id=591, 380.17032pt x 400.49625pt>
+<Figs/Risk-Analysis.png, id=608, 380.17032pt x 400.49625pt>
 File: Figs/Risk-Analysis.png Graphic file (type png)
 <use Figs/Risk-Analysis.png>
 Package pdftex.def Info: Figs/Risk-Analysis.png  used on input line 73. on inpu
 t line 73.
 Package pdftex.def Info: Requested size: 380.16939pt x 400.49527pt on input lin
 e 73.
- [23
+ [25
 
-]) [24pdfTeX warning (ext4): destination with the same identifier (name{figure.
+]) [26pdfTeX warning (ext4): destination with the same identifier (name{figure.
 13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.103 \include{Chapter03/ProjectPlan}
-                                      <./Figs/Risk-Analysis.png>]
+l.96 \include{Chapter03/ProjectPlan}
+                                     <./Figs/Risk-Analysis.png>]
 \openout2 = `Chapter04/Design.aux'.
 
 
 (./Chapter04/Design.tex
-<Figs/DataReader.png, id=604, 358.33875pt x 478.78876pt>
+<Figs/DataReader.png, id=620, 358.33875pt x 478.78876pt>
 File: Figs/DataReader.png Graphic file (type png)
 <use Figs/DataReader.png>
 Package pdftex.def Info: Figs/DataReader.png  used on input line 23. on input l
 ine 23.
 Package pdftex.def Info: Requested size: 215.0049pt x 287.27547pt on input line
  23.
- [25
+ [27
 
 
 
 ]
-<Figs/Item.png, id=612, 202.50656pt x 503.63156pt>
+<Figs/Item.png, id=628, 202.50656pt x 503.63156pt>
 File: Figs/Item.png Graphic file (type png)
 <use Figs/Item.png>
 Package pdftex.def Info: Figs/Item.png  used on input line 38. on input line 38
 .
 Package pdftex.def Info: Requested size: 182.2542pt x 453.2642pt on input line 
 38.
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.14
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.42 
       <./Figs/DataReader.png>]
-<Figs/Version.png, id=620, 184.43906pt x 423.83344pt>
+<Figs/Version.png, id=636, 184.43906pt x 423.83344pt>
 File: Figs/Version.png Graphic file (type png)
 <use Figs/Version.png>
 Package pdftex.def Info: Figs/Version.png  used on input line 50. on input line
  50.
 Package pdftex.def Info: Requested size: 165.9936pt x 381.44655pt on input line
  50.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.15
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.53 \end{figure}
-                  <./Figs/Item.png>]
-<Figs/Tf-IdfCalculator.png, id=629, 317.68687pt x 290.58563pt>
+l.54 
+      <./Figs/Item.png>]
+<Figs/Tf-IdfCalculator.png, id=645, 317.68687pt x 290.58563pt>
 File: Figs/Tf-IdfCalculator.png Graphic file (type png)
 <use Figs/Tf-IdfCalculator.png>
 Package pdftex.def Info: Figs/Tf-IdfCalculator.png  used on input line 68. on i
 nput line 68.
 Package pdftex.def Info: Requested size: 285.91553pt x 261.52464pt on input lin
 e 68.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.16
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.71 \end{figure}
                   <./Figs/Version.png>]
-<Figs/LemmaProcess.png, id=638, 233.37187pt x 246.9225pt>
+<Figs/LemmaProcess.png, id=654, 233.37187pt x 246.9225pt>
 File: Figs/LemmaProcess.png Graphic file (type png)
 <use Figs/LemmaProcess.png>
 Package pdftex.def Info: Figs/LemmaProcess.png  used on input line 86. on input
  line 86.
 Package pdftex.def Info: Requested size: 210.03273pt x 222.22818pt on input lin
 e 86.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.17
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.90 
       <./Figs/Tf-IdfCalculator.png>]
-<Figs/TranslationVisualisation.png, id=648, 351.56343pt x 499.8675pt>
+<Figs/TranslationVisualisation.png, id=663, 351.56343pt x 499.8675pt>
 File: Figs/TranslationVisualisation.png Graphic file (type png)
 <use Figs/TranslationVisualisation.png>
 Package pdftex.def Info: Figs/TranslationVisualisation.png  used on input line 
 104. on input line 104.
 Package pdftex.def Info: Requested size: 316.40414pt x 449.87659pt on input lin
 e 104.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.18
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.18
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.108 
-       <./Figs/LemmaProcess.png>] [31pdfTeX warning (ext4): destination with th
+       <./Figs/LemmaProcess.png>] [33pdfTeX warning (ext4): destination with th
 e same identifier (name{figure.19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.115 \begin{itemize}
                       <./Figs/TranslationVisualisation.png>]
-<Figs/ConcordancePanel-Class.png, id=664, 191.21437pt x 510.40688pt>
+<Figs/ConcordancePanel-Class.png, id=680, 191.21437pt x 510.40688pt>
 File: Figs/ConcordancePanel-Class.png Graphic file (type png)
 <use Figs/ConcordancePanel-Class.png>
 Package pdftex.def Info: Figs/ConcordancePanel-Class.png  used on input line 12
 7. on input line 127.
 Package pdftex.def Info: Requested size: 152.9717pt x 408.32605pt on input line
  127.
- [32]
-<Figs/Colour-Legend-Class.png, id=670, 322.95656pt x 189.70876pt>
+ [34]
+Overfull \hbox (0.71127pt too wide) in paragraph at lines 134--135
+\OT1/phv/m/n/14.4 ing on user pref-er-ences. An event lis-tener is added to eac
+h colour block 
+ []
+
+<Figs/Colour-Legend-Class.png, id=686, 322.95656pt x 189.70876pt>
 File: Figs/Colour-Legend-Class.png Graphic file (type png)
 <use Figs/Colour-Legend-Class.png>
 Package pdftex.def Info: Figs/Colour-Legend-Class.png  used on input line 138. 
 on input line 138.
 Package pdftex.def Info: Requested size: 322.95576pt x 189.70828pt on input lin
 e 138.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.20
-}) has been already used, duplicate ignored
+[35pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.142 
        <./Figs/ConcordancePanel-Class.png>]
-<Figs/VersionChoose-Class.png, id=679, 338.76563pt x 364.36125pt>
+<Figs/VersionChoose-Class.png, id=695, 338.76563pt x 364.36125pt>
 File: Figs/VersionChoose-Class.png Graphic file (type png)
 <use Figs/VersionChoose-Class.png>
 Package pdftex.def Info: Figs/VersionChoose-Class.png  used on input line 158. 
 on input line 158.
 Package pdftex.def Info: Requested size: 271.01285pt x 291.48938pt on input lin
 e 158.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.21
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.21
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.162 
-       <./Figs/Colour-Legend-Class.png>]) [35pdfTeX warning (ext4): destination
+       <./Figs/Colour-Legend-Class.png>]) [37pdfTeX warning (ext4): destination
  with the same identifier (name{figure.22}) has been already used, duplicate ig
 nored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.104 \include{Chapter04/Design}
-                                 <./Figs/VersionChoose-Class.png>]
+l.97 \include{Chapter04/Design}
+                                <./Figs/VersionChoose-Class.png>]
 \openout2 = `Chapter06/Implementation.aux'.
 
 
 (./Chapter06/Implementation.tex
-Overfull \hbox (20.75522pt too wide) in paragraph at lines 11--12
-\OT1/cmr/m/n/12 pack-age im-ported in the DataReader class. To store and ac-ces
-s data, the Ar-rayList, Hashtable, 
+Overfull \hbox (8.93358pt too wide) in paragraph at lines 11--12
+[]\OT1/phv/m/n/14.4 Java.io, which en-ables for sys-tem in-put and out-put thro
+ugh data streams, 
  []
 
-<Figs/condordanceVis.png, id=696, 210.03468pt x 458.46281pt>
+
+Overfull \hbox (12.47482pt too wide) in paragraph at lines 11--12
+\OT1/phv/m/n/14.4 is used in this project. It serves as a data buffer and reade
+r in this project. 
+ []
+
+[38
+
+
+
+]
+<Figs/condordanceVis.png, id=718, 210.03468pt x 458.46281pt>
 File: Figs/condordanceVis.png Graphic file (type png)
 <use Figs/condordanceVis.png>
 Package pdftex.def Info: Figs/condordanceVis.png  used on input line 20. on inp
 ut line 20.
 Package pdftex.def Info: Requested size: 256.07527pt x 426.81372pt on input lin
 e 20.
-[36
-
-
-
-] [37pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-3}) has been already used, duplicate ignored
+ [39] [40pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.29 \end{itemize}
-                   <./Figs/condordanceVis.png>]
-Overfull \hbox (4.47899pt too wide) in paragraph at lines 33--34
-[] \OT1/cmr/m/n/12 Ob-tain the string of each term from text source. This step 
-is done in the DataReader 
- []
-
-
-Overfull \hbox (6.17201pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/n/12 draw-ing point for the string and rect-an-gle. It com-bined wit
-h two point value: point.X, 
- []
-
-
-Overfull \hbox (9.26pt too wide) detected at line 59
- []$[]  \OML/cmm/m/it/12 color \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Math:sin\OT1/
-cmr/m/n/12 (\OML/cmm/m/it/12 colorFrequency \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/
-12 wordFrequency \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 phase\OT1/cmr/m/n/12 ) \OMS
-/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 amplitude \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 
-center$ []  
- []
-
-[38]
-Overfull \hbox (1.80678pt too wide) in paragraph at lines 59--61
-\OT1/cmr/m/n/12 quency. The phase is ap-plied to change the align-ment of the g
-reen or blue sine waves. 
- []
-
-<Figs/Parallel-Vis.png, id=721, 593.96906pt x 466.74374pt>
+l.34 	\item \textbf
+                   {} Calculate the number of times, namely term frequency, ...
+ <./Figs/condordanceVis.png>] [41]
+<Figs/Parallel-Vis.png, id=744, 593.96906pt x 466.74374pt>
 File: Figs/Parallel-Vis.png Graphic file (type png)
 <use Figs/Parallel-Vis.png>
-Package pdftex.def Info: Figs/Parallel-Vis.png  used on input line 72. on input
- line 72.
+Package pdftex.def Info: Figs/Parallel-Vis.png  used on input line 77. on input
+ line 77.
 Package pdftex.def Info: Requested size: 356.38419pt x 280.0484pt on input line
- 72.
-[39pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
-) has been already used, duplicate ignored
+ 77.
+ [42]
+Overfull \hbox (9.66814pt too wide) in paragraph at lines 89--90
+[]\OT1/phv/m/n/14.4 To im-ple-ment these fea-tures, sev-eral steps as fol-lowed
+ are gone through:  
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.79 
-      <./Figs/Parallel-Vis.png>]
-<Figs/JSliders.png, id=731, 176.91093pt x 48.18pt>
+<Figs/JSliders.png, id=752, 176.91093pt x 48.18pt>
 File: Figs/JSliders.png Graphic file (type png)
 <use Figs/JSliders.png>
-Package pdftex.def Info: Figs/JSliders.png  used on input line 89. on input lin
-e 89.
+Package pdftex.def Info: Figs/JSliders.png  used on input line 94. on input lin
+e 94.
 Package pdftex.def Info: Requested size: 176.91049pt x 48.17986pt on input line
- 89.
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.25
-}) has been already used, duplicate ignored
+ 94.
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.103 \subsection
-                 {Text Label Toggling} <./Figs/JSliders.png>]
-<Figs/Text-On-Off.png, id=742, 1025.33063pt x 543.53062pt>
+l.98 	\item \textbf
+                   {} Obtain scale values from JSlider object and pass them ...
+ <./Figs/Parallel-Vis.png>]
+Overfull \hbox (28.63115pt too wide) in paragraph at lines 98--99
+[] \OT1/phv/m/n/14.4 Ob-tain scale val-ues from JS-lider ob-ject and pass them 
+to DataReader 
+ []
+
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.25}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.111 
+       <./Figs/JSliders.png>]
+<Figs/Text-On-Off.png, id=769, 1025.33063pt x 543.53062pt>
 File: Figs/Text-On-Off.png Graphic file (type png)
 <use Figs/Text-On-Off.png>
-Package pdftex.def Info: Figs/Text-On-Off.png  used on input line 109. on input
- line 109.
-Package pdftex.def Info: Requested size: 512.66406pt x 271.76463pt on input lin
-e 109.
-
-Overfull \hbox (42.90907pt too wide) in paragraph at lines 109--109
- [][] 
- []
-
-<Figs/VersionChoosePanel.png, id=744, 196.48407pt x 315.42844pt>
+Package pdftex.def Info: Figs/Text-On-Off.png  used on input line 114. on input
+ line 114.
+Package pdftex.def Info: Requested size: 455.24411pt x 241.32713pt on input lin
+e 114.
+<Figs/VersionChoosePanel.png, id=771, 196.48407pt x 315.42844pt>
 File: Figs/VersionChoosePanel.png Graphic file (type png)
 <use Figs/VersionChoosePanel.png>
-Package pdftex.def Info: Figs/VersionChoosePanel.png  used on input line 120. o
-n input line 120.
+Package pdftex.def Info: Figs/VersionChoosePanel.png  used on input line 125. o
+n input line 125.
 Package pdftex.def Info: Requested size: 98.24179pt x 157.71382pt on input line
- 120.
-
-Overfull \hbox (3.50398pt too wide) in paragraph at lines 116--123
-\OT1/cmr/m/n/12 To ren-der the user op-tion fea-ture for se-lect-ing sev-eral c
-on-cor-dances dis-play-ing on the panel, 
- []
-
-[41pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
-) has been already used, duplicate ignored
+ 125.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.26
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.123 \end{figure}
+l.128 \end{figure}
                    <./Figs/Text-On-Off.png>]
-<Figs/Version-Selecting-Demo.png, id=752, 1028.34187pt x 546.54187pt>
+<Figs/Version-Selecting-Demo.png, id=778, 1028.34187pt x 546.54187pt>
 File: Figs/Version-Selecting-Demo.png Graphic file (type png)
 <use Figs/Version-Selecting-Demo.png>
-Package pdftex.def Info: Figs/Version-Selecting-Demo.png  used on input line 13
-9. on input line 139.
-Package pdftex.def Info: Requested size: 514.16968pt x 273.27026pt on input lin
-e 139.
-
-Overfull \hbox (44.41469pt too wide) in paragraph at lines 139--139
- [][] 
- []
-
-[42pdfTeX warning (ext4): destination with the same identifier (name{figure.27}
-) has been already used, duplicate ignored
+Package pdftex.def Info: Figs/Version-Selecting-Demo.png  used on input line 14
+4. on input line 144.
+Package pdftex.def Info: Requested size: 455.24411pt x 241.95526pt on input lin
+e 144.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.27
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.143 
-       <./Figs/VersionChoosePanel.png>]
-Overfull \hbox (0.6193pt too wide) in paragraph at lines 153--154
-[] \OT1/cmr/m/n/12 High-light the blocks of all se-lected Item ob-jects. In thi
-s step, lines are drawn around 
- []
-
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.28}
-) has been already used, duplicate ignored
+l.147 \end{figure}
+                   <./Figs/VersionChoosePanel.png>] [47pdfTeX warning (ext4): d
+estination with the same identifier (name{figure.28}) has been already used, du
+plicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154 	\item \textbf
-                    {} Make other blocks transparent by setting the transpar...
+l.158 	\item \textbf
+                    {} Highlight the blocks of all selected Item objects. In...
  <./Figs/Version-Selecting-Demo.png>]
-<Figs/Highlight-Terms.png, id=764, 660.21657pt x 511.9125pt>
+<Figs/Highlight-Terms.png, id=790, 660.21657pt x 511.9125pt>
 File: Figs/Highlight-Terms.png Graphic file (type png)
 <use Figs/Highlight-Terms.png>
-Package pdftex.def Info: Figs/Highlight-Terms.png  used on input line 163. on i
-nput line 163.
+Package pdftex.def Info: Figs/Highlight-Terms.png  used on input line 168. on i
+nput line 168.
 Package pdftex.def Info: Requested size: 396.133pt x 307.14987pt on input line 
-163.
- [44pdfTeX warning (ext4): destination with the same identifier (name{figure.29
-}) has been already used, duplicate ignored
+168.
+ [48]
+Overfull \hbox (0.86969pt too wide) in paragraph at lines 175--176
+\OT1/phv/m/n/14.4 The colours se-lected are re-lated by the num-ber of oc-cur-r
+ences of terms 
+ []
+
+
+Overfull \hbox (3.82014pt too wide) in paragraph at lines 177--178
+[] \OT1/phv/m/n/14.4 Re-trieve the colour value of each item from the DataReade
+r class. 
+ []
+
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.29}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.171 \begin{itemize}
-                      <./Figs/Highlight-Terms.png>]
-<Figs/Color-Mapping.png, id=771, 100.12407pt x 529.98pt>
+l.181 \end{itemize}
+                    <./Figs/Highlight-Terms.png>]
+<Figs/Color-Mapping.png, id=801, 100.12407pt x 529.98pt>
 File: Figs/Color-Mapping.png Graphic file (type png)
 <use Figs/Color-Mapping.png>
-Package pdftex.def Info: Figs/Color-Mapping.png  used on input line 181. on inp
-ut line 181.
+Package pdftex.def Info: Figs/Color-Mapping.png  used on input line 186. on inp
+ut line 186.
 Package pdftex.def Info: Requested size: 50.0619pt x 264.98933pt on input line 
-181.
- [45pdfTeX warning (ext4): destination with the same identifier (name{figure.30
-}) has been already used, duplicate ignored
+186.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.189 
-       <./Figs/Color-Mapping.png>]
-<Figs/Colour-Legend-Interation.png, id=778, 1028.34187pt x 546.54187pt>
+Overfull \hbox (9.04794pt too wide) in paragraph at lines 193--194
+\OT1/phv/m/n/14.4 where the list of Ver-sion ob-jects is over-writ-ten and the 
+panel is re-painted.  
+ []
+
+<Figs/Colour-Legend-Interation.png, id=803, 1028.34187pt x 546.54187pt>
 File: Figs/Colour-Legend-Interation.png Graphic file (type png)
 <use Figs/Colour-Legend-Interation.png>
 Package pdftex.def Info: Figs/Colour-Legend-Interation.png  used on input line 
-193. on input line 193.
-Package pdftex.def Info: Requested size: 514.16968pt x 273.27026pt on input lin
-e 193.
+198. on input line 198.
+Package pdftex.def Info: Requested size: 455.24411pt x 241.95526pt on input lin
+e 198.
 
-Overfull \hbox (44.41469pt too wide) in paragraph at lines 193--193
- [][] 
+Overfull \hbox (1.20029pt too wide) in paragraph at lines 195--201
+\OT1/phv/m/n/14.4 ing the same fre-quency, or colour, are high-lighted us-ing t
+he same meth- 
  []
 
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.31}
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.30}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.201 \begin{itemize}
-                      <./Figs/Colour-Legend-Interation.png>]
-<Figs/TreeTaggerInterface.png, id=785, 594.72188pt x 418.56375pt>
+l.201 \end{figure}
+                   <./Figs/Color-Mapping.png>] [51pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.31}) has been already used, duplica
+te ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.211 \end{itemize}
+                    <./Figs/Colour-Legend-Interation.png>]
+Overfull \hbox (5.70818pt too wide) in paragraph at lines 212--213
+\OT1/phv/m/n/14.4 rel-e-vant Ger-man lemma cor-pus was pro-vided when we start 
+this project. 
+ []
+
+<Figs/TreeTaggerInterface.png, id=816, 594.72188pt x 418.56375pt>
 File: Figs/TreeTaggerInterface.png Graphic file (type png)
 <use Figs/TreeTaggerInterface.png>
-Package pdftex.def Info: Figs/TreeTaggerInterface.png  used on input line 215. 
-on input line 215.
+Package pdftex.def Info: Figs/TreeTaggerInterface.png  used on input line 220. 
+on input line 220.
 Package pdftex.def Info: Requested size: 356.83588pt x 251.14018pt on input lin
-e 215.
- [47]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 221.
-
+e 220.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 226.
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (15.24272pt too wide) in paragraph at lines 237--238
-\OT1/cmr/m/n/12 vir-tual cor-pora. In the DeReWo web-site []$\OT1/pcr/m/n/12 ht
-tp : / / www1 . ids-[]mannheim . de / direktion / 
+Overfull \hbox (26.96135pt too wide) in paragraph at lines 226--227
+\OT1/phv/m/n/14.4 from the web-site []$\OT1/pcr/m/n/14.4 http : / / www . cis .
+ uni-[]muenchen . de / []schmid / 
  []
 
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.32}
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.32}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.238 
-       <./Figs/TreeTaggerInterface.png>]
-Overfull \hbox (3.60541pt too wide) in paragraph at lines 244--245
-\OT1/cmr/m/n/12 man trans-la-tions. For each ver-sion of \OT1/cmr/m/it/12 Oth-e
-llo \OT1/cmr/m/n/12 trans-la-tion, the two files (\OT1/cmr/m/it/12 Oth-ello \OT
-1/cmr/m/n/12 source 
+l.228 	\item \textbf
+                    {} The software takes as parameters a .txt file and retu...
+ <./Figs/TreeTaggerInterface.png>]
+Overfull \hbox (2.81322pt too wide) in paragraph at lines 242--243
+\OT1/phv/m/n/14.4 rank-ing list of lem-mas based on ran-dom vir-tual cor-pora. 
+In the DeReWo 
  []
 
-<Figs/LemmaView.png, id=801, 1027.58907pt x 544.28343pt>
+
+Overfull \hbox (29.93037pt too wide) in paragraph at lines 242--243
+\OT1/phv/m/n/14.4 web-site []$\OT1/pcr/m/n/14.4 http : / / www1 . ids-[]mannhei
+m . de / direktion / kl / projekte / 
+ []
+
+[53]
+Overfull \hbox (0.1482pt too wide) in paragraph at lines 249--250
+\OT1/phv/m/n/14.4 files for all Ger-man trans-la-tions. For each ver-sion of \O
+T1/phv/m/sl/14.4 Oth-ello \OT1/phv/m/n/14.4 trans- 
+ []
+
+<Figs/LemmaView.png, id=832, 1027.58907pt x 544.28343pt>
 File: Figs/LemmaView.png Graphic file (type png)
 <use Figs/LemmaView.png>
-Package pdftex.def Info: Figs/LemmaView.png  used on input line 252. on input l
-ine 252.
-Package pdftex.def Info: Requested size: 462.41081pt x 244.92528pt on input lin
-e 252.
-[49] [50pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.33}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.271 
-       <./Figs/LemmaView.png>]
-<Figs/Tf-Idf.png, id=816, 1028.34187pt x 545.78906pt>
-File: Figs/Tf-Idf.png Graphic file (type png)
-<use Figs/Tf-Idf.png>
-Package pdftex.def Info: Figs/Tf-Idf.png  used on input line 274. on input line
- 274.
-Package pdftex.def Info: Requested size: 514.16968pt x 272.89386pt on input lin
-e 274.
-
-Overfull \hbox (44.41469pt too wide) in paragraph at lines 274--274
- [][] 
- []
-
-<Figs/Lemma-TfIdf.png, id=817, 1028.34187pt x 546.54187pt>
-File: Figs/Lemma-TfIdf.png Graphic file (type png)
-<use Figs/Lemma-TfIdf.png>
-Package pdftex.def Info: Figs/Lemma-TfIdf.png  used on input line 280. on input
- line 280.
-Package pdftex.def Info: Requested size: 514.16968pt x 273.27026pt on input lin
-e 280.
-
-Overfull \hbox (44.41469pt too wide) in paragraph at lines 280--280
- [][] 
- []
-
-[51pdfTeX warning (ext4): destination with the same identifier (name{figure.34}
+Package pdftex.def Info: Figs/LemmaView.png  used on input line 257. on input l
+ine 257.
+Package pdftex.def Info: Requested size: 455.24411pt x 241.12985pt on input lin
+e 257.
+[54pdfTeX warning (ext4): destination with the same identifier (name{figure.33}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.284 
-       <./Figs/Tf-Idf.png>]) [52pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.35}) has been already used, duplicate ignored
+l.265 
+       <./Figs/LemmaView.png>]
+Overfull \hbox (21.40271pt too wide) in paragraph at lines 269--270
+\OT1/phv/m/n/14.4 read-ing stage. The Tf value hence can be achieved from DataR
+eader 
+ []
+
+<Figs/Tf-Idf.png, id=841, 1028.34187pt x 545.78906pt>
+File: Figs/Tf-Idf.png Graphic file (type png)
+<use Figs/Tf-Idf.png>
+Package pdftex.def Info: Figs/Tf-Idf.png  used on input line 279. on input line
+ 279.
+Package pdftex.def Info: Requested size: 455.24411pt x 241.622pt on input line 
+279.
+<Figs/Lemma-TfIdf.png, id=842, 1028.34187pt x 546.54187pt>
+File: Figs/Lemma-TfIdf.png Graphic file (type png)
+<use Figs/Lemma-TfIdf.png>
+Package pdftex.def Info: Figs/Lemma-TfIdf.png  used on input line 285. on input
+ line 285.
+Package pdftex.def Info: Requested size: 455.24411pt x 241.95526pt on input lin
+e 285.
+[55]) [56pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.105 \include{Chapter06/Implementation}
-                                         <./Figs/Lemma-TfIdf.png>]
+l.98 \include{Chapter06/Implementation}
+                                       pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.35}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 \include{Chapter06/Implementation}
+                                        <./Figs/Tf-Idf.png> <./Figs/Lemma-TfIdf
+.png>]
 \openout2 = `Chapter07/Evaluation.aux'.
 
-
-(./Chapter07/Evaluation.tex
-Overfull \hbox (6.5984pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/n/12 There-fore, the re-sults of this vi-su-al-i-sa-tion are quite d
-if-fer-ent com-pared to the High Freuency 
- []
-
-
-Overfull \hbox (3.69565pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/12 to trans-late cer-tain word or ex-press spe-cific mean-ing. (In
- this text, it is used to trans- 
- []
-
-[53
+ (./Chapter07/Evaluation.tex [57
 
 
 
 ]
-<Figs/Fassung.png, id=840, 1028.34187pt x 547.2947pt>
+<Figs/Fassung.png, id=867, 1028.34187pt x 547.2947pt>
 File: Figs/Fassung.png Graphic file (type png)
 <use Figs/Fassung.png>
 Package pdftex.def Info: Figs/Fassung.png  used on input line 27. on input line
  27.
-Package pdftex.def Info: Requested size: 514.16968pt x 273.64667pt on input lin
+Package pdftex.def Info: Requested size: 455.24411pt x 242.28853pt on input lin
 e 27.
+ [58pdfTeX warning (ext4): destination with the same identifier (name{figure.36
+}) has been already used, duplicate ignored
 
-Overfull \hbox (44.41469pt too wide) in paragraph at lines 27--27
- [][] 
- []
-
-<Figs/You-In-Frequency.png, id=842, 596.2275pt x 366.61969pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.33 \paragraph
+               []{}Lemmatised View is generated after applying a lemma corpu...
+ <./Figs/Fassung.png>]
+<Figs/You-In-Frequency.png, id=874, 596.2275pt x 366.61969pt>
 File: Figs/You-In-Frequency.png Graphic file (type png)
 <use Figs/You-In-Frequency.png>
 Package pdftex.def Info: Figs/You-In-Frequency.png  used on input line 37. on i
 nput line 37.
 Package pdftex.def Info: Requested size: 298.11302pt x 183.30939pt on input lin
 e 37.
-[54pdfTeX warning (ext4): destination with the same identifier (name{figure.36}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.41 
-      <./Figs/Fassung.png>]
-<Figs/You-In-Lemma.png, id=851, 595.47469pt x 433.62pt>
+<Figs/You-In-Lemma.png, id=875, 595.47469pt x 433.62pt>
 File: Figs/You-In-Lemma.png Graphic file (type png)
 <use Figs/You-In-Lemma.png>
 Package pdftex.def Info: Figs/You-In-Lemma.png  used on input line 45. on input
  line 45.
 Package pdftex.def Info: Requested size: 297.7366pt x 216.80946pt on input line
  45.
-<Figs/Freq-Lemma-Comparison.png, id=853, 401.24907pt x 813.79031pt>
+ [59pdfTeX warning (ext4): destination with the same identifier (name{figure.37
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.49 
+      <./Figs/You-In-Frequency.png>]
+Overfull \hbox (9.50853pt too wide) in paragraph at lines 50--51
+[]\OT1/phv/m/n/14.4 As a re-sult of lem-ma-ti-sa-tion, the length of col-umn is
+ shorter in the lemma 
+ []
+
+
+Overfull \hbox (17.94743pt too wide) in paragraph at lines 50--51
+\OT1/phv/m/n/14.4 view than in the fre-quency view. Also the fre-quency of word
+s are changed. 
+ []
+
+
+Overfull \hbox (8.01195pt too wide) in paragraph at lines 50--51
+\OT1/phv/m/n/14.4 sumed that the va-ri-ety of words are more ob-vi-ous. How-eve
+r, more proofs 
+ []
+
+<Figs/Freq-Lemma-Comparison.png, id=884, 401.24907pt x 813.79031pt>
 File: Figs/Freq-Lemma-Comparison.png Graphic file (type png)
 <use Figs/Freq-Lemma-Comparison.png>
 Package pdftex.def Info: Figs/Freq-Lemma-Comparison.png  used on input line 54.
  on input line 54.
 Package pdftex.def Info: Requested size: 160.49678pt x 325.51036pt on input lin
 e 54.
- [55pdfTeX warning (ext4): destination with the same identifier (name{figure.37
-}) has been already used, duplicate ignored
+[60pdfTeX warning (ext4): destination with the same identifier (name{figure.38}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.58 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.58 
-      <./Figs/You-In-Frequency.png> <./Figs/You-In-Lemma.png>] [56pdfTeX warnin
-g (ext4): destination with the same identifier (name{figure.39}) has been alrea
-dy used, duplicate ignored
+      <./Figs/You-In-Lemma.png>] [61pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.39}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.64 	\item \textbf
                    {Lemmatised View vs Lemmatised Tf-Idf View}\\ <./Figs/Freq-L
-emma-Comparison.png>] [57]
-<Figs/Marking-Feedback.png, id=877, 608.2725pt x 479.54156pt>
+emma-Comparison.png>] [62]
+<Figs/Marking-Feedback.png, id=908, 608.2725pt x 479.54156pt>
 File: Figs/Marking-Feedback.png Graphic file (type png)
 <use Figs/Marking-Feedback.png>
 Package pdftex.def Info: Figs/Marking-Feedback.png  used on input line 85. on i
 nput line 85.
 Package pdftex.def Info: Requested size: 304.13551pt x 239.77019pt on input lin
 e 85.
-) [58pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-0}) has been already used, duplicate ignored
+ [63]) [64pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.106 \include{Chapter07/Evaluation}
-                                     <./Figs/Marking-Feedback.png>]
+l.99 \include{Chapter07/Evaluation}
+                                    <./Figs/Marking-Feedback.png>]
 \openout2 = `Chapter08/Conclusion.aux'.
 
 
-(./Chapter08/Conclusion.tex [59
+(./Chapter08/Conclusion.tex [65
 
 
-]) [60]
+]) [66]
 \openout2 = `Chapter09/FutureWork.aux'.
 
- (./Chapter09/FutureWork.tex) [61
+ (./Chapter09/FutureWork.tex
+Overfull \hbox (1.56114pt too wide) in paragraph at lines 4--5
+\OT1/phv/m/n/14.4 for Ger-man lem-ma-ti-sa-tion, with En-glish ver-sion still k
+eep many in-flected 
+ []
+
+) [67
 
 
-]
-(./Thesis.bbl [62
+] (./Thesis.bbl [68
 
 
-]) [63] [64
+] [69]) [70]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <29.86> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 110.
+ [71
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
 
  (./Appendix1/appendix1.tex
-Overfull \hbox (42.84529pt too wide) in paragraph at lines 17--18
-[]\OT1/cmr/m/n/12 -- Das In-sti-tut f^^?ur Deutsche Sprache--Corpus-Based Lemma
- and Word Form Lists(http://www1.ids- 
+Overfull \hbox (121.0652pt too wide) in paragraph at lines 17--18
+\OT1/phv/m/n/14.4 Form Lists(http://www1.ids-mannheim.de/direktion/kl/projekte/
+methoden/derewo.html?L=1)  
  []
 
-) [65
+[72
 
-] [66]
+]) [73]
 \openout2 = `Appendix2/appendix2.aux'.
 
  (./Appendix2/appendix2.tex
-<pdf/TransVisGui.pdf, id=926, pagebox=cropbox, 597.50829pt x 845.0471pt>
+<pdf/TransVisGui.pdf, id=965, pagebox=cropbox, 597.50829pt x 845.0471pt>
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
 <use pdf/TransVisGui.pdf>
 Package pdftex.def Info: pdf/TransVisGui.pdf  used on input line 10. on input l
@@ -2246,7 +2265,7 @@ Package pdftex.def Info: pdf/TransVisGui.pdf  used on input line 10. on input l
 ine 10.
 Package pdftex.def Info: Requested size: 597.50682pt x 845.04504pt on input lin
 e 10.
-<pdf/TransVisGui.pdf, id=929, page=1, pagebox=cropbox, 597.50829pt x 845.0471pt
+<pdf/TransVisGui.pdf, id=968, page=1, pagebox=cropbox, 597.50829pt x 845.0471pt
 >
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
 <use pdf/TransVisGui.pdf, page 1>
@@ -2260,7 +2279,7 @@ Package pdftex.def Info: pdf/TransVisGui.pdf , page1 used on input line 10. on
 input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
- [67
+ [74
 
 
 ]
@@ -2282,304 +2301,304 @@ Package pdftex.def Info: pdf/TransVisGui.pdf , page1 used on input line 10. on
 input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
- [68 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=945, page=2, pagebox=cropbox, 597.50829pt x 845.0471pt
->
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 2>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page2 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 2>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page2 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 2>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page2 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-
-[69 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=950, page=3, pagebox=cropbox, 597.50829pt x 845.0471pt
->
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 3>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page3 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 3>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page3 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 3>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page3 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
- [70 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=965, page=4, pagebox=cropbox, 597.50829pt x 845.0471pt
->
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 4>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page4 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 4>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page4 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 4>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page4 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
- [71 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=971, page=5, pagebox=cropbox, 597.50829pt x 845.0471pt
->
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 5>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page5 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 5>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page5 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 5>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page5 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
- [72 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=976, page=6, pagebox=cropbox, 597.50829pt x 845.0471pt
->
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 6>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page6 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 6>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page6 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 6>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page6 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
- [73 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=981, page=7, pagebox=cropbox, 597.50829pt x 845.0471pt
->
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 7>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page7 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 7>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page7 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 7>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page7 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
- [74 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=986, page=8, pagebox=cropbox, 597.50829pt x 845.0471pt
->
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 8>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page8 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 8>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page8 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 8>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page8 used on input line 10. on 
-input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
  [75 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=991, page=9, pagebox=cropbox, 597.50829pt x 845.0471pt
+<pdf/TransVisGui.pdf, id=985, page=2, pagebox=cropbox, 597.50829pt x 845.0471pt
 >
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 9>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page9 used on input line 10. on 
+<use pdf/TransVisGui.pdf, page 2>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page2 used on input line 10. on 
 input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 9>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page9 used on input line 10. on 
+<use pdf/TransVisGui.pdf, page 2>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page2 used on input line 10. on 
 input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 9>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page9 used on input line 10. on 
+<use pdf/TransVisGui.pdf, page 2>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page2 used on input line 10. on 
 input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
- [76 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=1013, page=10, pagebox=cropbox, 597.50829pt x 845.0471
-pt>
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 10>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page10 used on input line 10. on
- input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 10>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page10 used on input line 10. on
- input line 10.
-Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
-e 10.
-File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 10>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page10 used on input line 10. on
- input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 
-[77 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=1044, page=11, pagebox=cropbox, 597.50829pt x 845.0471
-pt>
+[76 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=990, page=3, pagebox=cropbox, 597.50829pt x 845.0471pt
+>
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 11>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page11 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 3>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page3 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 11>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page11 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 3>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page3 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 11>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page11 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 3>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page3 used on input line 10. on 
+input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+ [77 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1005, page=4, pagebox=cropbox, 597.50829pt x 845.0471p
+t>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 4>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page4 used on input line 10. on 
+input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 4>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page4 used on input line 10. on 
+input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 4>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page4 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
  [78 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=1054, page=12, pagebox=cropbox, 597.50829pt x 845.0471
-pt>
+<pdf/TransVisGui.pdf, id=1010, page=5, pagebox=cropbox, 597.50829pt x 845.0471p
+t>
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 12>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page12 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 5>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page5 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 12>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page12 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 5>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page5 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 12>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page12 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 5>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page5 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
  [79 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=1059, page=13, pagebox=cropbox, 597.50829pt x 845.0471
-pt>
+<pdf/TransVisGui.pdf, id=1015, page=6, pagebox=cropbox, 597.50829pt x 845.0471p
+t>
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 13>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page13 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 6>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page6 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 13>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page13 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 6>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page6 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 13>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page13 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 6>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page6 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
  [80 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=1064, page=14, pagebox=cropbox, 597.50829pt x 845.0471
-pt>
+<pdf/TransVisGui.pdf, id=1021, page=7, pagebox=cropbox, 597.50829pt x 845.0471p
+t>
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 14>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page14 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 7>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page7 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 14>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page14 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 7>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page7 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 14>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page14 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 7>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page7 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
  [81 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=1075, page=15, pagebox=cropbox, 597.50829pt x 845.0471
-pt>
+<pdf/TransVisGui.pdf, id=1026, page=8, pagebox=cropbox, 597.50829pt x 845.0471p
+t>
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 15>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page15 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 8>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page8 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 15>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page15 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 8>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page8 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
-<use pdf/TransVisGui.pdf, page 15>
-Package pdftex.def Info: pdf/TransVisGui.pdf , page15 used on input line 10. on
- input line 10.
+<use pdf/TransVisGui.pdf, page 8>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page8 used on input line 10. on 
+input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
  [82 <./pdf/TransVisGui.pdf>]
-<pdf/TransVisGui.pdf, id=1080, page=16, pagebox=cropbox, 597.50829pt x 845.0471
+<pdf/TransVisGui.pdf, id=1031, page=9, pagebox=cropbox, 597.50829pt x 845.0471p
+t>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 9>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page9 used on input line 10. on 
+input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 9>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page9 used on input line 10. on 
+input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 9>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page9 used on input line 10. on 
+input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+ [83 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1053, page=10, pagebox=cropbox, 597.50829pt x 845.0471
+pt>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 10>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page10 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 10>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page10 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 10>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page10 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+
+[84 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1083, page=11, pagebox=cropbox, 597.50829pt x 845.0471
+pt>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 11>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page11 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 11>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page11 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 11>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page11 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+ [85 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1094, page=12, pagebox=cropbox, 597.50829pt x 845.0471
+pt>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 12>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page12 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 12>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page12 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 12>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page12 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+ [86 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1100, page=13, pagebox=cropbox, 597.50829pt x 845.0471
+pt>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 13>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page13 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 13>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page13 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 13>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page13 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+ [87 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1105, page=14, pagebox=cropbox, 597.50829pt x 845.0471
+pt>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 14>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page14 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 14>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page14 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 14>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page14 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+ [88 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1116, page=15, pagebox=cropbox, 597.50829pt x 845.0471
+pt>
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 15>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page15 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 15>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page15 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+File: pdf/TransVisGui.pdf Graphic file (type pdf)
+<use pdf/TransVisGui.pdf, page 15>
+Package pdftex.def Info: pdf/TransVisGui.pdf , page15 used on input line 10. on
+ input line 10.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 10.
+ [89 <./pdf/TransVisGui.pdf>]
+<pdf/TransVisGui.pdf, id=1121, page=16, pagebox=cropbox, 597.50829pt x 845.0471
 pt>
 File: pdf/TransVisGui.pdf Graphic file (type pdf)
 <use pdf/TransVisGui.pdf, page 16>
@@ -2599,11 +2618,11 @@ Package pdftex.def Info: pdf/TransVisGui.pdf , page16 used on input line 10. on
  input line 10.
 Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
 e 10.
- [83 <./pdf/TransVisGui.pdf>]
+ [90 <./pdf/TransVisGui.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/Appendix.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<pdf/Appendix.pdf, id=1086, pagebox=cropbox, 597.55246pt x 845.07718pt>
+<pdf/Appendix.pdf, id=1126, pagebox=cropbox, 597.55246pt x 845.07718pt>
 File: pdf/Appendix.pdf Graphic file (type pdf)
 <use pdf/Appendix.pdf>
 Package pdftex.def Info: pdf/Appendix.pdf  used on input line 12. on input line
@@ -2628,7 +2647,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/Appendix.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<pdf/Appendix.pdf, id=1089, page=1, pagebox=cropbox, 597.55246pt x 845.07718pt>
+<pdf/Appendix.pdf, id=1129, page=1, pagebox=cropbox, 597.55246pt x 845.07718pt>
 
 File: pdf/Appendix.pdf Graphic file (type pdf)
 <use pdf/Appendix.pdf, page 1>
@@ -2660,62 +2679,53 @@ Package pdftex.def Info: pdf/Appendix.pdf , page1 used on input line 12. on inp
 ut line 12.
 Package pdftex.def Info: Requested size: 597.57834pt x 845.1138pt on input line
  12.
-[84 <./pdf/Appendix.pdf>]) 
+[91 <./pdf/Appendix.pdf>]) 
 AED: lastpage setting LastPage
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
-(./Thesis.aux (./Declaration/declaration.aux) (./Abstract/abstract.aux)
-(./Acknowledgement/acknowledgement.aux) (./Chapter00/introduction.aux)
-(./Chapter01/BackgroundResearch.aux) (./Chapter02/ProjectSpecification.aux)
-(./Chapter03/ProjectPlan.aux) (./Chapter04/Design.aux)
-(./Chapter06/Implementation.aux) (./Chapter07/Evaluation.aux)
-(./Chapter08/Conclusion.aux) (./Chapter09/FutureWork.aux)
-(./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+(./Thesis.aux (./Acknowledgement/acknowledgement.aux)
+(./Chapter00/introduction.aux) (./Chapter01/BackgroundResearch.aux)
+(./Chapter02/ProjectSpecification.aux) (./Chapter03/ProjectPlan.aux)
+(./Chapter04/Design.aux) (./Chapter06/Implementation.aux)
+(./Chapter07/Evaluation.aux) (./Chapter08/Conclusion.aux)
+(./Chapter09/FutureWork.aux) (./Appendix1/appendix1.aux)
+(./Appendix2/appendix2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8F2A5BBB8C53BD1B85E50371A62E90A6;2884.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
+(rerunfilecheck)             Checksum: E6B9B50DB85B40362E04FE9B5C8B0559;2884.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 26272 strings out of 492985
- 475317 string characters out of 6136283
- 707649 words of memory out of 5000000
- 28917 multiletter control sequences out of 15000+600000
- 13015 words of font info for 46 fonts, out of 8000000 for 9000
+ 26333 strings out of 492985
+ 477758 string characters out of 6136283
+ 705535 words of memory out of 5000000
+ 28984 multiletter control sequences out of 15000+600000
+ 23330 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,18n,73p,2001b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbxti10.pfb><d:/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><
-d:/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb><d:/texlive/2017
-/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2017/texmf-dist/fon
-ts/type1/urw/helvetic/uhvb8ac.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/h
-elvetic/uhvr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
-.pfb>
-Output written on Thesis.pdf (92 pages, 3243959 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texli
+ve/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/texlive/2017/texmf-di
+st/fonts/type1/urw/courier/ucrro8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/
+urw/helvetic/uhvb8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uh
+vb8ac.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><d:/
+texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2017/te
+xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Thesis.pdf (96 pages, 3056850 bytes).
 PDF statistics:
- 1230 PDF objects out of 1440 (max. 8388607)
- 996 compressed objects within 10 object streams
- 261 named destinations out of 1000 (max. 500000)
- 693 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1259 PDF objects out of 1440 (max. 8388607)
+ 1021 compressed objects within 11 object streams
+ 265 named destinations out of 1000 (max. 500000)
+ 688 words of extra memory for PDF output out of 10000 (max. 10000000)
 
