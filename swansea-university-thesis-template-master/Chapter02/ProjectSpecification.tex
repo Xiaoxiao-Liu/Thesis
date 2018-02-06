@@ -2,20 +2,20 @@
 \clearpage
 \section{Project Specification}
 %-----------------------------------------------------------------------------------------
-This part is the specification of the project which includes the features specification and technology choices to the software. The user features the system will also be stated. The project specification discussed in the initial document is modified and updated here as a section of the final dissertation.
+In this section the features specification and technology choices are discussed. The user features the system will also be stated.  
 
 \subsection{Data Characteristics}
 
-Data is a major part of all visualisation, which along with user experience play an important role as "driving factor" with respect to the choice and attributes of the visualization method \cite{Laramee}. In this chapter, the data relevant to this project is analysed, including the type, size, format, and characteristics of data. Also, a description of data preprocessing will be discussed. 
+Data is a major part of all visualisation, which along with user experience, plays an important role as the “driving factor” with respect to the choice and attributes of the visualization method \cite{Laramee}. In this section, the data relevant to this project is analysed, including the type, size, format, and characteristics of data. Also, a description of data preprocessing will be discussed.
 
-The data sets used in this project come from a collection of 57 different German translations of \emph{Othello}, which is contributed by Dr. Tom Cheesman, from College of Arts and Humanities at Swansea University, working on a project in \cite{Tom2012}. To develop analytic tools and probe the translations in this corpus, the team digitalized 32 translation versions, with the formats being normalized, texts being segmented, speech by speech and line by line. The content of these 32 texts corresponds to Act1, Scene 3 of the English version of \emph{Othello} (1604) play as the base text. Based on this corpus, we are given 15 text files of German translation versions by Dr. Tom Cheesman for this project. And together with the base text in English, these 16 text sets are read and processed when implementing the project.All these files are encoded as UTF-8 when converting from .docx format to .txt format. The number of words in each document are different according to the genres of text data (327 words at maximum, and 214 words at minimum). Figure \ref{fig:dataExample} is a screen shot of the text data used in the project. All data has been segmented and cleaned
+The data sets used in this project come from a collection of 57 different German translations of \emph{Othello}, which is contributed by Dr. Tom Cheesman, from College of Arts and Humanities at Swansea University, working on a project in \cite{Tom2012}. To develop analytic tools and probe the translations in this corpus, the team digitalized 32 translation versions, with the formats being normalized, texts being segmented, speech by speech and line by line. The content of these 32 texts corresponds to Act1, Scene 3 of the English version of \emph{Othello} (1604) play as the base text.  Based on this corpus, we are given 15 text files of German translation versions by Dr. Tom Cheesman for this project. And together with the base text in English, these 16 text sets are read and processed when implementing the project. All these files are encoded as UTF-8 when converting from .docx format to .txt format. The number of words in each document are different according to the genres of text data (327 words at maximum, and 214 words at minimum). Figure \ref{fig:dataExample} is a screenshot of the text data used in the project. All data has been segmented and cleaned
 \begin{figure}[H]
 	\centering    
 	\includegraphics[scale=0.8]{Figs/Data-example}\\[1ex]
-	\caption{A screen shot of text data used in this project.}
+	\caption{A screenshot of text data used in this project.}
 	\label{fig:dataExample}
 \end{figure}
-The text file is commonly used to store plain texts data. It is a simple text file format which can be worked with many programming languages, including Java. Choosing .txt file as the data set is owing to following reasons:
+The text file is commonly used to store plain texts data.  It is a simple text file format which can be worked with many programming languages, including Java. Choosing .txt file as the data set is owing to following reasons:
 
 \begin{itemize}
 	\item \textbf{} The aim of this project focuses on word processing, which requires computers to read text literally, without applying complicated data processing techniques.
@@ -32,7 +32,7 @@ This project is aimed at developing an interactive visualisation for a group of 
 	\item \textbf{} Develop a user interface serves as a tool for users to select options.
 	\item \textbf{} Read and store data from .txt files.
 	\item \textbf{} Provide a parallel visualisation for comparing terms in different translation versions.
-	\item \textbf{} Generate concordance view with frequency bars
+	\item \textbf{} Generate concordance view with frequency bars.
 	\item \textbf{} Add author and publish year as the title of each concordance.
 	\item \textbf{} Provide a visualisation with scroll bars.
 	\item \textbf{} Connect same words in each concordance applying coloured edge.
@@ -42,7 +42,7 @@ This project is aimed at developing an interactive visualisation for a group of 
 	\item \textbf{} Render a user option for turning translations on and off.
 	\item \textbf{} Create an English-German word translation index.
 	\item \textbf{} Add user option: highlight the bar and connection when clicking single bar.
-	\item \textbf{} Provide user option: highlight bars with same frequency when clicking a block in colour legend.
+	\item \textbf{} Provide a user option: highlight bars with same frequency when clicking a block in colour legend.
 	\item \textbf{} Generate a Lemma and Frequency visualisation.
 	\item \textbf{} Generate a Tf-Idf Visualisation.
 	\item \textbf{} Generate a Lemma and Tf-Idf  Visualisation.
@@ -50,15 +50,12 @@ This project is aimed at developing an interactive visualisation for a group of 
 \subsection{Technology Choices}
 According to the project specification and required features presented previously, the demonstration of technology choices is made in the following chapter.
 \subsubsection{Programming language}
-For the implementation of the software in this project, Java programming language is selected to develop the software. Java has known that it is an object-oriented language and class-based \cite{Gosling2014}. It is also simple enough to understand fast. With years of upgrading and improvement, it has been growing into a mature programming language. This also means using Java to develop software will have fewer mistakes and bugs when programming. There are also active communities on the internet, in which lots of people share useful ideas and resources of Java. In addition, due to the limitation of background which is not Computer Science, the author is more familiar with Java programming language.  
+For the implementation of the software in this project, Java programming language is selected to develop the software.  Java has known that it is an object-oriented language and class-based \cite{Gosling2014}. There are also active communities on the internet, in which lots of people share useful ideas and resources of Java. In addition, due to the limitation of background which is not Computer Science, the author is more familiar with Java programming language.  
 
 \subsubsection{Java Library}
 
 \paragraph{Java Swing Library}
 \paragraph[]{} The Java Swing Library is the tool we used in this project to generate GUI of the software. This is a free, cross-platform resource which is appropriate for using Java in implementing this project.
-
-\paragraph{Stanford NLP Library}
-\paragraph[]{} The Stanford NLP Library is attempted during we generate the lemma for English version text \cite{StanfordNLP}. This is a free and open source for Natural Language Processing. However, because this library has not provided German lemmatisation function, we adopted other solutions in this project.
 
 \subsubsection{Other Techniques}
 
@@ -66,12 +63,12 @@ For the implementation of the software in this project, Java programming languag
 \paragraph[]{}TreeTagger, developed by Helmut Schmid at the Institute for Computational Linguistics of the University of Stuttgart \cite{TreeTagger}, is a tool for annotating text data and lemma information. It has been used to tag many languages including German.
 
 \paragraph{Github}
-\paragraph[]{} For source code backup requirement, the Github is adopted. The main software we used most is the GitKraken (See Figure \ref{fig:gitKraken}), which provides an interactive user interface to commit project. As a version control tool, the Github helps in organizing the development process of our software and in keeping an updated version of the software.
+\paragraph[]{} For source code backup requirement, the Github is adopted. The main software we used most is the GitKraken (See Figure \ref{fig:gitKraken}),which provides an interactive user interface to commit project. As a version control tool, the Github helps in organizing the development process of our software and in keeping an updated version of the software.
 
 \begin{figure}[H]
 	\centering    
 	\includegraphics[scale=0.4]{Figs/GitKraken}\\[1ex]
-	\caption{A screenshot for the user interface of GitKraken.}
+	\caption{A screenshot of the user interface of GitKraken.}
 	\label{fig:gitKraken}
 \end{figure}
 

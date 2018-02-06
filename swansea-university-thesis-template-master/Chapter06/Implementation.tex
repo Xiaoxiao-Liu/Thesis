@@ -18,20 +18,20 @@ Concordances are the most basic visualisation in this project. They are designed
 \begin{figure}[H]
 	\centering	
 	\includegraphics[width=9cm, height=15cm]{Figs/condordanceVis}\\[1ex]
-	\caption{The Screen shot of one concordance in the visualisation}
+	\caption{The Screenshot of one concordance in the visualisation}
 	\label{fig:condorVis}
 \end{figure} 
 
 \begin{itemize}
 	\item \textbf{String} is drawn to display the term, frequency, version author, publication year; 
 	\item \textbf{Rectangle} is used to present the frequency. As the values are sorted in data processing phase, the width of rectangles are set according to these sorted values.
-	\item \textbf{Colour} is used to present differences on frequency. Each colour represents a number of frequency, so there will be same colours in different terms.
+	\item \textbf{Colour} is used to present differences on frequency. The colour of the word is calculated used its frequency number. 
 \end{itemize}
 
 The process in generating the concordance visualisation goes through the following steps:
 \begin{itemize}
 	\item \textbf{} Obtain the string of each term from text source. This step is done in the DataReader class. Detailed illustration seeing Data Reading implementation section.
-	\item \textbf{} Calculate the number of times, namely term frequency, of each term occurred in the text (See Data Reading implementation section).  	
+	\item \textbf{} Calculate the number of times, namely term frequency, each term occurred in the text (See Data Reading implementation section).  	
 	\item \textbf{} Calculate the rectangle width for each term using the frequency of term. The equation of the rectangle width calculating is show in Equation \eqref{rectWidth}:
 	
 	\begin{multline}\label{rectWidth}
@@ -92,7 +92,7 @@ To implement these features, several steps as followed are gone through:
 	\begin{figure}[H]
 		\centering	
 		\includegraphics[scale=1]{Figs/JSliders}\\[1ex]
-		\caption{The screen shot of the JSliders.}
+		\caption{The screenshot of the JSliders.}
 		\label{fig:jSliders}
 	\end{figure} 	
 	\item \textbf{} Obtain scale values from JSlider object and pass them to DataReader class.
@@ -107,13 +107,13 @@ At the first phase, scale() method in Graphics2D class is invoked. By applying t
 At the second phase, scale values attained from JSlider objects are passed to DataReader class and applied in relevant formulas to calculate variables such as points, widths and heights of rectangles. See Equation \eqref{rectWidth}, \eqref{PointX}, and \eqref{PointY}. As shown in \ref{fig:jSliders}, 100 is set as the initial value for the slider, so that the visualisation shown when the visualisation generated at the first time is scaled as 100\%. 
 \subsection{Text Label Toggling}
 
-As the scale values become smaller, the strings begin overlap. This inspires a new feature; toggling labels in the visualisation, enabling users to focus only on the rectangles and colours. Hence a new desire appearing: hide strings on the visualisation. So that users can focus on the rectangles and colours only. Next, an event listener is registered to the JButton. When the button is clicked, its label value is replaced by “Text Off”. Consequently, with the default state ‘true’ is toggled ‘false’, then passed to the ConcordancePanel class. In the third step, a boolean value preset when drawing strings of terms will be assigned the same truth value as the boolean passed in. If it is "true", then draw the strings, else if it is "false" then do not the drawString() method. Finally, we repaint the graphic. Figure \ref{fig:textOnOff} is a screen shot of concordance view with labels toggled off.
+As the scale values become smaller, the strings begin to overlap. This inspires a new feature; toggling labels in the visualisation, enabling users to focus only on the rectangles and colours. Next, an event listener is registered to the JButton. When the button is clicked, its label value is replaced by “Text Off”. Consequently, with the default state ‘true’ is toggled ‘false’, then passed to the ConcordancePanel class. In the third step, a boolean value preset when drawing strings of terms will be assigned the same truth value as the boolean passed in. If it is true”, then draw the strings, else if it is ”false” then do not the drawString() method. Finally, we repaint the graphic. Figure \ref{fig:textOnOff} is a screenshot of concordance view with labels toggled off.
 
 \begin{figure}[H]
 	\centering	
 	\includegraphics[width=\textwidth]{Figs/Text-On-Off}\\[1ex]
 	\caption{Results of toggling off text.}
-	\label{fig:textOnOff}
+	\label{fig:textOnOff}\textsl{}
 \end{figure} 
 
 \subsection{Adding, Subtracting, Selecting Items}
@@ -142,13 +142,13 @@ Figure \ref{fig:versionChoosDemo} shows the base text, which originally appears 
 \begin{figure}[H]
 	\centering	
 	\includegraphics[width=\textwidth]{Figs/Version-Selecting-Demo}\\[1ex]
-	\caption{The screen shot of version selection feature.}
+	\caption{The screenshot of version selection feature.}
 	\label{fig:versionChoosDemo}
 \end{figure} 
 
 \subsection{Interaction and Selection of Terms}
 
-On the grounds that each concordance contains a large number of terms, the ability to highlight terms defined by the user is desired.  In order to provide an features for terms, new features are putting in the visualisation. Therefore a clear view of highlighting terms comes out. 
+On the grounds that each concordance contains a large number of terms, the ability to highlight terms defined by the user is desired. Therefore a clear view of highlighting terms comes out. 
 
 This features are achieved by put into effect the following phases:
 \begin{itemize}
@@ -184,7 +184,7 @@ The demo of Colour Mapping is shown in Figure \ref{fig:colourMapping}.
 \begin{figure}[H]
 	\centering	
 	\includegraphics[scale=0.5]{Figs/Color-Mapping}\\[1ex]
-	\caption{A screen shot of colour mapping.}
+	\caption{A screenshot of colour mapping.}
 	\label{fig:colourMapping}
 \end{figure} 
 
@@ -196,7 +196,7 @@ As a result, by clicking one colour block in colour legend, all items sharing th
 \begin{figure}[H]
 	\centering	
 	\includegraphics[width=\textwidth]{Figs/Colour-Legend-Interation}\\[1ex]
-	\caption{A screen shot of highlighting items sharing same number of frequency.}
+	\caption{A screenshot of highlighting items sharing the same number of frequency.}
 	\label{fig:interactiveColourMapping}
 \end{figure} 
 
@@ -255,7 +255,7 @@ Figure \ref{fig:lemmaView} shows the outcome of the lemma visualisation.
 \begin{figure}[H]
 	\centering	
 	\includegraphics[width=\textwidth]{Figs/LemmaView}\\[1ex]
-	\caption{A screen shot of Lemma view.}
+	\caption{A screenshot of Lemma view.}
 	\label{fig:lemmaView}
 \end{figure} 
 
@@ -272,7 +272,12 @@ The Tf-Idf visualisation generation process goes through the following steps:
 \item \textbf{} Visualise according to the new results.
 \end{itemize} 
 
-There are two visualisations generated using Tf-Idf value: one is to visualise the data using its Tf-Idf value and the original unchanged terms, as shown in Figure \ref{fig:tfIdfView}; the other form is visualized using Tf-Idf is to visualise using Tf-Idf value together with lemma data which is displayed in Figure \ref{fig:tfIdfLemma}.
+There are two visualisations generated using Tf-Idf value: 
+
+\begin{itemize}
+	\item \textbf{} a visualisation use the Tf-Idf value of the word without lemmatising. The result is shown in Figure \ref{fig:tfIdfView};
+	\item \textbf{} a visualisation use the Tf-Idf value for the lemma of the word. The result is displayed in Figure \ref{fig:tfIdfLemma}.
+\end{itemize}
 
 \begin{figure}[H]
 	\centering	

@@ -10,12 +10,11 @@ In this section, we provide the description of the performance of the project, a
 \paragraph[]{}
 The High Frequency View is the basic feature and the primary task in this project. In this visualisation, we provided a parallel view of concordances to display the most frequent words in each version of the translation. As shown in \ref{fig:highlightView}, the colour of blocks differs from each other and the width of blocks represents ranges from the longest to the shortest. A highlight feature allows user to see same terms in each concordance.
 
-
 However, from the results in the frequency visualisation, we can tell that the most frequent words in each version are the noise, and stop words such as 'ich' which means 'I' in English, or 'und' which means 'and' in English. These kinds of words are little help in translation comparison.
 
 
 \paragraph{Tf-Idf View}
-\paragraph[]{}The Tf-Idf View is another feature provided in this project. Based on features in High Freuency View, the Tf-Idf View displays the most important words in the concordance. Therefore, the results of this visualisation are quite different compared to the High Freuency View. In Figure \ref{fig:tfIdfView}, 27, terms in each concordance changed significantly. As illustrated in the Tf-Idf visualisation implementation section, if a word is listed on the top of a concordance, it means this word may appear many times in this version of the translation, while appearing not so frequently in the other concordance. For example, in Figure \ref{fig:fassung}, we see the word 'fassung' meaning 'composure' (in the 1941 version of the translation written by Schwarz) appears to have a high Tf-Idf value. When selecting 'fassung', it appears that no other blocks are highlighted, which means this word is not used by other authors. There are several guesses for this result:
+\paragraph[]{}The Tf-Idf View is another feature provided in this project. Based on features in High Frequency View, the Tf-Idf View displays the most important words in the concordance. Therefore, the results of this visualisation are quite different compared to the High Frequency View. In Figure \ref{fig:tfIdfView}, 27, terms in each concordance changed significantly. As illustrated in the Tf-Idf visualisation implementation section, if a word is listed on the top of a concordance, it means this word may appear many times in this version of the translation, while appearing not so frequently in the other concordance. For example, in Figure \ref{fig:fassung}, we see the word 'fassung' meaning 'composure' (in the 1941 version of the translation written by Schwarz) appears to have a high Tf-Idf value. When selecting 'fassung', it appears that no other blocks are highlighted, which means this word is not used by other authors. There are several guesses for this result:
 \begin{itemize} 	
 	\item \textbf{} The word 'fassung' is used multiple times in this translation version. So this is used to translate certain word or express specific meaning. (In this text, it is used to translate 'patience' or express 'the state of being calm and in control of oneself')
 	\item \textbf{} This word does not appear in other versions, and we can assume that special trans- lation techniques were adopted, such as reformulation, adaptation, or compensation. 
@@ -71,12 +70,12 @@ A domain expert, Dr. Tom Cheesman from the College of Art and Humanities at Swan
 
 \subsubsection{Session 1}
 
-At this stage, High Freuency View was finished, along with features such as turning the visualisation on and off, scaling the frame, version selection, and colour legend were implemented. Dr. Tom Cheesman expressed his interest by leaning his body to watch closer to 
+At this stage, High Frequency View was finished, along with features such as turning the visualisation on and off, scaling the frame, version selection, and colour legend were implemented. Dr. Tom Cheesman expressed his interest by leaning his body to watch closer to 
 the laptop. He asked some questions such as "What do the numbers beside colour legend represent?", "What are the connections?". He also requested that only the base text and three other German translations were shown so that he could understand the alignments. In the feed back, words like 'interesting', 'useful' and 'good' were used a lot. Meanwhile, other suggestions were mentioned and discussed, such as filtering stop words and seeing the most important words, together with showing the lemma of the words to decrease inflected words.
 
 \subsubsection{Session 2}
 
-In this stage, according to the feedback Dr. Cheesman gave at the first meeting, we did some more changes for the project: utilizing Tf-Idf algorithm in data processing, and using the German lemma corpus to lemmatize the terms. 
+In this stage, according to the feedback Dr. Cheesman gave at the first meeting, we made some changes: utilizing Tf-Idf algorithm in data processing, and using the German lemma corpus to lemmatize the terms. 
 
 In the meeting, Dr. Cheesman expressed his interest and excitement by saying "This is good, this is pulling up some interesting stuff", "This is great...I can play with this". He showed great interest in the Lemma and Tf-Idf view, and pointed out some remarkable translations such as abbreviation words in the version written by Baudissin ed Brunner in 1947, (See Figure \ref{fig:feedback}). From the view, we can tell that more abbreviation words are used in this version which implies there is a unique translation strategy which the author uses. At the end of this meeting, Dr. Cheesman asked for a copy of the tools for assisting his translation studies.
 

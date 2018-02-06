@@ -26,46 +26,44 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Programming language}{18}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Java Library}{18}{subsubsection.3.3.2}
 \contentsline {paragraph}{Java Swing Library}{18}{section*.19}
-\contentsline {paragraph}{}{19}{section*.20}
-\contentsline {paragraph}{Stanford NLP Library}{19}{section*.21}
-\contentsline {paragraph}{}{19}{section*.22}
+\contentsline {paragraph}{}{18}{section*.20}
 \contentsline {subsubsection}{\numberline {3.3.3}Other Techniques}{19}{subsubsection.3.3.3}
-\contentsline {paragraph}{TreeTagger}{19}{section*.23}
+\contentsline {paragraph}{TreeTagger}{19}{section*.21}
+\contentsline {paragraph}{}{19}{section*.22}
+\contentsline {paragraph}{Github}{19}{section*.23}
 \contentsline {paragraph}{}{19}{section*.24}
-\contentsline {paragraph}{Github}{19}{section*.25}
-\contentsline {paragraph}{}{19}{section*.26}
-\contentsline {paragraph}{Dropbox}{20}{section*.27}
+\contentsline {paragraph}{Dropbox}{19}{section*.25}
+\contentsline {paragraph}{}{20}{section*.26}
+\contentsline {paragraph}{Eclipse and Visual Studio Code}{20}{section*.27}
 \contentsline {paragraph}{}{20}{section*.28}
-\contentsline {paragraph}{Eclipse and Visual Studio Code}{20}{section*.29}
+\contentsline {paragraph}{Notepad++}{20}{section*.29}
 \contentsline {paragraph}{}{20}{section*.30}
-\contentsline {paragraph}{Notepad++}{20}{section*.31}
-\contentsline {paragraph}{}{20}{section*.32}
 \contentsline {section}{\numberline {4}Project Plan and Time Management}{21}{section.4}
 \contentsline {subsection}{\numberline {4.1}Development Approach}{21}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Project Timetable}{22}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Risk Analysis}{25}{subsection.4.3}
 \contentsline {section}{\numberline {5}Project Design}{27}{section.5}
 \contentsline {subsection}{\numberline {5.1}Data Reading}{27}{subsection.5.1}
-\contentsline {paragraph}{DataReader Class}{27}{section*.33}
-\contentsline {paragraph}{}{27}{section*.34}
-\contentsline {paragraph}{Item Class}{28}{section*.35}
-\contentsline {paragraph}{}{28}{section*.36}
-\contentsline {paragraph}{Version Class}{29}{section*.37}
-\contentsline {paragraph}{}{29}{section*.38}
-\contentsline {paragraph}{TFIDFCalculator Class}{30}{section*.39}
-\contentsline {paragraph}{}{30}{section*.40}
-\contentsline {paragraph}{LemmaProcess Class}{31}{section*.41}
-\contentsline {paragraph}{}{31}{section*.42}
+\contentsline {paragraph}{DataReader Class}{27}{section*.31}
+\contentsline {paragraph}{}{27}{section*.32}
+\contentsline {paragraph}{Item Class}{28}{section*.33}
+\contentsline {paragraph}{}{28}{section*.34}
+\contentsline {paragraph}{Version Class}{29}{section*.35}
+\contentsline {paragraph}{}{29}{section*.36}
+\contentsline {paragraph}{TFIDFCalculator Class}{30}{section*.37}
+\contentsline {paragraph}{}{30}{section*.38}
+\contentsline {paragraph}{LemmaProcess Class}{31}{section*.39}
+\contentsline {paragraph}{}{31}{section*.40}
 \contentsline {subsection}{\numberline {5.2}Tasks to Support Visualisation Mantra}{32}{subsection.5.2}
-\contentsline {paragraph}{TranslationVisualisation Class}{32}{section*.43}
-\contentsline {paragraph}{}{32}{section*.44}
+\contentsline {paragraph}{TranslationVisualisation Class}{32}{section*.41}
+\contentsline {paragraph}{}{32}{section*.42}
 \contentsline {subsection}{\numberline {5.3}GUI}{33}{subsection.5.3}
-\contentsline {paragraph}{ConcordancePanel Class}{33}{section*.45}
-\contentsline {paragraph}{}{33}{section*.46}
-\contentsline {paragraph}{ColorLegendPanel Class}{35}{section*.47}
-\contentsline {paragraph}{}{35}{section*.48}
-\contentsline {paragraph}{VersionChoosenPanel Class}{36}{section*.49}
-\contentsline {paragraph}{}{36}{section*.50}
+\contentsline {paragraph}{ConcordancePanel Class}{33}{section*.43}
+\contentsline {paragraph}{}{33}{section*.44}
+\contentsline {paragraph}{ColorLegendPanel Class}{35}{section*.45}
+\contentsline {paragraph}{}{35}{section*.46}
+\contentsline {paragraph}{VersionChoosenPanel Class}{36}{section*.47}
+\contentsline {paragraph}{}{36}{section*.48}
 \contentsline {section}{\numberline {6}Implementation}{38}{section.6}
 \contentsline {subsection}{\numberline {6.1}Data Processing}{38}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Generating Concordances}{39}{subsection.6.2}
@@ -82,20 +80,20 @@
 \contentsline {subsection}{\numberline {6.11}Tf-Idf}{54}{subsection.6.11}
 \contentsline {section}{\numberline {7}Evaluation}{57}{section.7}
 \contentsline {subsection}{\numberline {7.1}Results}{57}{subsection.7.1}
-\contentsline {paragraph}{High Frequency View}{57}{section*.51}
+\contentsline {paragraph}{High Frequency View}{57}{section*.49}
+\contentsline {paragraph}{}{57}{section*.50}
+\contentsline {paragraph}{Tf-Idf View}{57}{section*.51}
 \contentsline {paragraph}{}{57}{section*.52}
-\contentsline {paragraph}{Tf-Idf View}{57}{section*.53}
-\contentsline {paragraph}{}{57}{section*.54}
-\contentsline {paragraph}{Lemmatised View}{59}{section*.55}
-\contentsline {paragraph}{}{59}{section*.56}
-\contentsline {paragraph}{Lemmatised Tf-Idf View}{61}{section*.57}
-\contentsline {paragraph}{}{61}{section*.58}
+\contentsline {paragraph}{Lemmatised View}{59}{section*.53}
+\contentsline {paragraph}{}{59}{section*.54}
+\contentsline {paragraph}{Lemmatised Tf-Idf View}{61}{section*.55}
+\contentsline {paragraph}{}{61}{section*.56}
 \contentsline {subsection}{\numberline {7.2}Domain Expert Feedback}{62}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Session 1}{62}{subsubsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2}Session 2}{63}{subsubsection.7.2.2}
-\contentsline {section}{\numberline {8}Conclusion}{65}{section.8}
-\contentsline {section}{\numberline {9}Future Work}{67}{section.9}
-\contentsline {section}{References}{68}{section*.59}
-\contentsline {section}{Appendices}{71}{section*.60}
-\contentsline {section}{\numberline {A}Minutes of Meeting }{72}{Appendix.a.A}
-\contentsline {section}{\numberline {B}Documentation }{74}{Appendix.a.B}
+\contentsline {section}{\numberline {8}Conclusion}{64}{section.8}
+\contentsline {section}{\numberline {9}Future Work}{66}{section.9}
+\contentsline {section}{References}{67}{section*.57}
+\contentsline {section}{Appendices}{70}{section*.58}
+\contentsline {section}{\numberline {A}Minutes of Meeting }{71}{Appendix.a.A}
+\contentsline {section}{\numberline {B}Documentation }{73}{Appendix.a.B}
