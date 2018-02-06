@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1}Literature Review}{5}{subsection.2.1}
 \contentsline {paragraph}{Interactive Exploration of Versions across Multiple Documents}{5}{section*.3}
 \contentsline {paragraph}{}{5}{section*.4}
-\contentsline {paragraph}{Interactive Visual Alignment of Medieval Text Versions}{7}{section*.5}
+\contentsline {paragraph}{Interactive Visual Alignment of Medieval Text Versions}{6}{section*.5}
 \contentsline {paragraph}{}{7}{section*.6}
 \contentsline {paragraph}{Visualizations Translation Variation of Shakespeare's \emph {Othello}: A Survey of Text Visualisation and Analysis Tools}{8}{section*.7}
 \contentsline {paragraph}{}{8}{section*.8}

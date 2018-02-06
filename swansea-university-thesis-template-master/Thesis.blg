@@ -1,8 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
-A level-1 auxiliary file: Declaration/declaration.aux
-A level-1 auxiliary file: Abstract/abstract.aux
 A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Chapter00/introduction.aux
 A level-1 auxiliary file: Chapter01/BackgroundResearch.aux
@@ -17,19 +15,19 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/TransVisReferences.bib
-Repeated entry---line 99 of file References/TransVisReferences.bib
+Repeated entry---line 388 of file References/TransVisReferences.bib
+ : @article{Laramee
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 464 of file References/TransVisReferences.bib
+ : @misc{Laramee
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 542 of file References/TransVisReferences.bib
  : @misc{Tom2012
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 296 of file References/TransVisReferences.bib
- : @article{Laramee
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 366 of file References/TransVisReferences.bib
- : @article{Laramee
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 624 of file References/TransVisReferences.bib
+Repeated entry---line 581 of file References/TransVisReferences.bib
  : @article{Larameea
  :                  ,
 I'm skipping whatever remains of this entry
@@ -49,8 +47,9 @@ Warning--empty publisher in Cao2016
 Warning--empty journal in Geng2011
 Warning--empty journal in Jong2008
 Warning--there's a number but no volume in Kucher2014
-Warning--empty year in Laramee
 Warning--empty year in Larameea
+Warning--empty year in Laramee
+Warning--empty journal in Laramee
 Warning--empty journal in Laramee2013
 Warning--empty journal in Laramee2010
 Warning--empty year in Liu
@@ -59,34 +58,34 @@ Warning--there's a number but no volume in Manning2009
 Warning--empty publisher in Ward2015
 You've used 26 entries,
             1935 wiz_defined-function locations,
-            623 strings with 7297 characters,
-and the built_in function-call counts, 8561 in all, are:
+            619 strings with 7211 characters,
+and the built_in function-call counts, 8589 in all, are:
 = -- 850
 > -- 294
 < -- 18
 + -- 97
 - -- 96
-* -- 665
-:= -- 1481
+* -- 668
+:= -- 1484
 add.period$ -- 62
 call.type$ -- 26
 change.case$ -- 177
 chr.to.int$ -- 25
-cite$ -- 55
-duplicate$ -- 361
-empty$ -- 602
+cite$ -- 56
+duplicate$ -- 364
+empty$ -- 607
 format.name$ -- 123
-if$ -- 1673
+if$ -- 1679
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 17
+missing$ -- 18
 newline$ -- 117
 num.names$ -- 63
-pop$ -- 182
+pop$ -- 185
 preamble$ -- 1
 purify$ -- 178
 quote$ -- 0
-skip$ -- 278
+skip$ -- 280
 stack$ -- 0
 substring$ -- 534
 swap$ -- 49
@@ -94,7 +93,7 @@ text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 154
-warning$ -- 24
+warning$ -- 25
 while$ -- 68
 width$ -- 0
 write$ -- 283
